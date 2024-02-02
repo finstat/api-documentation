@@ -85,4 +85,8 @@ Požiadavka vyžaduje parameter *filename*. Jeho hodnota je získaná pomocou po
 
 Dopyt vráti dáta požadovaného **.xlsx** súboru
 #### Návratové HTTP error kódy:
+| Error kód | Popis |
+| ----------- | ----------- |
+| **404**| Požadovaný súbor neexistuje |
+
 [](../parts/httperrorcodes.md ':include')

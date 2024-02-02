@@ -86,4 +86,8 @@ The request requires the *filename* parameter. Its value is obtained through the
 The request returns the data of the requested **.xlsx** file.  
 
 #### HTTP return error codes:
+| Error Code| Description |
+| ----------- | ----------- |
+| **404**| Requested file was not found |
+
 [](../parts/httperrorcodes.md ':include')
