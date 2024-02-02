@@ -1,4 +1,4 @@
-##### Common return HTTP error codes:
+##### Common HTTP return error codes:
 | Error Code| Description |
 | ----------- | ----------- |
 | **402**| daily or monthly API calls limit exceeded |
