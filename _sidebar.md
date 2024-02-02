@@ -1,0 +1,4 @@
+- [FinStat API Services](/)
+    - [Všeobecné](common.md)
+    - [Špeciálne API](special.md)
+        - [Inteligentný reporting](special/reporting.md)
