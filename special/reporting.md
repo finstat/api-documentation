@@ -1,5 +1,5 @@
-# Inteligentný reporting
-Tento balíček API slúži k vyžiadaniu vygenerovaných reportov v rámci služby [FinStat Inteligentný reporting](https://www.finstat.sk/inteligentny-reporting)
+# API na Inteligentný reporting
+Táto verzia FinStat API slúži na vyžiadanie vygenerovaných reportov v rámci služby [FinStat Inteligentný reporting](https://www.finstat.sk/inteligentny-reporting)
 
 ---
 ## Zoznam tém
@@ -32,7 +32,7 @@ Dopyt vráti zoznam okruhov, kde každá položka má nasledujúcu štruktúru:
 ## Výpis témy
 Výpis všetkých vytvorených reportov z danej témy reportingu. 
 
-Požiadavka vyžaduje parameter *topic*. Jeho hodnota je získaná pomocou požiadavku [Zoznam tém](#zoznam-tém)
+Požiadavka vyžaduje parameter *topic*. Jeho hodnota je získaná pomocou požiadavky [Zoznam tém](#zoznam-tém)
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getreportinglist```<br />
 > **Hash parameter**: reporting-list|*{topic}*
 ### Parametre
@@ -67,9 +67,9 @@ Položky majú nasledujúcu štruktúru:
 ---
 
 ## Stiahnutie reportu
-Stiahnutie **Excel(.xlsx)** súboru obsahjúcim záznamý vyhovujúce vami definovanému scenáru.
+Stiahnutie **Excel(.xlsx)** súboru obsahjúceho záznamy vyhovujúce vami definovanému scenáru.
 
-Požiadavka vyžaduje parameter *filename*. Jeho hodnota je získaná pomocou požiadavku [Výpis témy](#výpis-tém)
+Požiadavka vyžaduje parameter *filename*. Jeho hodnota je získaná pomocou požiadavky [Výpis témy](#výpis-tém)
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getreportingoutput```<br />
 > **Hash parameter**: *{filename}*
 ### Parametre
