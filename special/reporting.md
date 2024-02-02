@@ -1,4 +1,4 @@
-# Inteligentý reporting
+# Inteligentný reporting
 Tento balíček API slúži k vyžiadaniu vygenerovaných reportov v rámci služby [FinStat Inteligentný reporting](https://www.finstat.sk/inteligentny-reporting)
 
 ---
