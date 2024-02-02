@@ -5,6 +5,4 @@ externým aplikáciám k dátam o slovenských firmách v jednoducho spracovate�
 
 ![logo](https://finstat.sk/Images/logo-finstat.png)
 ## Obsah
-- [Všeobecné informácie](common.md)
-- [Špeciálne API](special.md)
-    - [Inteligentný reporting](special/reporting.md)
+[](_sidebar.md ':include')

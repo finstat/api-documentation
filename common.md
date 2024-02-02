@@ -6,11 +6,11 @@ za účelom ích ďaľšieho spracovania spracovania v zákazníckych systémoch
 
 Pre rôzne účely použitia máme definovaných viacero balíčkov API služieb.
 
-> K používaniu API je nutné požiadať o pridelenie unikátneho API kľúča. Kontaktujte obchodné 
+> K používaniu API je nutné požiadať o pridelenie unikátneho API kľúča.<br />Kontaktujte obchodné 
 oddelenie na: ```info@finstat.sk```
 
 > **Upozornenie:** Jednotlivé API balíčky sa môžu rozširovať o nové parametre, preto používajte 
-spôsoby práce s API (parsre), ktoré nie sú citlivé na rozširovanie štruktúr odpoved
+spôsoby práce s API (parsre), ktoré nie sú citlivé na rozširovanie štruktúr odpovedí.
 
 > Pre objednávku vyššej verzie balíčka, alebo prejednanie rozšírenia služby o nové 
 parametre/údaje, kontaktujte svojho obchodníka alebo ```info@finstat.sk```
@@ -22,7 +22,7 @@ Prístup k API je obmedzený počtom requestov:
 - Maximálny mesačný počet: 75 000 requestov
 
 Počet maximálnych a aktuálne vyčerpaných denných limitov je možné zistiť v hlavičke každého 
-response, viď príklad:
+response,<br />viď príklad:
 
 ``` http
 HTTP/1.1 200 OK
