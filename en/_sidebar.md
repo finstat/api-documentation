@@ -1,3 +1,3 @@
 - [General info](en/common.md)
 - [Special API](en/special.md)
-    - [Inteligent reporting](en/special/reporting.md)
+    - [Intelligent reporting](en/special/reporting.md)

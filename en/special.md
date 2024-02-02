@@ -1,3 +1,3 @@
 # Special API
 
-- [Inteligent reporting](en/special/reporting.md)
+- [Intelligent reporting](en/special/reporting.md)
