@@ -45,7 +45,7 @@ Content-Length: 8437
 
 > **Poznámka:** v prípade prekročenia limitov sa budú requesty nad limit zarátavať ďalej. 
 V prípade nechceného prekročenia limitov, napríklad z dôvodu chyby v kóde, je možné požiadať 
-o ich reset (teda zníženie na nižšiu hodnotu
+o ich reset (teda zníženie na nižšiu hodnotu)
 
 ### Fair Use Policy
 Odporúčaný počet súbežných vlákien (threadov) je **2**. Krátkodobo je vyšší počet možný, môžete 
