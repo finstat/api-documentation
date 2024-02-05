@@ -100,12 +100,12 @@ na dvojmiestny HEX formát, teda 0 => "00", 255 =>"FF".
 
 ### Príklady
 #### C#
-[](common/csharp.md ':include')
+[](../common/csharp.md ':include')
 #### PHP
-[](common/php.md ':include')
+[](../common/php.md ':include')
 #### Java
-[](common/java.md ':include')
+[](../common/java.md ':include')
 #### Visual Basic
-[](common/vbasic.md ':include')
+[](../common/vbasic.md ':include')
 #### Visual Basic for Applications
-[](common/vba.md ':include')
+[](../common/vba.md ':include')

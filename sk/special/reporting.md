@@ -25,7 +25,7 @@ Dopyt vráti zoznam okruhov, kde každá položka má nasledujúcu štruktúru:
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
-[](../examples/reporting-topics.md ':include')
+[](../../examples/reporting-topics.md ':include')
 
 ---
 
@@ -62,7 +62,7 @@ Položky majú nasledujúcu štruktúru:
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
-[](../examples/reporting-list.md ':include')
+[](../../examples/reporting-list.md ':include')
 
 ---
 
