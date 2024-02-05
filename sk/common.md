@@ -109,3 +109,5 @@ na dvojmiestny HEX formát, teda 0 => "00", 255 =>"FF".
 [](../common/vbasic.md ':include')
 #### Visual Basic for Applications
 [](../common/vba.md ':include')
+#### ASP Clasic
+[](../common/aspclasic.md ':include')

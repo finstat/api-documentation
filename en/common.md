@@ -85,3 +85,5 @@ The purpose of the hash function is to check up on a customer request using hash
 [](../common/vbasic.md ':include')
 #### Visual Basic for Applications
 [](../common/vba.md ':include')
+#### ASP Clasic
+[](../common/aspclasic.md ':include')
