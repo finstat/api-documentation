@@ -1,3 +1,3 @@
 - [Všeobecné informácie](sk/common.md)
-- [Špeciálne API](sk/special.md)
-    - [Inteligentný reporting](sk/special/reporting.md)
+- [Doplnkové  API](sk/additional.md)
+    - [Inteligentný reporting](sk/additional/reporting.md)
