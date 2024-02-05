@@ -30,7 +30,8 @@ The request returns a list of scopes, where each item has the following structur
 ---
 
 ## Topic Output
-Listing all created reports from a specific reporting topic.
+Listing all stored reports from a specific reporting topic.
+> **Note:** Reports older than retention period 90 days are automatically deleted.
 
 The request requires the *topic* parameter. Its value is obtained through the [List of Topics request](#list-of-topics)
 > **Requested URL**: ```https://www.finstat.sk/api/getreportinglist```<br />
