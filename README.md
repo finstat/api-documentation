@@ -2,5 +2,5 @@
 
 ![FinStat](../img/logo.png)
 
-* <a href="#/sk/"><img src="../img/flag-sk.png" /><br />Slovenský</a>
-* <a href="#/en/"><img src="../img/flag-gb.png" /><br />English</a>
+* [![Slovenský](../img/flag-sk.png)<br />Slovenský](/sk/)
+* [![English](../img/flag-gb.png)<br />English](/en/)

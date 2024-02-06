@@ -29,8 +29,11 @@ img[src*='/img/logo.png'] {
     margin: 1%;
     padding: 0;
     float: left;
-    background: rgba(0, 0, 0, .05);
+    box-shadow: 5px 5px rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 10px;
 }
+
 #finstat-api-services ~ ul li a { 
     text-decoration: none;
 }
@@ -40,6 +43,20 @@ img[src*='/img/logo.png'] {
     display: block;
     overflow: auto;
     white-space: pre-wrap
+}
+
+
+.app-nav > ul > li {
+    margin: 0;
+    padding: 0;
+}
+.app-nav img[src*="flag-"]{
+    height: 30px;
+    width: auto;
+    box-shadow: 3px 3px rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 15px;
+    text-align: center;
 }
 
 code[class*='lang-']{
