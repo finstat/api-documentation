@@ -34,5 +34,6 @@ Popis jednotlivých XML elementov:
 
 ### Príklad XML odpovede
 Príklad XML odpovede (na query `test`):
+
 [](../../examples/autocomplete.md ':include')
 
