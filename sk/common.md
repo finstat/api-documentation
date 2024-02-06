@@ -2,7 +2,7 @@
 ## O API
 ### Hlavná funkcionalita 
 **FinStat API** slúži na získavanie informácií z portálu [FinStat.sk](https://www.finstat.sk) 
-za účelom ích ďaľšieho spracovania spracovania v zákazníckych systémoch alebo stránkach.
+za účelom ích ďaľšieho spracovania v zákazníckych systémoch alebo stránkach.
 
 Pre rôzne účely použitia máme definovaných viacero balíčkov API služieb.
 
