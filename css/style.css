@@ -38,7 +38,8 @@ img[src*='/img/logo.png'] {
     text-decoration: none;
 }
 
-.markdown-section blockquote p code:last-child {
+.markdown-section blockquote p ~ code:last-child,
+.markdown-section blockquote p strong ~ code:last-child {
     --code-font-size: calc(var(--font-size-m) * 0.7);
     display: block;
     overflow: auto;
@@ -77,8 +78,9 @@ code[class*='lang-']{
 }
 .markdown-section table th:first-child,
 .markdown-section table td:first-child {
-    width: 15%;
-    text-align: left;
+    width: 25%;
+    text-align: right;
+    font-weight: bolder;
 }
 
 .markdown-section table th:last-child,
