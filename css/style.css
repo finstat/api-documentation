@@ -80,7 +80,6 @@ code[class*='lang-']{
 .markdown-section table td:first-child {
     width: 25%;
     text-align: right;
-    font-weight: bolder;
 }
 
 .markdown-section table th:last-child,
