@@ -1,5 +1,3 @@
-# FinStat API Services
-
-![logo](https://finstat.sk/Images/logo-finstat.png)
+# FinStat API 
 ## Content
 [](_sidebar.md ':include')

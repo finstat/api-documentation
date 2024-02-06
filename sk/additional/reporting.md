@@ -30,7 +30,8 @@ Dopyt vráti zoznam okruhov, kde každá položka má nasledujúcu štruktúru:
 ---
 
 ## Výpis témy
-Výpis všetkých vytvorených reportov z danej témy reportingu. 
+Výpis všetkých uložených reportov z danej témy reportingu. 
+> **Upozornenie:** Reporty staršie ako retenčné obdobie 90 dní sú automaticky vymazávane.
 
 Požiadavka vyžaduje parameter *topic*. Jeho hodnota je získaná pomocou požiadavky [Zoznam tém](#zoznam-tém)
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getreportinglist```<br />

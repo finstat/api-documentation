@@ -1,0 +1,2 @@
+* [Slovenský](/sk/)
+* [English](/en/)
