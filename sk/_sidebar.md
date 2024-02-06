@@ -7,3 +7,6 @@
     - [Ultimate API](sk/standard/ultimate.md)
 - [Doplnkové  API](sk/additional.md)
     - [Inteligentný reporting](sk/additional/reporting.md)
+        -  [Zoznam tém](sk/additional/reporting.md?id=zoznam-tém)
+        -  [Výpis témy](sk/additional/reporting.md?id=výpis-témy)
+        -  [Stiahnutie reportu](sk/additional/reporting.md?id=stiahnutie-reportu)

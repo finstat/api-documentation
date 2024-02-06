@@ -74,6 +74,15 @@ img[src*='/img/logo.png'] {
     border-color: rgba(0, 0, 0, .1);
 }
 
+.sidebar-nav ul > li > ul {
+    display: none;
+}
+
+.sidebar-nav ul li:has(ul li.active) > ul,
+.sidebar-nav ul li.active > ul {
+    display: block;
+}
+
 code[class*='lang-']{
     --code-font-size: calc(var(--font-size-m) * 0.75)
 }

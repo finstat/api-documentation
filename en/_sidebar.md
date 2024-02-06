@@ -1,3 +1,6 @@
 - [General info](en/common.md)
 - [Additional API](en/additional.md)
     - [Intelligent reporting](en/additional/reporting.md)
+        - [List of Topics](en/additional/reporting.md?id=list-of-topics)
+        - [Topic Output](en/additional/reporting.md?id=topic-output)
+        - [Download Report](en/additional/reporting.md?id=download-report)
