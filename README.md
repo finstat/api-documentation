@@ -1,6 +1,6 @@
 # FinStat API Services
 
-![logo](https://finstat.sk/Images/logo-finstat.png)
+![FinStat](../img/logo.png)
 
-* [Slovenský](/sk/)
-* [English](/en/)
+* <a href="#/sk/"><img src="../img/flag-sk.png" /><br />Slovenský</a>
+* <a href="#/en/"><img src="../img/flag-gb.png" /><br />English</a>

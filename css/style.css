@@ -1,0 +1,71 @@
+:root{
+    --content-max-width: 60em;
+}
+#finstat-api-services {
+    text-align: center;
+}
+
+#finstat-api-services + p {
+    text-align: center;
+}
+
+img[src*='/img/logo.png'] {
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#finstat-api-services ~ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#finstat-api-services ~ ul li {
+    width: 48%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+    padding: 0;
+    float: left;
+    background: rgba(0, 0, 0, .05);
+}
+#finstat-api-services ~ ul li a { 
+    text-decoration: none;
+}
+
+.markdown-section blockquote p code:last-child {
+    --code-font-size: calc(var(--font-size-m) * 0.7);
+    display: block;
+    overflow: auto;
+    white-space: pre-wrap
+}
+
+code[class*='lang-']{
+    --code-font-size: calc(var(--font-size-m) * 0.75)
+}
+
+
+.markdown-section table,
+.markdown-section table thead,
+.markdown-section table tbody,
+.markdown-section table tfoot {
+    display: inline-table;
+    width: 100%;
+}
+.markdown-section table thead th {
+    color: white;
+    background: #555;
+}
+.markdown-section table th:first-child,
+.markdown-section table td:first-child {
+    width: 15%;
+    text-align: left;
+}
+
+.markdown-section table th:last-child,
+.markdown-section table td:last-child {
+    width: 75%;
+    text-align: left;
+}
