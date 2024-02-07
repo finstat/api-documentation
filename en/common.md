@@ -79,6 +79,8 @@ The purpose of the hash function is to check up on a customer request using hash
 [](../common/csharp.md ':include')
 #### PHP
 [](../common/php.md ':include')
+#### Python
+[](../common/python.md ':include')
 #### Java
 [](../common/java.md ':include')
 #### Visual Basic
