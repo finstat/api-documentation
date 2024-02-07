@@ -28,7 +28,7 @@ Popis jednotlivých XML elementov:
 #### Návratové HTTP error kódy:
 | Error kód | Popis |
 | ----------- | ----------- |
-| **404**| špecifikovaný query výraz je príliš krátky (minimálna dĺžka 3 znaky |
+| **404**| špecifikovaný query výraz je príliš krátky (minimálna dĺžka 3 znaky) |
 
 [](../parts/httperrorcodes.md ':include')
 
