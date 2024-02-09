@@ -1,4 +1,4 @@
-# API for Intelligent Reporting 
+# Intelligent Reporting API 
 This version of the FinStat API is used to request generated reports within the FinStat [Intelligent Reporting service.](https://www.finstat.sk/inteligentny-reporting)
 
 ---

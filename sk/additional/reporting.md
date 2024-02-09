@@ -1,4 +1,4 @@
-# API na Inteligentný reporting
+# API Inteligentný reporting
 Táto verzia FinStat API slúži na vyžiadanie vygenerovaných reportov v rámci služby [FinStat Inteligentný reporting](https://www.finstat.sk/inteligentny-reporting)
 
 ---
