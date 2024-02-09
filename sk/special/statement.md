@@ -19,6 +19,8 @@ Požiadavka na získanie zoznamu všetkých závierok pre dané *{IČO}*
 
 ### Popis odpovede
 
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
 
@@ -47,6 +49,8 @@ Podľa typu šablóny (template) api vráti odpoveď typu:
 - `StatementResult` - štandardné firmy a organizácie 
 - `NonProfitStatementResult` - neziskové a rozpočtové organizácie
 
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
 
@@ -73,6 +77,8 @@ Požiadavka na stiahnutie legendy kľúčov účtovných závierok
 Podľa typu šablóny (template) api vráti odpoveď typu:
 - `StatementResult` - štandardné firmy a organizácie 
 - `NonProfitStatementResult` - neziskové a rozpočtové organizácie
+
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')

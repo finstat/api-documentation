@@ -22,6 +22,8 @@ Požiadavka na získanie zoznamu všetkých súborov zmien
 ### Popis odpovede
 [](../parts/diff.md ':include')
 
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
 
@@ -76,6 +78,8 @@ Zoznam položiek `KeyValue`, ktoré obsahujú legendu v danom jazyku.
 | ----------- | ----------- |
 | **Key**| kľúč ukazovateľa v súbore |
 | **Files**| názov ukazovateľa vo zvolenom jazyku |
+
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 
 #### Návratové HTTP error kódy:

@@ -9,7 +9,6 @@ Výpis všetkých tém, ktoré služba **Inteligentný reporting** poskytuje.
 ### Parametre
 [](../parts/parameters.md ':include')
 
-
 > **Príklad volania:** ```https://www.finstat.sk/api/getreportingtopics?apikey=YourAPIKey&hash=af2214dd6e123923b19308a1ef02f5f75a2ed4f0c2ed8e7a477b6612fb18c4f5&StationId=YourStationID&StationName=Your+Station+Name```
 ### Popis odpovede
 
@@ -20,6 +19,8 @@ Dopyt vráti zoznam okruhov, kde každá položka má nasledujúcu štruktúru:
 | **ID** | Identifikátor témy |
 | **Name** | Celý názov témy |
 | **Group** | Skupina témy |
+
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
@@ -43,7 +44,6 @@ Požiadavka vyžaduje parameter *topic*. Jeho hodnota je získaná pomocou poži
 
 [](../parts/parameters.md ':include')
 
-
 > **Príklad volania:** ```https://www.finstat.sk/api/getreportinglist?topic=topic1&apikey=YourAPIKey&hash=bbcab20d6a0730a5fc4a3bcc87199e4a213dba6d330ed748c00bde4df58be45d&StationId=YourStationID&StationName=Your+Station+Name```
 ### Popis odpovede
 
@@ -58,6 +58,8 @@ Položky majú nasledujúcu štruktúru:
 | **Group** | Skupina témy |
 | **Count** | Počet záznamov vo výstupe |
 | **Date** | Dátum vygenerovania |
+
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
@@ -80,6 +82,7 @@ Požiadavka vyžaduje parameter *filename*. Jeho hodnota je získaná pomocou po
 
 [](../parts/parameters.md ':include')
 
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 > **Príklad volania:** ```https://www.finstat.sk/api/getreportingoutput?filename=topic1_file&apikey=YourAPIKey&hash=058683cd75e1486a0dc84fa59ea682c27a99ffd73518979e9a2afebb6694b49c&StationId=YourStationID&StationName=Your+Station+Name```
 ### Popis odpovede

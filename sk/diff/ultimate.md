@@ -16,6 +16,8 @@ ožiadavka na získanie zoznamu všetkých súborov zmien
 ### Popis odpovede
 [](../parts/diff.md ':include')
 
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
 
