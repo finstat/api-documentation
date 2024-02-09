@@ -5,3 +5,4 @@ Denné zmenové súbory vám bez nutnosti dopytovať konkrétne IČO denne vygen
 - [S rozšírenými údajmi o firmách](sk/diff/daily.md)
 - [S podrobnými údajmi o firmách](sk/diff/ultimate.md)
 - [Finančné výkazy](sk/diff/statement.md)
+- [Finančné výkazy (v2014)](sk/diff/statement2014.md)

@@ -17,6 +17,7 @@
     - [S rozšírenými údajmi o firmách](sk/diff/daily.md)
     - [S podrobnými údajmi o firmách](sk/diff/ultimate.md)
     - [Finančné výkazy](sk/diff/statement.md)
+    - [Finančné výkazy (v2014)](sk/diff/statement2014.md)
 - [Doplnkové  API](sk/additional.md)
     - [Autologin](sk/additional/autologin.md)
     - [Synchronizácia portfólia](sk/additional/monitoring.md)

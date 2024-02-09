@@ -8,16 +8,16 @@ API je inkrementálny export, a tak sa niektoré závierky môžu nachádzať vo
 aktuálna hodnota je vždy v exporte s najnovším dátumom.
 ---
 
-## Požiadavka GetListOfStatementDiffs
+## Požiadavka GetListOfStatement2014Diffs
 Požiadavka na získanie zoznamu všetkých súborov zmien
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/getlistofstatementdiffs```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/getlistofstatement2014diffs```<br />
 > **Hash parameter**: prázdny text
 
 ### Parametre
 [](../parts/parameters.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/getlistofstatementdiffs?apikey=YourAPIKey&hash=990ee369d83384c17564fbf5b9ba07684993f3e428df7b7079c9df42a0ef0b1e&StationId=YourStationID&StationName=Your+Station+Name```
+> **Príklad volania:** ```https://www.finstat.sk/api/getlistofstatement2014diffs?apikey=YourAPIKey&hash=990ee369d83384c17564fbf5b9ba07684993f3e428df7b7079c9df42a0ef0b1e&StationId=YourStationID&StationName=Your+Station+Name```
 
 ### Popis odpovede
 [](../parts/diff.md ':include')
@@ -26,23 +26,23 @@ Požiadavka na získanie zoznamu všetkých súborov zmien
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
-[](../../examples/diff-statement.md ':include')
+[](../../examples/diff-statement2014.md ':include')
 
 
-## Požiadavka GetStatementFile
+## Požiadavka GetStatement2014File
 Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatementfile```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatement2014file```<br />
 > **Hash parameter**: *{filename}*
 
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
-| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](sk/diff/statement?id=požiadavka-getlistofstatementdiffs) |
+| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](sk/diff/statement2014?id=požiadavka-getlistofstatement2014diffs) |
 
 [](../parts/parameters.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/getstatementfile?filename=statementdiff-2024-02-08.zip&apikey=YourAPIKey&hash=fe0198c59c4df2e7016181b809aadbce48a5006935038c4500111209b3c48686&StationId=YourStationID&StationName=Your+Station+Name```
+> **Príklad volania:** ```https://www.finstat.sk/api/getstatement2014file?filename=statement2014diff-2024-02-08.zip&apikey=YourAPIKey&hash=994141238a0e7a68eabc8028f1f95d4483105b5f259fb7ea82414d8a595a05b1&StationId=YourStationID&StationName=Your+Station+Name```
 
 ### Popis odpovede
 
@@ -58,7 +58,7 @@ Dopyt vráti dáta požadovaného **.zip** súboru
 
 Požiadavka na stiahnutie legendy kľúčov súboru závierok
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatementlegend```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatement2014legend```<br />
 > **Hash parameter**: {lang}
 
 | Parameter | Popis |
@@ -67,19 +67,29 @@ Požiadavka na stiahnutie legendy kľúčov súboru závierok
 
 [](../parts/parameters.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/getstatementlegend?lang=sk&apikey=YourAPIKey&hash=a8b01632a568dea3e5831c7c1ba0f0dbbe75726828eae91b700806c375996f81&StationId=YourStationID&StationName=Your+Station+Name```
+> **Príklad volania:** ```https://www.finstat.sk/api/getstatement2014legend?lang=sk&apikey=YourAPIKey&hash=a8b01632a568dea3e5831c7c1ba0f0dbbe75726828eae91b700806c375996f81&StationId=YourStationID&StationName=Your+Station+Name```
 
 ### Popis odpovede
-Zoznam položiek `KeyValue`, ktoré obsahujú legendu v danom jazyku.
+
+Odpoveď `StatementLegendResult` pozostáva z 3 sekcií 
 
 | Parameter | Popis |
 | ----------- | ----------- |
-| **Key**| kľúč ukazovateľa v súbore |
-| **Files**| názov ukazovateľa vo zvolenom jazyku |
+| **Assets** |  |
+| **LiabilitiesAndEquity** |  |
+| **IncomeStatement** |  |
+
+Každá sekcia je zoznam položiek `StatementLegendValue`
+
+| Parameter | Popis |
+| ----------- | ----------- |
+| **ReportRow** |  |
+| **ReportSection** |  |
+| **Name** |  Názov |
 
 
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
-[](../../examples/diff-statement-legend.md ':include')
+[](../../examples/diff-statement2014-legend.md ':include')
