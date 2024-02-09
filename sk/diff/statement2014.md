@@ -77,17 +77,17 @@ Odpoveď `StatementLegendResult` pozostáva z 3 sekcií
 
 | Parameter | Popis |
 | ----------- | ----------- |
-| **Assets** |  |
-| **LiabilitiesAndEquity** |  |
-| **IncomeStatement** |  |
+| **Assets** | zoznam hodnôt aktív závierky |
+| **LiabilitiesAndEquity** | zoznam hodnôt pasív závierky |
+| **IncomeStatement** | zoznam hodnôt ziskov a strát závierky |
 
 Každá sekcia je zoznam položiek `StatementLegendValue`
 
 | Parameter | Popis |
 | ----------- | ----------- |
-| **ReportRow** |  |
-| **ReportSection** |  |
-| **Name** |  Názov |
+| **ReportRow** | Číslo riadku v závierke  |
+| **ReportSection** | Názov sekcie v závierke |
+| **Name** |  Názov ukazovateľa v danom jazyku |
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 

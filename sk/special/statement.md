@@ -19,12 +19,22 @@ Požiadavka na získanie zoznamu všetkých závierok pre dané *{IČO}*
 
 ### Popis odpovede
 
+| Parameter | Popis |
+| ----------- | ----------- |
+| **Year**| Rok závierky |
+| **DateFrom**| Dátum obdobia závierky od |
+| **DateTo**| Dátum obdobia závierky do |
+| **DatePublished**| Dátum zverejnenia závierky od |
+| **Templates**| Zoznam šablón, do ktorých je závierku možno konvertovať `TemplateTypeEnum` <ul><li>Template2011v2</li><li>Template2014</li><li>Template2014micro</li><li>TemplateFinancial</li><li>TemplateROPO</li><li>TemplateNujPU</li></ul>|
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 #### Návratové HTTP error kódy:
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
+
+[](../../examples/statements.md ':include')
 
 ## Požiadavka GetStatementDetail
 Požiadavka na detail účtovnej závierky
@@ -46,8 +56,46 @@ Požiadavka na detail účtovnej závierky
 ### Popis odpovede
 
 Podľa typu šablóny (template) api vráti odpoveď typu:
-- `StatementResult` - štandardné firmy a organizácie 
-- `NonProfitStatementResult` - neziskové a rozpočtové organizácie
+#### StatementResult
+štandardné firmy a organizácie 
+
+| Parameter | Popis |
+| ----------- | ----------- |
+| **ICO** | identifikačné číslo organizácie (IČO) |
+| **Name** | meno firmy |
+| **Year** | rok závierky |
+| **DateFrom** | dátum obdobia závierky od |
+| **DateTo** | dátum obdobia závierky do |
+| **DatePublished** | dátum zverejnenia |
+| **Format** | šablóna exportovanej závierky |
+| **OriginalFormat** | originálna šablóna závierky |
+| **Source** | zdroj závierky |
+| **Assets** | zoznam hodnôt aktív závierky `AssetStatementValue` <table><tr><td>**ReportRow**</td><td>číslo riadku ukazovateľa v závierke</td></tr><tr><td>**ReportSection**</td><td>sekcia ukazovateľa v závierke</td></tr><tr><td>**Actual**</td><td>aktuálna hodnota (môže byť null)</td></tr><tr><td>**Previous**</td><td>predošlá hodnota (môže byť null)</td></tr><tr><td>**ActualBrutto**</td><td>brutto hodnota (môže byť null)</td></tr><tr><td>**ActualCorrection**</td><td>korekcia (môže byť null)</td></tr></table> |
+| **LiabilitiesAndEquity** | zoznam hodnôt pasív závierky `StatementValue` <table><tr><td>**ReportRow**</td><td>číslo riadku ukazovateľa v závierke</td></tr><tr><td>**ReportSection**</td><td>sekcia ukazovateľa v závierke</td></tr><tr><td>**Actual**</td><td>aktuálna hodnota (môže byť null)</td></tr><tr><td>**Previous**</td><td>predošlá hodnota (môže byť null)</td></tr></table>|
+| **IncomeStatement** | zoznam hodnôt ziskov a strát závierky `StatementValue` <table><tr><td>**ReportRow**</td><td>číslo riadku ukazovateľa v závierke</td></tr><tr><td>**ReportSection**</td><td>sekcia ukazovateľa v závierke</td></tr><tr><td>**Actual**</td><td>aktuálna hodnota (môže byť null)</td></tr><tr><td>**Previous**</td><td>predošlá hodnota (môže byť null)</td></tr></table> |
+| **PreviousAccountingPeriodFrom** | dátum začiatku predošlého obdobia vo výkaze |
+| **PreviousAccountingPeriodTo** | dátum konca predošlého obdobia vo výkaze |
+
+#### NonProfitStatementResult
+neziskové a rozpočtové organizácie
+
+| Parameter | Popis |
+| ----------- | ----------- |
+| **ICO** | identifikačné číslo organizácie (IČO) |
+| **Name** | meno firmy |
+| **Year** | rok závierky |
+| **DateFrom** | dátum obdobia závierky od |
+| **DateTo** | dátum obdobia závierky do |
+| **DatePublished** | dátum zverejnenia |
+| **Format** | šablóna exportovanej závierky |
+| **OriginalFormat** | originálna šablóna závierky |
+| **Source** | zdroj závierky |
+| **Assets** | zoznam hodnôt aktív závierky `AssetStatementValue` <table><tr><td>**ReportRow**</td><td>číslo riadku ukazovateľa v závierke</td></tr><tr><td>**ReportSection**</td><td>sekcia ukazovateľa v závierke</td></tr><tr><td>**Actual**</td><td>aktuálna hodnota (môže byť null)</td></tr><tr><td>**Previous**</td><td>predošlá hodnota (môže byť null)</td></tr><tr><td>**ActualBrutto**</td><td>brutto hodnota (môže byť null)</td></tr><tr><td>**ActualCorrection**</td><td>korekcia (môže byť null)</td></tr></table> |
+| **LiabilitiesAndEquity** | zoznam hodnôt pasív závierky `StatementValue` <table><tr><td>**ReportRow**</td><td>číslo riadku ukazovateľa v závierke</td></tr><tr><td>**ReportSection**</td><td>sekcia ukazovateľa v závierke</td></tr><tr><td>**Actual**</td><td>aktuálna hodnota (môže byť null)</td></tr><tr><td>**Previous**</td><td>predošlá hodnota (môže byť null)</td></tr></table>|
+| **Expenses** | zoznam hodnôt výdavkov závierky `FinancialStatementValue` <table><tr><td>**ReportRow**</td><td>číslo riadku ukazovateľa v závierke</td></tr><tr><td>**ReportSection**</td><td>sekcia ukazovateľa v závierke</td></tr><tr><td>**Actual**</td><td>aktuálna hodnota (môže byť null)</td></tr><tr><td>**Previous**</td><td>predošlá hodnota (môže byť null)</td></tr><tr><td>**ActualMain**</td><td>hodnota z hlavnej činnosti (môže byť null)</td></tr><tr><td>**ActualCommercial**</td><td>hodnota z obchodnej činnosti (môže byť null)</td></tr></table> |
+| **Revenues** | oznam hodnôt výnosov závierky `FinancialStatementValue` <table><tr><td>**ReportRow**</td><td>číslo riadku ukazovateľa v závierke</td></tr><tr><td>**ReportSection**</td><td>sekcia ukazovateľa v závierke</td></tr><tr><td>**Actual**</td><td>aktuálna hodnota (môže byť null)</td></tr><tr><td>**Previous**</td><td>predošlá hodnota (môže byť null)</td></tr><tr><td>**ActualMain**</td><td>hodnota z hlavnej činnosti (môže byť null)</td></tr><tr><td>**ActualCommercial**</td><td>hodnota z obchodnej činnosti (môže byť null)</td></tr></table> |
+| **PreviousAccountingPeriodFrom** | dátum začiatku predošlého obdobia vo výkaze |
+| **PreviousAccountingPeriodTo** | dátum konca predošlého obdobia vo výkaze |
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
@@ -55,6 +103,10 @@ Podľa typu šablóny (template) api vráti odpoveď typu:
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
+#### StatementResult
+[](../../examples/statements-statement.md ':include')
+#### NonProfitStatementResult
+[](../../examples/statements-nonprofit.md ':include')
 
 ## Požiadavka GetStatementTemplateLegend
 Požiadavka na stiahnutie legendy kľúčov účtovných závierok
@@ -73,10 +125,32 @@ Požiadavka na stiahnutie legendy kľúčov účtovných závierok
 
 
 ### Popis odpovede
-
 Podľa typu šablóny (template) api vráti odpoveď typu:
-- `StatementResult` - štandardné firmy a organizácie 
-- `NonProfitStatementResult` - neziskové a rozpočtové organizácie
+
+Odpoveď `StatementLegendResult` pozostáva z 3 sekcií:
+
+| Parameter | Popis |
+| ----------- | ----------- |
+| **Assets** | zoznam hodnôt aktív závierky |
+| **LiabilitiesAndEquity** | zoznam hodnôt pasív závierky |
+| **IncomeStatement** | zoznam hodnôt ziskov a strát závierky |
+
+Odpoveď `NonProfitStatementLegendResult` pozostáva z 4 sekcií:
+
+| Parameter | Popis |
+| ----------- | ----------- |
+| **Assets** | zoznam hodnôt aktív závierky |
+| **LiabilitiesAndEquity** | zoznam hodnôt pasív závierky |
+| **Expenses** | zoznam hodnôt výdajov |
+| **Revenue** | zoznam hodnôt ziskov |
+
+Každá sekcia je zoznam položiek `StatementLegendValue`
+
+| Parameter | Popis |
+| ----------- | ----------- |
+| **ReportRow** | Číslo riadku v závierke  |
+| **ReportSection** | Názov sekcie v závierke |
+| **Name** |  Názov ukazovateľa v danom jazyku |
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
@@ -84,3 +158,7 @@ Podľa typu šablóny (template) api vráti odpoveď typu:
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
+#### StatementLegendResult
+[](../../examples/statements-statement.md ':include')
+#### NonProfitStatementLegendResult
+[](../../examples/statements-nonprofit.md ':include')
