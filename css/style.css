@@ -99,6 +99,12 @@ code[class*='lang-']{
     color: white;
     background: #555;
 }
+.markdown-section table th,
+.markdown-section table td {
+    width: 10%;
+    text-align: left;
+}
+
 .markdown-section table th:first-child,
 .markdown-section table td:first-child {
     width: 25%;
@@ -107,6 +113,6 @@ code[class*='lang-']{
 
 .markdown-section table th:last-child,
 .markdown-section table td:last-child {
-    width: 75%;
-    text-align: left;
+    width: auto;
+    max-width: 75%;
 }

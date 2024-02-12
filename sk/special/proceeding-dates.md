@@ -21,3 +21,4 @@ Požiadavka na zoznam konaní firiem za posledných 10 dní
 [](../parts/httperrorcodes.md ':include')
 
 ### Príklad XML odpovede
+[](../../examples/monitoring-proceeding.md ':include')
