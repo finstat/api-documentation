@@ -11,6 +11,6 @@
 | **City**| obec sídla firmy – môže byť prázdny |
 | **District**| okres sídla firmy – môže byť prázdny |
 | **Region**| kraj sídla firmy – môže byť prázdny |
-| **Country**| krajina sídla firmy (ak prázdne, tak Slovesnko) |
+| **Country**| krajina sídla firmy (ak prázdne, tak Slovensko) |
 | **Url**| odkaz na firmu na www.finstat.sk |
 | **Anonymized**| príznak, či záznam je anonymizovaný (true/false) |
