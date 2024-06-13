@@ -1,8 +1,0 @@
-- [General info](en/common.md)
-    - [About API](en/common.md?id=about-api)
-    - [General description of Hash function calculation](en/common.md?id=general-description-of-hash-function-calculation)
-- [Additional API](en/additional.md)
-    - [Intelligent reporting](en/additional/reporting.md)
-        - [List of Topics](en/additional/reporting.md?id=list-of-topics)
-        - [Topic Output](en/additional/reporting.md?id=topic-output)
-        - [Download Report](en/additional/reporting.md?id=download-report)

@@ -1,0 +1,1 @@
+* [:slovakia:](/v4-api/sk/)

@@ -1,0 +1,8 @@
+- [General info](sk-api/en/common.md)
+    - [About API](sk-api/en/common.md?id=about-api)
+    - [General description of Hash function calculation](sk-api/en/common.md?id=general-description-of-hash-function-calculation)
+- [Additional API](sk-api/en/additional.md)
+    - [Intelligent reporting](sk-api/en/additional/reporting.md)
+        - [List of Topics](sk-api/en/additional/reporting.md?id=list-of-topics)
+        - [Topic Output](sk-api/en/additional/reporting.md?id=topic-output)
+        - [Download Report](sk-api/en/additional/reporting.md?id=download-report)

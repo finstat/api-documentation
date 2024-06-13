@@ -1,0 +1,1 @@
+* [Slovenský](/cz-api/sk/)

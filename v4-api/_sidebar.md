@@ -1,0 +1,6 @@
+- [Všeobecné informácie](v4-api/sk/common.md)
+- [Endpointy](v4-api/sk/endpoints.md)
+    - [Detail](v4-api/sk/endpoints.md?id=detail)
+    - [Search](v4-api/sk/endpoints.md?id=search)
+    - [SearchUnstructured](v4-api/sk/endpoints.md?id=SearchUnstructured)
+    - [Suggestions](v4-api/sk/endpoints.md?id=suggestions)
