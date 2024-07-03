@@ -3,6 +3,6 @@ API poskytuje detailné informácie o samotnej štruktúre API na synchronizáci
 FinState (API pre správu monitoringu). S týmto popisom je možné použiť naše API v ľubovoľnom 
 programovacom jazyku
 
-- [IČO](sk/additional/monitoring-ico.md)
-- [Dátumy narodenia](sk/additional/monitoring-dates.md)
+- [IČO](cz-api/sk/additional/monitoring-ico.md)
+- [Dátumy narodenia](cz-api/sk/additional/monitoring-dates.md)
 

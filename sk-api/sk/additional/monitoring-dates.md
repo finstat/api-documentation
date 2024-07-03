@@ -17,10 +17,7 @@ Požiadavka na pridanie dátumu narodenia osoby do monitoringu
 > **Hash parameter**: {date}
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **date**<br />*[povinný]*| dátum osoby, podporované formáty `dd.MM.yyyy`, `d.M.yyyy`, `dd.M.yyyy`, `d.MM.yyyy` |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-addremove-date-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -40,10 +37,7 @@ Požiadavka na odobratie dátumu narodenia osoby z monitoringu
 > **Hash parameter**: {date}
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **date**<br />*[povinný]*| dátum osoby, podporované formáty `dd.MM.yyyy`, `d.M.yyyy`, `dd.M.yyyy`, `d.MM.yyyy` |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-addremove-date-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -64,9 +58,7 @@ Požiadavka na aktuálny zoznam dátumov narodenia osôb v monitoringu
 > **Hash parameter**: datelist
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-category-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -88,27 +80,14 @@ Požiadavka na zoznam udalostí osôb za posledných 30 dní pre aktuálne monit
 > **Hash parameter**: datereport
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-category-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
 > **Príklad volania:** ```https://www.finstat.sk/api/monitoringdatereport?apikey=YourAPIKey&hash=a0c1760f69233637d6238dcac01fbb4226d69f461a4ca72bd1c8576dfd3f27d4&StationId=YourStationID&StationName=Your+Station+Name```
 
 ### Popis odpovede
-Zoznam hodnôt `MonitoringDate`
-
-| Parameter | Popis |
-| ----------- | ----------- |
-| **Ident** | unikátny identifikátor monitoring udalostí |
-| **Date** | dátum narodenia monitorovaných osôb |
-| **Name** | Názov osoby danej udalosti |
-| **PublishDate** | dátum zverejnenia danej udalosti (vo výnimočných prípadoch môže byť dočasne prázdna hodnota) |
-| **Type** | typ danej udalosti (obsahuje zrozumiteľný textový popis) |
-| **Description** | detailný popis udalosti |
-| **Url** | URL pre zobrazenie detailu danej udalosti |
-| **Categories** | Zoznam identifikátorov skupín, v ktorých je daný subjekt zaradený |
+[](../../../common/responses/monitoring-date-sk.md ':include')
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')

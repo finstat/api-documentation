@@ -9,10 +9,7 @@ platnosti, bude užívateľ presmerovaný na prihlasovací formulár
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/autologin```<br />
 > **Hash parameter**: autologin
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **url**<br />*[povinný]*| Platná FinStat URL, na ktorú má byť užívateľ presmerovaný |
-| **email**<br />*[nepovinný]*| Ak parameter nie je zadaný, užívateľ bude prihlásený pod účtom majiteľa API licencie, ktorý link vytvoril. Ak je parameter zadaný. Email musí byť prihlasovací email užívateľa, ktorý patrí do podlicencií majiteľa API. Inak vráti chybu |
+[](../../../common/parameters/autologin-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 

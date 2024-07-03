@@ -44,7 +44,7 @@ Požiadavka na detail účtovnej závierky
 
 | Parameter | Popis |
 | ----------- | ----------- |
-| **template**<br />*[povinný]*| názov šablóny ako je uvedený vo výsledku požiadavky [GetStatements](sk/special/statement?id=požiadavka-getstatements) |
+| **template**<br />*[povinný]*| názov šablóny ako je uvedený vo výsledku požiadavky [GetStatements](sk-api/sk/special/statement?id=požiadavka-getstatements) |
 | **ico**<br />*[povinný]*| IČO subjektu, ktorého závierky žiadame |
 | **year**<br />*[povinný]*| Rok závierky |
 
@@ -116,7 +116,7 @@ Požiadavka na stiahnutie legendy kľúčov účtovných závierok
 
 | Parameter | Popis |
 | ----------- | ----------- |
-| **template**<br />*[povinný]*| názov šablóny ako je uvedený vo výsledku požiadavky [GetStatements](sk/special/statement?id=požiadavka-getstatements) |
+| **template**<br />*[povinný]*| názov šablóny ako je uvedený vo výsledku požiadavky [GetStatements](sk-api/sk/special/statement?id=požiadavka-getstatements) |
 | **lang**<br />*[povinný]*| jazyk legendy. Možné hodnoty: <ul><li>SK</li><li>EN</li></ul> |
 
 [](../../../common/parameters/parameters-sk.md ':include')

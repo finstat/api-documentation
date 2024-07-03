@@ -17,10 +17,7 @@ Požiadavka na pridanie firmy do monitoringu
 > **Hash parameter**: {ico}
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **ico**<br />*[povinný]*| IČO firmy, ktorú chcete pridať do monitoringu |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-addremove-ico-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -40,10 +37,7 @@ Požiadavka na odobratie firmy z monitoringu
 > **Hash parameter**: {ico}
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **ico**<br />*[povinný]*| IČO firmy, ktorú chcete pridať do monitoringu |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-addremove-ico-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -63,9 +57,7 @@ Požiadavka na aktuálny zoznam firiem v monitoringu
 > **Hash parameter**: list
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-category-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -87,27 +79,14 @@ Požiadavka na zoznam udalostí firiem za posledných 30 dní pre aktuálne moni
 > **Hash parameter**: report
 
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **category**<br />*[nepovinný]*| Identifikátor monitorovanej skupiny. Len pre Licencie Premium, Elite a Ultimate |
+[](../../../common/parameters/monitoring-category-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
 > **Príklad volania:** ```https://www.finstat.sk/api/monitoringreport?apikey=YourAPIKey&hash=816fa3eb97d4acec7ab73f7264a79f5cbe7280f3b0f81dd7b93b8e2981933e0c&StationId=YourStationID&StationName=Your+Station+Name```
 
 ### Popis odpovede
-Zoznam hodnôt `Monitoring`
-
-| Parameter | Popis |
-| ----------- | ----------- |
-| **Ident** | unikátny identifikátor monitoring udalostí |
-| **Ico** | IČO firmy danej udalosti |
-| **Name** | Názov firmy danej udalosti |
-| **PublishDate** | dátum zverejnenia danej udalosti (vo výnimočných prípadoch môže byť dočasne prázdna hodnota) |
-| **Type** | typ danej udalosti (obsahuje zrozumiteľný textový popis) |
-| **Description** | detailný popis udalosti |
-| **Url** | URL pre zobrazenie detailu danej udalosti (v niektorých prípadoch vedie na detail firmy) |
-| **Categories** | Zoznam identifikátorov skupín, v ktorých je daný subjekt zaradený |
+[](../../../common/responses/monitoring-ico-sk.md ':include')
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')

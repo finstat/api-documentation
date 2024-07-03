@@ -8,9 +8,7 @@ Vráti nápovedy na firmy uložené v databáze FinStat.sk na základe vyhľadá
 > **Dopytovaná URL**: ```https://www.finstat.cz/api/autocomplete```<br />
 > **Hash parameter**: {query}
 ### Parametre
-| Parameter | Popis |
-| ----------- | ----------- |
-| **query**<br />*[povinný]*| vyhľadávaný výraz pre autocomplete (minimálna dĺžka 3 znaky, inak je vrátený chybový stav) |
+[](../../../common/parameters/autocomplete-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -20,10 +18,7 @@ Vráti nápovedy na firmy uložené v databáze FinStat.sk na základe vyhľadá
 
 Popis jednotlivých XML elementov:
 
-| Parameter | Popis |
-| ----------- | ----------- |
-| **Results** | zoznam firiem, ktoré vyhovujú zadanému query výrazu (prvých 20 výsledkov).<br/>Element Company obsahuje jednotlivé elementy:<table><tr><td>Ico</td><td>IČO firmy</td></tr><tr><td>Name</td><td>meno firmy</td></tr><tr><td>City</td><td>mesto sídla firmy</td></tr><tr><td>Cancelled </td><td>informácia, či bola firma zrušená (hodnoty true/false)</td></tr></table>|
-| **Suggestions** | Pole hodnôt návrhov správneho výrazu pre autocomplete (prvých 10 výrazov) |
+[](../../../common/responses/autocomplete-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
@@ -32,7 +27,7 @@ Popis jednotlivých XML elementov:
 | ----------- | ----------- |
 | **404**| špecifikovaný query výraz je príliš krátky (minimálna dĺžka 3 znaky) |
 
-[](../../../common/http/errorcodes-sk.md.md ':include')
+[](../../../common/http/errorcodes-sk.md ':include')
 
 ### Príklad XML odpovede
 Príklad XML odpovede (na query `test`):

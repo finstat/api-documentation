@@ -8,7 +8,7 @@ Výpis detailu firmy na základe parametra *ico*
 > **Dopytovaná URL**: ```https://www.finstat.cz/api/basic```<br />
 > **Hash parameter**: {ico}
 ### Parametre
-[](../../../common/parameters/parameters-sk-detail.md ':include')
+[](../../../common/parameters/detail-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 

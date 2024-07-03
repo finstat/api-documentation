@@ -40,7 +40,7 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
-| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](sk/diff/statement2014?id=požiadavka-getlistofstatement2014diffs) |
+| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](sk-api/sk/diff/statement2014?id=požiadavka-getlistofstatement2014diffs) |
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
