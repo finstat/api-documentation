@@ -80,7 +80,7 @@ The purpose of the hash function is to check up on a customer request using hash
 #### PHP
 [](../../common/code/php.md ':include')
 #### Python
-[](../../common/python.md ':include')
+[](../../common/code/python.md ':include')
 #### Java
 [](../../common/code/java.md ':include')
 #### Visual Basic

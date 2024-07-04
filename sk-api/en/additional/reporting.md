@@ -13,13 +13,7 @@ Listing all the topics provided by the **Intelligent Reporting** service.
 > **Example call:** ```https://www.finstat.sk/api/getreportingtopics?apikey=YourAPIKey&hash=af2214dd6e123923b19308a1ef02f5f75a2ed4f0c2ed8e7a477b6612fb18c4f5&StationId=YourStationID&StationName=Your+Station+Name```
 ### Response Description
 
-The request returns a list of scopes, where each item has the following structure: 
-
-| Parameter | Description  |
-| ----------- | ----------- |
-| **ID** | Topic identifier |
-| **Name** | Full topic name |
-| **Group** | Topic group |
+[](../../../common/responses/reportingtopic-en.md ':include')
 
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
@@ -48,16 +42,8 @@ The request requires the *topic* parameter. Its value is obtained through the [L
 ### Response Description
 
 The request returns a list of saved outputs for download.
-Items have the following structure: 
 
-| Parameter | Description |
-| ----------- | ----------- |
-| **FileName** | Output identifier |
-| **Description** | Your description of the scenario |
-| **Topic** | Full topic name |
-| **Group** | Topic group |
-| **Count** | Number of records in the output |
-| **Date** | Generation date |
+[](../../../common/responses/reportoutput-en.md ':include')
 
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
@@ -91,4 +77,4 @@ The request returns the data of the requested **.xlsx** file.
 | ----------- | ----------- |
 | **404**| Requested file was not found |
 
-[](../../../common/http/errorcodes-en.md.md ':include')
+[](../../../common/http/errorcodes-en.md ':include')

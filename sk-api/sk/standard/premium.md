@@ -21,11 +21,13 @@ Dopyt vráti odpoveď s nasledulúcimi parametrami:
 
 [](../../../common/responses/premium-common-sk.md ':include')
 
-##### Doplnené parametre:
-| Parameter | Popis |
-| ----------- | ----------- |
-| **Revenue**| príznak nárastu/poklesu tržieb firmy medzi posledným a predposledným rokom v databáze (Unknown, Up, Down) |
-| **Profit**| príznak nárastu/poklesu zisku firmy medzi posledným a predposledným rokom v databáze (Unknown, Up, Down, Loss) stav loss znamená, že firma vykázala za posledný rok stratu |
+[](../../../common/responses/premium-sk.md ':include')
+
+[](../../../common/responses/icdphadditional-sk.md ':include')
+
+[](../../../common/responses/judgementindicator-sk.md ':include')
+
+[](../../../common/responses/bankaccount-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 

@@ -19,7 +19,11 @@ Spoplatnená požiadavka.
 > **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintsearch```
 
 ### Popis odpovede
-[](../../../common/responses/distraint-sk-result.md ':include')
+[](../../../common/responses/distraint-result-sk.md ':include')
+
+[](../../../common/responses/distraintpreview-sk.md ':include')
+
+[](../../../common/responses/debtor-sk.md ':include')
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -45,7 +49,12 @@ Spoplatnená požiadavka
 > **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintdetail```
 
 ### Popis odpovede
-[](../../../common/responses/distraint-sk-detail.md ':include')
+[](../../../common/responses/distraint-detail-sk.md ':include')
+
+[](../../../common/responses/debtor-sk.md ':include')
+
+[](../../../common/responses/bailiff-sk.md ':include')
+
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -71,7 +80,11 @@ Požiadavka vracia posledný historický dopyt podľa kritéria
 > **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintresults```
 
 ### Popis odpovede
-[](../../../common/responses/distraint-sk-result.md ':include')
+[](../../../common/responses/distraint-result-sk.md ':include')
+
+[](../../../common/responses/distraintpreview-sk.md ':include')
+
+[](../../../common/responses/debtor-sk.md ':include')
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -96,7 +109,11 @@ Požiadavka vracia posledný historický dopyt podľa token-u.
 > **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintresultsbytoken```
 
 ### Popis odpovede
-[](../../../common/responses/distraint-sk-result.md ':include')
+[](../../../common/responses/distraint-result-sk.md ':include')
+
+[](../../../common/responses/distraintpreview-sk.md ':include')
+
+[](../../../common/responses/debtor-sk.md ':include')
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -121,7 +138,11 @@ Požiadavka vracia uložený detail exekúcie.
 > **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintstoreddetail```
 
 ### Popis odpovede
-[](../../../common/responses/distraint-sk-detail.md ':include')
+[](../../../common/responses/distraint-detail-sk.md ':include')
+
+[](../../../common/responses/debtor-sk.md ':include')
+
+[](../../../common/responses/bailiff-sk.md ':include')
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')

@@ -1,4 +1,4 @@
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Version**| číslo verzie exportu - keď bude API doplnené novými parametrami, tak zmena verzie znamená, že celý pôvodný export bude pregenerovaný do najnovšieho tvaru (bez tejto možnosti by napr. pridanie novej hodnoty do definície rozšíreného exportu znamenalo vytvorenie zmenového súboru s niekoľko sto tisíc firmami, taktiež by štruktúra pôvodných exportov zostala v pôvodnej verzii) |
-| **Files**| zoznam súborov so zmenami <table><tr><td>**FileName**</td><td>názov súboru</td></tr><tr><td>**GeneratedDate**</td><td>dátum, k akému bol súbor vygenerovaný</td></tr><tr><td>**FileSize**</td><td>veľkosť exportovaného súboru v bytoch</td></tr><tr><td>**UploadDate**</td><td>Dátum nahrania súboru na server</td></tr></table> |
+| **Files**| zoznam súborov so zmenami [`DailyDiff`](#DailyDiff) |

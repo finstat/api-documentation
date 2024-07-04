@@ -25,6 +25,12 @@ Dopyt vráti odpoveď s nasledulúcimi parametrami:
 
 [](../../../common/responses/ultimate-sk.md ':include')
 
+[](../../../common/responses/icdphadditional-sk.md ':include')
+
+[](../../../common/responses/judgementindicator-sk.md ':include')
+
+[](../../../common/responses/bankaccount-sk.md ':include')
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 #### Návratové HTTP error kódy:

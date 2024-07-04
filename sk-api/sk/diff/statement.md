@@ -22,6 +22,8 @@ Požiadavka na získanie zoznamu všetkých súborov zmien
 ### Popis odpovede
 [](../../../common/responses/diff-sk.md ':include')
 
+[](../../../common/responses/dailydiff-sk.md ':include')
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 #### Návratové HTTP error kódy:

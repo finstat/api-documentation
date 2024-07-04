@@ -12,13 +12,7 @@ Výpis všetkých tém, ktoré služba **Inteligentný reporting** poskytuje.
 > **Príklad volania:** ```https://www.finstat.sk/api/getreportingtopics?apikey=YourAPIKey&hash=af2214dd6e123923b19308a1ef02f5f75a2ed4f0c2ed8e7a477b6612fb18c4f5&StationId=YourStationID&StationName=Your+Station+Name```
 ### Popis odpovede
 
-Dopyt vráti zoznam okruhov, kde každá položka má nasledujúcu štruktúru:
-
-| Parameter | Popis |
-| ----------- | ----------- |
-| **ID** | Identifikátor témy |
-| **Name** | Celý názov témy |
-| **Group** | Skupina témy |
+[](../../../common/responses/reportingtopic-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
@@ -48,16 +42,8 @@ Požiadavka vyžaduje parameter *topic*. Jeho hodnota je získaná pomocou poži
 ### Popis odpovede
 
 Dopyt vráti zoznam uložených výstupov na stiahnitie.
-Položky majú nasledujúcu štruktúru:
 
-| Parameter | Popis |
-| ----------- | ----------- |
-| **FileName** | Identifikátor výstupu |
-| **Description** | Váš popis daného scenára |
-| **Topic** | Celý názov témy |
-| **Group** | Skupina témy |
-| **Count** | Počet záznamov vo výstupe |
-| **Date** | Dátum vygenerovania |
+[](../../../common/responses/reportoutput-sk.md':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
