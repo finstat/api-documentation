@@ -2,7 +2,7 @@
 | Parameter | Popis |
 | ----------- | ----------- |
 | **VATNumber** | daňová identifikácia |
-| **TaxPayer** | ozačenie či je platca DPH (true/false)|
+| **TaxPayer** | ozačenie typu platcovstva DPH – môže byť prázdny <ul><li>Platce</li><li>IdentifikovanaOsoba</li><li>OsobaIdentifikovanaKDani</li></ul> |
 | **LegalFormCode** | právna forma kód - môže byť prázdny |
 | **OwnershipTypeCode** | druh vlastníctva kód - môže byť prázdny |
 | **BankAccounts** | Zoznam aktuálne nahlásených účtov [`BankAccount`](#BankAccount) – môže byť prázdny |
