@@ -42,7 +42,7 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
-| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](sk-api/sk/diff/statement?id=požiadavka-getlistofstatementdiffs) |
+| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](#požiadavka-getlistofstatementdiffs) |
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -65,9 +65,7 @@ Požiadavka na stiahnutie legendy kľúčov súboru závierok
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatementlegend```<br />
 > **Hash parameter**: {lang}
 
-| Parameter | Popis |
-| ----------- | ----------- |
-| **lang**<br />*[povinný]*| jazyk legendy. Možné hodnoty: <ul><li>SK</li><li>EN</li><li>DE</li></ul> |
+[](../../../common/parameters/lang-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -75,11 +73,7 @@ Požiadavka na stiahnutie legendy kľúčov súboru závierok
 
 ### Popis odpovede
 Zoznam položiek `KeyValue`, ktoré obsahujú legendu v danom jazyku.
-
-| Parameter | Popis |
-| ----------- | ----------- |
-| **Key**| kľúč ukazovateľa v súbore |
-| **Files**| názov ukazovateľa vo zvolenom jazyku |
+[](../../../common/responses/keyvalue-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 

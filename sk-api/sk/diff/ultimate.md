@@ -35,7 +35,7 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
-| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](sk-api/sk/diff/daily?id=požiadavka-getlistofultimatediffs) |
+| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](#požiadavka-getlistofultimatediffs) |
 
 [](../../../common/parameters/parameters-sk.md ':include')
 

@@ -42,7 +42,7 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
-| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](sk-api/sk/diff/statement2014?id=požiadavka-getlistofstatement2014diffs) |
+| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](#požiadavka-getlistofstatement2014diffs) |
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -65,31 +65,16 @@ Požiadavka na stiahnutie legendy kľúčov súboru závierok
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatement2014legend```<br />
 > **Hash parameter**: {lang}
 
-| Parameter | Popis |
-| ----------- | ----------- |
-| **lang**<br />*[povinný]*| jazyk legendy. Možné hodnoty: <ul><li>SK</li><li>EN</li><li>DE</li></ul> |
+[](../../../common/parameters/lang-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
 > **Príklad volania:** ```https://www.finstat.sk/api/getstatement2014legend?lang=sk&apikey=YourAPIKey&hash=a8b01632a568dea3e5831c7c1ba0f0dbbe75726828eae91b700806c375996f81&StationId=YourStationID&StationName=Your+Station+Name```
 
 ### Popis odpovede
+[](../../../common/responses/statementlegendresult-sk.md ':include')
 
-Odpoveď `StatementLegendResult` pozostáva z 3 sekcií 
-
-| Parameter | Popis |
-| ----------- | ----------- |
-| **Assets** | zoznam hodnôt aktív závierky |
-| **LiabilitiesAndEquity** | zoznam hodnôt pasív závierky |
-| **IncomeStatement** | zoznam hodnôt ziskov a strát závierky |
-
-Každá sekcia je zoznam položiek `StatementLegendValue`
-
-| Parameter | Popis |
-| ----------- | ----------- |
-| **ReportRow** | Číslo riadku v závierke  |
-| **ReportSection** | Názov sekcie v závierke |
-| **Name** |  Názov ukazovateľa v danom jazyku |
+[](../../../common/responses/statementlegendvalue-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
