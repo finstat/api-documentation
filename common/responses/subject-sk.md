@@ -1,4 +1,4 @@
-#### Subject:
+#### Subject
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Title** | názov |

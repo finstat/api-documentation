@@ -1,4 +1,4 @@
-#### ReceivableDebt:
+#### ReceivableDebt
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Source** | Správca |

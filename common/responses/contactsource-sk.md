@@ -1,4 +1,4 @@
-#### ContactSource:
+#### ContactSource
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Contact** | hodnota kontaktu – email alebo telefón |

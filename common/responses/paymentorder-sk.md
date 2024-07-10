@@ -1,4 +1,4 @@
-#### PaymentOrder:
+#### PaymentOrder
 | Parameter | Popis |
 | ----------- | ----------- |
 | **PublishDate** | dátum zverejnenia vo formáte `RRRR-MM-DDTHH:MM:SS` |
