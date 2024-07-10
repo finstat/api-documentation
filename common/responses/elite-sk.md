@@ -9,8 +9,8 @@
 | **OwnershipTypeText** | druh vlastníctva popis - môže byť prázdny |
 | **ActualYear** | rok finančných dát (všetky {typ}Prev sú za predchádzajúci rok aktuálnemu roku) - môže byť prázdny a vtedy aj všetky ostatné finančné dáta nemajú žiadnu hodnotu, preto je vhodné používať túto položku na zisťovanie dostupnosti finančných dát |
 | **CreditScoreValue** | numerické vyjadrenie hodnoty credit scoringu – môže byť prázdna |
-| **CreditScoreState** | textové vyjadrenie hodnoty credit scoringu – môže byť prázdna [`CreditScoreState`](#CreditScoreState) – môže byť prázdna |
-| **BasicCapital** | Základné imanie |
+| **CreditScoreState** | textové vyjadrenie hodnoty credit scoringu [`CreditScoreState`](#CreditScoreState) – môže byť prázdna |
+| **BasicCapital** | základné imanie |
 | **ProfitActual** | zisk za aktuálny rok – môže byť prázdny |
 | **ProfitPrev** | zisk za aktuálny rok – môže byť prázdny |
 | **RevenueActual** | suma celkových výnosov za aktuálny rok – môže byť prázdna |
@@ -21,23 +21,23 @@
 | **Debts** | zoznam dlhov [`Debt`](#Debt) – môže byť prázdny |
 | **StateReceivables** | zoznam pohľadávok [`ReceivableDebt`](#ReceivableDebt) |
 | **CommercialReceivables** | Zoznam komerčných pohľadávok [`ReceivableDebt`](#ReceivableDebt) |
-| **PaymentOrders** | Zoznam platobných rozkazov [`PaymentOrder`](#PaymentOrder) |
+| **PaymentOrders** | zoznam platobných rozkazov [`PaymentOrder`](#PaymentOrder) |
 | **WarningKaR** | posledný dátum zmeny v Konkurzoch a Reštrukturalizáciach (detaily je možné zistiť na linke WarningUrl) vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny|
 | **WarningLiquidation** | posledný dátum zmeny v Likvidáciach (detaily je možné zistiť na linke WarningUrl) vo formáte `RRRR-MM-DDTHH:MM:SS`– môže byť prázdny |
-| **HasDisposal** | Príznak, či firma je v likvidácii `true/false` |
-| **DisposalUrl** | Url na likvididácie firmy |
+| **HasDisposal** | príznak, či firma je v likvidácii `true/false` |
+| **DisposalUrl** | url na likvididácie firmy |
 | **SelfEmployed** | príznak, či je subjekt živnostník `true/false` |
 | **Offices** | zoznam pobočiek [`Office`](#Office) – môže byť prázdny |
 | **Subjects** | zoznam predmetov podnikania [`Subject`](#Subject) – môže byť prázdny |
 | **ContactSources** | zoznam zdrojov jednotlivých kontaktov (položky Emails, Phones) [`ContactSource`](#ContactSource) – môže byť prázdny |
 | **StructuredName** | len pri živnostníkoch, inak nie je hodnota dostupná - obsahuje rozdelený obchodný názov na jednotlivé časti [`StructuredName`](#StructuredName) |
-| **JudgementFinstatLink** | Odkaz na súdne rozhodnutia, ak existujú |
+| **JudgementFinstatLink** | odkaz na súdne rozhodnutia, ak existujú |
 | **JudgementCounts** | zoznam počtov súdnych rozhodnutí [`JudgementCount`](#JudgementCount) – môže byť prázdny |
 | **JudgementLastPublishedDate** | Dátum posledného súdneho rozhodnutia |
 | **Ratios** | zoznam finančných ukazovateľov za posledné 4 roky [`Ratio`](#Ratio) |
-| **SalesCategory** | Kategória obratu |
-| **CreditScoreValueIndex05** | Numerické vyjadrenie hodnoty Index05 credit scoringu – môže byť prázdne |
+| **SalesCategory** | kategória obratu |
+| **CreditScoreValueIndex05** | numerické vyjadrenie hodnoty Index05 credit scoringu – môže byť prázdne |
 | **CreditScoreStateIndex05** | textové vyjadrenie hodnoty Index05 credit scoringu [`CreditScoreState`](#CreditScoreState) – môže byť prázdna |
-| **DistraintsAuthorization** | Informácia o aktívnych povereniach na vykonanie exekúcii pre povinného [`DistraintsAuthorizationInfo`](#DistraintsAuthorizationInfo) |
-| **CreditScoreValueFinStatScore** | Numerické vyjadrenie hodnoty kreditného modelu FinStat skóre v percentách - može byť prázdne |
+| **DistraintsAuthorization** | informácia o aktívnych povereniach na vykonanie exekúcii pre povinného [`DistraintsAuthorizationInfo`](#DistraintsAuthorizationInfo) |
+| **CreditScoreValueFinStatScore** | numerické vyjadrenie hodnoty kreditného modelu FinStat skóre v percentách - može byť prázdne |
 | **CreditScoreStateFinStatScore** | textové vyjadrenie hodnoty kreditného modelu FinStat skóre [`CreditScoreState`](#CreditScoreState) – môže byť prázdna |

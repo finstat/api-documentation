@@ -1,5 +1,5 @@
 #### ContactSource
 | Parameter | Popis |
 | ----------- | ----------- |
-| **Contact** | hodnota kontaktu – email alebo telefón |
-| **Sources** | Zoznam zdrojov kontaktu|
+| **Contact** | email alebo telefón |
+| **Sources** | zoznam zdrojov kontaktu `string` |

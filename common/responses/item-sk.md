@@ -1,5 +1,5 @@
 #### Item
 | Parameter | Popis |
 | ----------- | ----------- |
-| **Year** | Rok |
-| **Value** | Hodnota |
+| **Year** | rok |
+| **Value** | hodnota |
