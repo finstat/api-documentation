@@ -4,6 +4,3 @@
 
 #### FinStat CZ API
 * [Slovenský](/cz-api/sk/)
-
-#### Zahraničné Firmy
-* [Slovenský](/v4-api/sk/)
