@@ -8,3 +8,7 @@
 - likvidátor
 - správca konkurznej podstaty
 - reštrukturalizačný správca
+- oprávnená osoba podľa RPVS
+- konečný užívateľ výhod podľa RPVS
+- verejný funkcionár v riadiacej funkcii podľa RPVS
+- konečný užívateľ výhod

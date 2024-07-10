@@ -1,0 +1,14 @@
+#### FunctionAssigmentType
+- štatutár - statutory
+- dozorná rada – board of supervisors
+- spoločník - partner
+- akcionár - stockholder
+- prokúra - procuration
+- právny nástupca - legal successor
+- likvidátor - liquidator
+- správca konkurznej podstaty - the insolvency administrator
+- reštrukturalizačný  - restructuring manager
+- oprávnená osoba podľa RPVS - authorized person
+- konečný užívateľ výhod podľa RPVS - end user of benefits
+- verejný funkcionár v riadiacej funkcii podľa RPVS - a public functionary in the management structure
+- konečný užívateľ výhod - ultimate beneficial owner

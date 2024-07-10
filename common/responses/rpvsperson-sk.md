@@ -8,7 +8,7 @@
 | **District** | okres |
 | **Region** | kraj |
 | **Country** | štát |
-| **Ico** | 	IČO osoby v prípade firmy, inak prázdne |
+| **Ico** | IČO osoby v prípade firmy - môže byť prázdne |
 | **BirthDate** | dátum narodenia |
 | **DetectedFrom** | dátum, od ktorého je vo finstat.sk táto osoba na danej pozícii detekovaná (obsahuje dátum poslednej zmeny) vo formáte `RRRR-MM-DDTHH:MM:SS` |
 | **DetectedTo** | dátum, do ktorého je detekovaná v prípade historických dát vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
