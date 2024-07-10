@@ -6,7 +6,7 @@
 | **LegalFormCode** | právna forma kód - môže byť prázdny |
 | **OwnershipTypeCode** | druh vlastníctva kód - môže byť prázdny |
 | **BankAccounts** | Zoznam aktuálne nahlásených účtov [`BankAccount`](#BankAccount) – môže byť prázdny |
-| **Uneliability** | ozačenie či je nedôverihodný platca /osoba|
+| **Unreliability** | ozačenie či je nedôverihodný platca /osoba|
 | **RegisterNumberText** | textový popis registračných údajov – môže byť prázdny <ul><li>pre s.r.o. v tvare: Zapísaná na Okr. súde XXXXX, odd. Sro, vl.č.xxxx/L</li><li>pre živnostníka: Číslo živn.registra: xxx-xxxx, okresný úrad XXXXX </li></ul>|
 | **ActualYear**| rok poslednej finančnej závierky |
 | **SalesActual**| hodnota tržieb za posledný dosupný rok |

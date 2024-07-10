@@ -3,8 +3,8 @@
 | ----------- | ----------- |
 | **RegisterNumberText** | textový popis registračných údajov – môže byť prázdny <ul><li>pre s.r.o. v tvare: Zapísaná na Okr. súde XXXXX, odd. Sro, vl.č.xxxx/L</li><li>pre živnostníka: Číslo živn.registra: xxx-xxxx, okresný úrad XXXXX </li></ul>|
 | **Activity** | odvetvie podľa FinStat kategorizácie - može byť prázdne |
-| **Created** | dátum vzniku firmy vo formáte `RRRR-MMTDDTHH:MM:SS` – môže byť prázdny |
-| **Cancelled** | dátum zániku firmy vo formáte `RRRR-MMTDDTHH:MM:SS` – môže byť prázdny |
+| **Created** | dátum vzniku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
+| **Cancelled** | dátum zániku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
 | **SuspendedAsPerson** | príznak či má osoba pozastavenú živnosť (`true/false`) |
 | **IcDphAdditional** | detail IČ DPH pre detailné informácie o DPH [`IcDphAdditional`](#IcDphAdditional) – môže byť prázdny |
 | **Warning** | príznak, či sa daná firma nachádza v zozname dlžníkov, má pohľadávku, konkurz (resp. oddlženie), poverenie na vykonanie exekúcie alebo likvidáciu (`true/false`) |
@@ -23,7 +23,7 @@
 | **RpvsUrl** | odkaz na záložku Osoby vo firme na portáli FinStat.sk – môže byť prázdny |
 | **ProfitActual** | zisk za aktuálny rok – môže byť prázdny |
 | **RevenueActual** | suma celkových výnosov za aktuálny rok – môže byť prázdna |
-| **JudgementIndicators** | zoznam indikátorov súdnych rozhodnutí [`JudgementIndicator`](#JudgementIndicator) – môže byť prázdny|
+| **JudgementIndicators** | zoznam indikátorov súdnych rozhodnutí [`JudgementIndicator`](#JudgementIndicator) – môže byť prázdny |
 | **JudgementFinstatLink** | odkaz na súdne rozhodnutia, ak existujú – môže byť prázdny |
 | **SalesCategory** | kategória obratu – môže byť prázdny |
 | **HasKaR** | Príznak, či firma má konkurz alebo reštrukturalizáciu (`true/false`) |

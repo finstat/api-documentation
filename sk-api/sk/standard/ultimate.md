@@ -31,6 +31,56 @@ Dopyt vráti odpoveď s nasledulúcimi parametrami:
 
 [](../../../common/responses/bankaccount-sk.md ':include')
 
+[](../../../common/responses/debt-sk.md ':include')
+
+[](../../../common/responses/receivable-sk.md ':include')
+
+[](../../../common/responses/paymentorder-sk.md ':include')
+
+[](../../../common/responses/office-sk.md ':include')
+
+[](../../../common/responses/subject-sk.md ':include')
+
+[](../../../common/responses/contactsource-sk.md ':include')
+
+[](../../../common/responses/structuredname-sk.md ':include')
+
+[](../../../common/responses/judgementcount-sk.md ':include')
+
+[](../../../common/responses/ratio-sk.md ':include')
+
+[](../../../common/responses/item-sk.md ':include')
+
+[](../../../common/responses/distraintsauthorizationinfo-sk.md ':include')
+
+[](../../../common/responses/creditscotestate-sk.md ':include')
+
+[](../../../common/responses/person-sk.md ':include')
+
+[](../../../common/responses/rpvsperson-sk.md ':include')
+
+[](../../../common/responses/rpoperson-sk.md ':include')
+
+[](../../../common/responses/functionassigment-sk.md ':include')
+
+[](../../../common/responses/functionassigmenttype-sk.md ':include')
+
+[](../../../common/responses/courtsaddress-sk.md ':include')
+
+[](../../../common/responses/historyaddress-sk.md ':include')
+
+[](../../../common/responses/proceedingresult-sk.md ':include')
+
+[](../../../common/responses/liquidationresult-sk.md ':include')
+
+[](../../../common/responses/officer-sk.md ':include')
+
+[](../../../common/responses/deadline-sk.md ':include')
+
+[](../../../common/responses/distraintsauthorizationdetail-sk.md ':include')
+
+[](../../../common/responses/baseinfo-sk.md ':include')
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 #### Návratové HTTP error kódy:

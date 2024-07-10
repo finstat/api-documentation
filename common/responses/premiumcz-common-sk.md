@@ -8,8 +8,8 @@
 | **LegalForm** | právna forma popis - môže byť prázdny |
 | **OwnershipType** | druh vlastníctva popis - môže byť prázdny |
 | **Activity** | odvetvie podľa FinStat kategorizácie - može byť prázdne |
-| **Created** | dátum vzniku firmy vo formáte `RRRR-MMTDDTHH:MM:SS` – môže byť prázdny |
-| **Cancelled** | dátum zániku firmy vo formáte `RRRR-MMTDDTHH:MM:SS` – môže byť prázdny |
+| **Created** | dátum vzniku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
+| **Cancelled** | dátum zániku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
 | **Warning** | príznak, či sa daná firma nachádza v insolvenčnom registry (`true/false`) |
 | **WarningUrl** | odkaz na podrobné informácie o rizikovej udalosti – môže byť prázdny |
 | **EmployeeCount** | počet zamestnancov |
