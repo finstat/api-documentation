@@ -1,9 +1,8 @@
 # Denný zmenový súbor s podrobnými údajmi o firmách
 Sledovanie podrobností, vrátane zmien štatutárov, stavu a priebehu konkurzných konaní a iných kritických udalostí
 
----
 ## Požiadavka GetListOfUltimateDiffs
-ožiadavka na získanie zoznamu všetkých súborov zmien
+Požiadavka na získanie zoznamu [`DailyDiffList`](#DailyDiffList) všetkých súborov zmien
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getlistofultimatediffs```<br />
 > **Hash parameter**: prázdny text
@@ -13,18 +12,8 @@ ožiadavka na získanie zoznamu všetkých súborov zmien
 
 > **Príklad volania:** ```https://www.finstat.sk/api/getlistofultimatediffs?apikey=YourAPIKey&hash=990ee369d83384c17564fbf5b9ba07684993f3e428df7b7079c9df42a0ef0b1e&StationId=YourStationID&StationName=Your+Station+Name```
 
-### Popis odpovede
-[](../../../common/responses/diff-sk.md ':include')
-
-[](../../../common/responses/dailydiff-sk.md ':include')
-
-> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
-
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
-
-### Príklad XML odpovede
-[](../../../common/examples/diff-ultimate.md ':include')
 
 ## Požiadavka GetUltimateFile
 Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
@@ -35,7 +24,7 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
-| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](#požiadavka-getlistofultimatediffs) |
+| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfUltimateDiffs](#požiadavka-getlistofultimatediffs) |
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -45,8 +34,16 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 
 Dopyt vráti dáta požadovaného **.zip** súboru
 #### Návratové HTTP error kódy:
-| Error kód | Popis |
-| ----------- | ----------- |
-| **404**| Požadovaný súbor neexistuje |
+[](../../../common/http/errorcodes-sk-file.md ':include')
 
 [](../../../common/http/errorcodes-sk.md ':include')
+
+# Štruktúra odpovedí
+[](../../../common/responses/diff-sk.md ':include')
+
+[](../../../common/responses/dailydiff-sk.md ':include')
+
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
+# Príklady XML odpovedí
+[](../../../common/examples/diff-ultimate.md ':include')

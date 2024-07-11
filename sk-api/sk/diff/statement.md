@@ -6,10 +6,9 @@ API obsahuje informácie o všetkých závierkach. Firmy, u ktorých sa dlho neu
 závierky v súboroch vygenerovaných po zverejnení poslednej závierky. 
 API je inkrementálny export, a tak sa niektoré závierky môžu nachádzať vo viacerých súboroch, kde 
 aktuálna hodnota je vždy v exporte s najnovším dátumom.
----
 
 ## Požiadavka GetListOfStatementDiffs
-Požiadavka na získanie zoznamu všetkých súborov zmien
+Požiadavka na získanie zoznamu [`DailyDiffList`](#DailyDiffList) všetkých súborov zmien
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getlistofstatementdiffs```<br />
 > **Hash parameter**: prázdny text
@@ -19,22 +18,13 @@ Požiadavka na získanie zoznamu všetkých súborov zmien
 
 > **Príklad volania:** ```https://www.finstat.sk/api/getlistofstatementdiffs?apikey=YourAPIKey&hash=990ee369d83384c17564fbf5b9ba07684993f3e428df7b7079c9df42a0ef0b1e&StationId=YourStationID&StationName=Your+Station+Name```
 
-### Popis odpovede
-[](../../../common/responses/diff-sk.md ':include')
-
-[](../../../common/responses/dailydiff-sk.md ':include')
-
-> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
-
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
 
-### Príklad XML odpovede
-[](../../../common/examples/diff-statement.md ':include')
-
 
 ## Požiadavka GetStatementFile
-Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
+Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum.
+Dopyt vráti dáta požadovaného **.zip** súboru
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatementfile```<br />
 > **Hash parameter**: *{filename}*
@@ -42,7 +32,7 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
-| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfDiffs](#požiadavka-getlistofstatementdiffs) |
+| **filename**<br />*[povinný]*| názov súboru ako je uvedený vo výsledku požiadavky [GetListOfStatementDiffs](#požiadavka-getlistofstatementdiffs) |
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
@@ -50,17 +40,16 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 
 ### Popis odpovede
 
-Dopyt vráti dáta požadovaného **.zip** súboru
+
 #### Návratové HTTP error kódy:
-| Error kód | Popis |
-| ----------- | ----------- |
-| **404**| Požadovaný súbor neexistuje |
+[](../../../common/http/errorcodes-sk-file.md ':include')
 
 [](../../../common/http/errorcodes-sk.md ':include')
 
 ## Požiadavka GetStatementLegend
 
-Požiadavka na stiahnutie legendy kľúčov súboru závierok
+Požiadavka na stiahnutie legendy kľúčov súboru závierok.
+Dopyt vráti zoznam [`KeyValue`](#KeyValue) položiek.
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getstatementlegend```<br />
 > **Hash parameter**: {lang}
@@ -71,15 +60,19 @@ Požiadavka na stiahnutie legendy kľúčov súboru závierok
 
 > **Príklad volania:** ```https://www.finstat.sk/api/getstatementlegend?lang=sk&apikey=YourAPIKey&hash=a8b01632a568dea3e5831c7c1ba0f0dbbe75726828eae91b700806c375996f81&StationId=YourStationID&StationName=Your+Station+Name```
 
-### Popis odpovede
-Zoznam položiek `KeyValue`, ktoré obsahujú legendu v danom jazyku.
+#### Návratové HTTP error kódy:
+[](../../../common/http/errorcodes-sk.md ':include')
+
+# Štruktúra odpovedí
+[](../../../common/responses/diff-sk.md ':include')
+
+[](../../../common/responses/dailydiff-sk.md ':include')
+
 [](../../../common/responses/keyvalue-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
+# Príklady XML odpovedí
+[](../../../common/examples/diff-statement.md ':include')
 
-#### Návratové HTTP error kódy:
-[](../../../common/http/errorcodes-sk.md ':include')
-
-### Príklad XML odpovede
 [](../../../common/examples/diff-statement-legend.md ':include')
