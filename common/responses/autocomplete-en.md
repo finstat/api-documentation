@@ -1,7 +1,8 @@
+#### ApiAutoComplete
 | Parameter | Description |
 | ----------- | ----------- |
-| **Results** | List of [`Company`](#Company) elements that match selected query (first 20 results)|
-| **Suggestions** | The first 10 suggestions for autocomplete |
+| **Results** | lost of [`Company`](#Company) elements that match selected query (first 20 results)|
+| **Suggestions** | list of the first 10 suggestions for autocomplete `string` |
 
 #### Company
 | Parameter | Description |

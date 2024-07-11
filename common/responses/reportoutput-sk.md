@@ -1,4 +1,4 @@
-Zoznam výstupov `ReportOutput`:
+#### ReportOutput
 
 | Parameter | Popis |
 | ----------- | ----------- |

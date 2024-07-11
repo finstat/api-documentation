@@ -1,7 +1,8 @@
+#### DistraintDetail
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Code** | Značka |
-| **Debtor** | zoznam objektov typu [`Debtor`](#Debtor) |
+| **Debtors** | zoznam objektov typu [`Debtor`](#Debtor) |
 | **Pledgers** | zoznam objektov typu [`Debtor`](#Debtor) |
 | **TypeOfAuthorisation** | typ poverenia |
 | **Created** | dátum dopytu |

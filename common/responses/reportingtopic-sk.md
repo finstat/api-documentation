@@ -1,5 +1,4 @@
-Zoznam tém `ReportingTopic`:
-
+#### ReportingTopic
 | Parameter | Popis |
 | ----------- | ----------- |
 | **ID** | Identifikátor témy |

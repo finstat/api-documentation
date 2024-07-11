@@ -1,3 +1,4 @@
+#### DistraintResult
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Count** | počet výsledkov vyhľadávania |

@@ -1,4 +1,4 @@
-Zoznam hodnôt `MonitoringCategory`
+#### MonitoringCategory
 
 | Parameter | Popis |
 | ----------- | ----------- |

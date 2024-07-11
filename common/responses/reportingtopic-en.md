@@ -1,5 +1,4 @@
-Lst of topics `ReportingTopic`:
-
+#### ReportingTopic
 | Parameter | Description  |
 | ----------- | ----------- |
 | **ID** | Topic identifier |

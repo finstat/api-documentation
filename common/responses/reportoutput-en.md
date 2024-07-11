@@ -1,4 +1,4 @@
-List of outputs `ReportOutput`:
+#### ReportOutput
 
 | Parameter | Description |
 | ----------- | ----------- |

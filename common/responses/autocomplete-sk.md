@@ -1,7 +1,8 @@
+#### ApiAutoComplete
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Results** | zoznam [`Company`](#Company) elementov, ktoré vyhovujú zadanému query výrazu (prvých 20 výsledkov)|
-| **Suggestions** | Pole hodnôt návrhov správneho výrazu pre autocomplete (prvých 10 výrazov) |
+| **Suggestions** | zoznam návrhov správneho výrazu pre autocomplete `string` (prvých 10 výrazov) |
 
 #### Company
 | Parameter | Popis |
