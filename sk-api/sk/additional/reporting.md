@@ -1,7 +1,6 @@
 # API Inteligentný reporting
 Táto verzia FinStat API slúži na vyžiadanie vygenerovaných reportov v rámci služby [FinStat Inteligentný reporting](https://www.finstat.sk/inteligentny-reporting)
 
----
 ## Zoznam tém
 Výpis všetkých tém [`ReportingTopic`](#ReportingTopic), ktoré služba **Inteligentný reporting** poskytuje.
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getreportingtopics```<br />
@@ -14,8 +13,6 @@ Výpis všetkých tém [`ReportingTopic`](#ReportingTopic), ktoré služba **Int
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
 
----
-
 ## Výpis témy
 Výpis všetkých uložených reportov [`ReportOutput`](#ReportOutput) z danej témy reportingu. 
 > **Upozornenie:** Reporty staršie ako retenčné obdobie 90 dní sú automaticky vymazávane.
@@ -23,6 +20,7 @@ Výpis všetkých uložených reportov [`ReportOutput`](#ReportOutput) z danej t
 Požiadavka vyžaduje parameter *topic*. Jeho hodnota je získaná pomocou požiadavky [Zoznam tém](#zoznam-tém)
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getreportinglist```<br />
 > **Hash parameter**: reporting-list|*{topic}*
+
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
@@ -42,6 +40,7 @@ Dopyt vráti dáta požadovaného **.xlsx** súboru
 Požiadavka vyžaduje parameter *filename*. Jeho hodnota je získaná pomocou požiadavky [Výpis témy](#výpis-témy)
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getreportingoutput```<br />
 > **Hash parameter**: *{filename}*
+
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
@@ -54,9 +53,7 @@ Požiadavka vyžaduje parameter *filename*. Jeho hodnota je získaná pomocou po
 > **Príklad volania:** ```https://www.finstat.sk/api/getreportingoutput?filename=topic1_file&apikey=YourAPIKey&hash=058683cd75e1486a0dc84fa59ea682c27a99ffd73518979e9a2afebb6694b49c&StationId=YourStationID&StationName=Your+Station+Name```
 
 #### Návratové HTTP error kódy:
-| Error kód | Popis |
-| ----------- | ----------- |
-| **404**| Požadovaný súbor neexistuje |
+[](../../../common/http/errorcodes-en-file.md ':include')
 
 [](../../../common/http/errorcodes-sk.md ':include')
 
