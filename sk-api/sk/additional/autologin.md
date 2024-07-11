@@ -9,12 +9,13 @@ Odpoveď pozostáva z jendého elementu obsahujúceho autologin link na vami zad
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/autologin```<br />
 > **Hash parameter**: autologin
+
 ### Parametre
 [](../../../common/parameters/autologin-sk.md ':include')
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/autologin?url=https://finstat.sk/35757442&email=email@domena.tldapikey=YourAPIKey&hash=cdab830acd61becad8aa9a7c501f68a9e8e03c37103e4ac52a4d0209d39781f5&StationId=YourStationID&StationName=Your+Station+Name```
+> **Príklad volania:** ```https://www.finstat.sk/api/autologin?url=https://finstat.sk/35757442&email=email@domena.tld&apikey=YourAPIKey&hash=cdab830acd61becad8aa9a7c501f68a9e8e03c37103e4ac52a4d0209d39781f5&StationId=YourStationID&StationName=Your+Station+Name```
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')

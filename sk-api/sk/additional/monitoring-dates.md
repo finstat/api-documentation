@@ -18,7 +18,6 @@ Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
-
 > **Príklad volania:** ```https://www.finstat.sk/api/adddatetomonitoring?date=9.2.2024&apikey=YourAPIKey&hash=b8c62bab2473673ae1c9a461cab2dd824d86da1d62745290dbb110140075b076&StationId=YourStationID&StationName=Your+Station+Name```
 
 #### Návratové HTTP error kódy:
@@ -58,7 +57,7 @@ Požiadavka na aktuálny zoznam dátumov narodenia osôb v monitoringu.
 [](../../../common/http/errorcodes-sk.md ':include')
 
 ## Požiadavka MonitoringDateReport
-Požiadavka na zoznam udalostí [`MonitoringDate`](#MonitoringDate) osôb za posledných 30 dní pre aktuálne monitorované osoby
+Požiadavka na zoznam udalostí osôb [`MonitoringDate`](#MonitoringDate) za posledných 30 dní pre aktuálne monitorované osoby
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/monitoringdatereport```<br />
 > **Hash parameter**: datereport
@@ -71,7 +70,6 @@ Požiadavka na zoznam udalostí [`MonitoringDate`](#MonitoringDate) osôb za pos
 > **Príklad volania:** ```https://www.finstat.sk/api/monitoringdatereport?apikey=YourAPIKey&hash=a0c1760f69233637d6238dcac01fbb4226d69f461a4ca72bd1c8576dfd3f27d4&StationId=YourStationID&StationName=Your+Station+Name```
 
 #### Návratové HTTP error kódy:
-
 [](../../../common/http/errorcodes-sk.md ':include')
 
 # Štruktúra odpovedí

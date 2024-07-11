@@ -7,6 +7,7 @@ Nápovedu vráti v rámcu štruktúry [`ApiAutoComplete`](#ApiAutoComplete)
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/autocomplete```<br />
 > **Hash parameter**: {query}
+
 ### Parametre
 [](../../../common/parameters/autocomplete-sk.md ':include')
 
@@ -31,4 +32,3 @@ Nápovedu vráti v rámcu štruktúry [`ApiAutoComplete`](#ApiAutoComplete)
 Príklad XML odpovede (na query `test`):
 
 [](../../../common/examples/autocomplete.md ':include')
-
