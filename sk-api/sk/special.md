@@ -2,7 +2,6 @@
 
 Špeciálne API sme vyvinuli pre prácu s podrobnými finančnými údajmi všetkých firiem a pre detailné sledovanie priebehov všetkých dôležitých konaní priamo vo vašom informačnom systéme.
 
-
 - [API na účtovné výkazy firiem](sk-api/sk/special/statement.md)
     - [GetStatements](sk-api/sk/special/statement?id=požiadavka-getstatements)
     - [GetStatementDetail](sk-api/sk/special/statement?id=požiadavka-getstatementdetail)
