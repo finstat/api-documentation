@@ -1,3 +1,4 @@
+#### ProceedingResult
 | Parameter | Popis |
 | ----------- | ----------- |
 | **DebtorsAddress** | List of addresses of debtors, bankrupt or defendants [`PersonAddress`](#PersonAddress). It depends on the type of event |

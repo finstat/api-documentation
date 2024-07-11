@@ -1,3 +1,4 @@
+#### ProceedingResult
 | Parameter | Popis |
 | ----------- | ----------- |
 | **DebtorsAddress** | Zoznam adries dlžníkov, úpadcov, obhajcov, záložníkov alebo povinných [`PersonAddress`](#PersonAddress). Záleží od typu udalosti.|
