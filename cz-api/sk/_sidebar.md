@@ -1,4 +1,5 @@
-- [Všeobecné informácie](cz-api/sk/common.md)
+- [Všeobecné informácie](cz-api/sk/common?id=o-api)
+    - [O API](cz-api/sk/common.md?id=o-api)
     - [Všeobecný opis výpočtu Hash funkcie](cz-api/sk/common.md?id=všeobecný-opis-výpočtu-hash-funkcie)
 - [Štandardné API](cz-api/sk/standard.md)
     - [Fakturačné](cz-api/sk/standard/invoice.md)
