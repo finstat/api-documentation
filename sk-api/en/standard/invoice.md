@@ -1,5 +1,5 @@
 # Invoice API
-Request to simple company data [`BasicResult`](#BasicResult)[`BasicResult`](#BasicResult)
+Request to simple company data [`BasicResult`](#BasicResult)
 
 ## Basic request
 Detail of company according company id *ico*
