@@ -31,7 +31,7 @@
         - [GetStatement2014Legend](sk-api/en/diff/statement2014?id=getstatement2014legend-request)
 - [Additional API](sk-api/en/additional.md)
     - [Autologin](sk-api/en/additional/autologin.md)
-    - [Portfolio Sync](sk-api/en/additional/monitoring.md)
+    - [Portfolio sync](sk-api/en/additional/monitoring.md)
         - [Company ID](sk-api/en/additional/monitoring-ico.md)
             - [MonitoringCategories](sk-api/en/additional/monitoring-ico?id=monitoringcategories-request)
             - [AddToMonitoring](sk-api/en/additional/monitoring-ico?id=addtomonitoring-request)
