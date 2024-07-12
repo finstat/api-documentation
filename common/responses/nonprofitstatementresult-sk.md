@@ -15,6 +15,6 @@ neziskové a rozpočtové organizácie
 | **Assets** | zoznam hodnôt aktív závierky [`AssetStatementValue`](#AssetStatementValue) |
 | **LiabilitiesAndEquity** | zoznam hodnôt pasív závierky  [`StatementValue`](#StatementValue) |
 | **Expenses** | zoznam hodnôt výdavkov závierky [`FinancialStatementValue`](#FinancialStatementValue) |
-| **Revenues** | oznam hodnôt výnosov závierky [`FinancialStatementValue`](#FinancialStatementValue) |
+| **Revenues** | zoznam hodnôt výnosov závierky [`FinancialStatementValue`](#FinancialStatementValue) |
 | **PreviousAccountingPeriodFrom** | dátum začiatku predošlého obdobia vo výkaze |
 | **PreviousAccountingPeriodTo** | dátum konca predošlého obdobia vo výkaze |

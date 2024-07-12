@@ -1,7 +1,7 @@
 # API na sledovanie dôležitých udalostí (Dátumy narodenia)
 
 ## Požiadavka MonitoringDateProceedings
-Požiadavka na zoznam konaní firiem [`ProceedingResult`](#ProceedingResult) za posledných 10 dní 
+Požiadavka na zoznam konaní osôb [`ProceedingResult`](#ProceedingResult) za posledných 10 dní 
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/monitoringdateproceedings```<br />
 > **Hash parameter**: dateproceedings
