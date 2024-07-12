@@ -1,6 +1,6 @@
 # Additional API
 - [Autologin](sk-api/en/additional/autologin.md)
-- [Portfolio Sync](sk-api/en/additional/monitoring.md)
+- [Portfolio sync](sk-api/en/additional/monitoring.md)
     - [Company ID](sk-api/en/additional/monitoring-ico.md)
         - [MonitoringCategories](sk-api/en/additional/monitoring-ico?id=monitoringcategories-request)
         - [AddToMonitoring](sk-api/en/additional/monitoring-ico?id=addtomonitoring-request)
