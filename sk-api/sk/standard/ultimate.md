@@ -1,4 +1,4 @@
-# Ultimat API
+# Ultimate API
 API slúži na vyžiadanie úplného detaily firmy
 
 ## Požiadavka ultimate
