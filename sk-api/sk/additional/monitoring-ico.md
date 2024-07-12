@@ -2,8 +2,12 @@
 
 [](monitoring-categories.md ':include')
 
-#### Návratové HTTP error kódy:
+### Parametre
+[](../../../common/parameters/parameters-sk.md ':include')
 
+> **Príklad volania:** ```https://www.finstat.sk/api/monitoringcategories?apikey=YourAPIKey&hash=05e261e4d5a50ceecfc584ca85623595ceae8b1de2a40252ea1472f13361b564&StationId=YourStationID&StationName=Your+Station+Name```
+
+#### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
 
 ## Požiadavka AddToMonitoring
@@ -25,7 +29,7 @@ Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní
 
 ## Požiadavka RemoveFromMonitoring
 Požiadavka na odobratie firmy z monitoringu.
-Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní do monitoringu
+Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom odobraní z monitoringu
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/removefrommonitoring```<br />
 > **Hash parameter**: {ico}
@@ -78,7 +82,7 @@ Požiadavka na zoznam udalostí firiem [`Monitoring`](#Monitoring) za poslednýc
 
 [](../../../common/responses/monitoring-ico-sk.md ':include')
 
-# Príklade XML odpovedí
+# Príklady XML odpovedí
 
 [](../../../common/examples/monitoring-categories.md ':include')
 
