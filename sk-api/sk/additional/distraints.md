@@ -23,13 +23,13 @@ Spoplatnená požiadavka.
 Vráti zoznam náhľadov exekúcii na základe vyhľadávaných id [`DistraintDetail`](#DistraintDetail). Spoplatnená požiadavka
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/requestdistraintdetail```<br />
-> **Hash parameter**: {token}{zodnam ids spojených do stringu bez oddeľovacov}
+> **Hash parameter**: {token}{zoznam ids spojených do stringu bez oddeľovacov}
 
 ### Parametre
 | Parameter | Popis |
 | ----------- | ----------- |
 | **token**<br />*[povinný]* | DetailToken |
-| **ids**<br />*[povinný]* | zoznam DetailId iddelené čiarkami |
+| **ids**<br />*[povinný]* | zoznam DetailId oddelené čiarkami |
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
