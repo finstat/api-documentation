@@ -1,5 +1,5 @@
 # Fakturačné API
-API slúži na vyžiadanie jednoduchého detailu firmy [`BasicResult`](#BasicResult)[`BasicResult`](#BasicResult)
+API slúži na vyžiadanie jednoduchého detailu firmy [`BasicResult`](#BasicResult)
 
 ## Požiadavka basic
 Výpis detailu firmy na základe parametra *ico*
