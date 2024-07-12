@@ -17,6 +17,7 @@ Požiadavka na získanie zoznamu [`DailyDiffList`](#DailyDiffList) všetkých s�
 
 ## Požiadavka GetUltimateFile
 Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
+Dopyt vráti dáta požadovaného **.zip** súboru
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/getultimatefile```<br />
 > **Hash parameter**: *{filename}*
@@ -30,9 +31,6 @@ Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum
 
 > **Príklad volania:** ```https://www.finstat.sk/api/getultimatefile?filename=ultimatediff-2024-02-08.zip&apikey=YourAPIKey&hash=50fce1c887049c20d0861d5173170e9d4d1a1db0bf4ba4c541bb4f19e5a154c2&StationId=YourStationID&StationName=Your+Station+Name```
 
-### Popis odpovede
-
-Dopyt vráti dáta požadovaného **.zip** súboru
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk-file.md ':include')
 

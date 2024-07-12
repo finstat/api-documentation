@@ -82,6 +82,8 @@ Request for current list of monitoring  [`MonitoringDate`](#MonitoringDate) even
 
 [](../../../common/responses/monitoring-date-en.md ':include')
 
+> **Note:** order of parameters can be different from list above
+
 # Example XML responses
 
 [](../../../common/examples/monitoring-categories.md ':include')

@@ -82,6 +82,8 @@ Request for current list of monitoring events [`Monitoring`](#Monitoring) that h
 
 [](../../../common/responses/monitoring-ico-en.md ':include')
 
+> **Note:** order of parameters can be different from list above
+
 # Example XML responses
 
 [](../../../common/examples/monitoring-categories.md ':include')

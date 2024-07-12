@@ -82,6 +82,8 @@ Požiadavka na zoznam udalostí firiem [`Monitoring`](#Monitoring) za poslednýc
 
 [](../../../common/responses/monitoring-ico-sk.md ':include')
 
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
 # Príklady XML odpovedí
 
 [](../../../common/examples/monitoring-categories.md ':include')

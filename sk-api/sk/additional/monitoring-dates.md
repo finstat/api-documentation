@@ -82,6 +82,8 @@ Požiadavka na zoznam udalostí osôb [`MonitoringDate`](#MonitoringDate) za pos
 
 [](../../../common/responses/monitoring-date-sk.md ':include')
 
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
 # Príklady XML odpovedí
 
 [](../../../common/examples/monitoring-categories.md ':include')

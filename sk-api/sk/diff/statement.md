@@ -1,11 +1,9 @@
 # Denný zmenový súbor na finančné výkazy
-Toto API poskytuje možnosť, ako získať prístup k dátam bez nutnosti každý deň dotazovať API na 
-zmeny. API vygeneruje pre každý deň, kedy nastala zmena, zmenový súbor obsahujúci posledné 
-zmeny v závierkach.
-API obsahuje informácie o všetkých závierkach. Firmy, u ktorých sa dlho neudiala žiadna zmena, majú 
-závierky v súboroch vygenerovaných po zverejnení poslednej závierky. 
-API je inkrementálny export, a tak sa niektoré závierky môžu nachádzať vo viacerých súboroch, kde 
-aktuálna hodnota je vždy v exporte s najnovším dátumom.
+Toto API poskytuje možnosť, ako získať prístup k dátam bez nutnosti každý deň dotazovať API na zmeny. API vygeneruje pre každý deň, kedy nastala zmena, zmenový súbor obsahujúci posledné zmeny v závierkach.
+
+API obsahuje informácie o všetkých závierkach. Firmy, u ktorých sa dlho neudiala žiadna zmena, majú závierky v súboroch vygenerovaných po zverejnení poslednej závierky. 
+
+API je inkrementálny export, a tak sa niektoré závierky môžu nachádzať vo viacerých súboroch, kde aktuálna hodnota je vždy v exporte s najnovším dátumom.
 
 ## Požiadavka GetListOfStatementDiffs
 Požiadavka na získanie zoznamu [`DailyDiffList`](#DailyDiffList) všetkých súborov zmien
@@ -20,7 +18,6 @@ Požiadavka na získanie zoznamu [`DailyDiffList`](#DailyDiffList) všetkých s�
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
-
 
 ## Požiadavka GetStatementFile
 Požiadavka na stiahnutie konkrétneho súboru zmeny pre konkrétny dátum.
@@ -37,9 +34,6 @@ Dopyt vráti dáta požadovaného **.zip** súboru
 [](../../../common/parameters/parameters-sk.md ':include')
 
 > **Príklad volania:** ```https://www.finstat.sk/api/getstatementfile?filename=statementdiff-2024-02-08.zip&apikey=YourAPIKey&hash=fe0198c59c4df2e7016181b809aadbce48a5006935038c4500111209b3c48686&StationId=YourStationID&StationName=Your+Station+Name```
-
-### Popis odpovede
-
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk-file.md ':include')
