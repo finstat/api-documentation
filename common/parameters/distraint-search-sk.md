@@ -1,10 +1,10 @@
 | Parameter | Popis |
 | ----------- | ----------- |
-| **search**<br />*[povinný]* | formát `{ico}\|{surname}\|{dateOfBirth}\|{city}\|{companyName}\|{fileReference}`. Nechcené stačí nastaviť ako prázdne resp. `null`.|
+| **search**<br />*[povinný]* | formát `{ico}\|{surname}\|{dateOfBirth}\|{city}\|{companyName}\|{fileReference}`. Nechcené stačí nastaviť ako prázdne alebo `null`.|
 
 - **ico** -	IČO
-- **surname** -	Priezvisko
-- **dateOfBirth** -	Dátum narodenia
-- **city** - Obec
-- **companyName** -	Názov spoločnosti
-- **fileReference** -Spisová značka súdu
+- **surname** -	priezvisko
+- **dateOfBirth** -	dátum narodenia
+- **city** - obec
+- **companyName** -	názov spoločnosti
+- **fileReference** - spisová značka súdu
