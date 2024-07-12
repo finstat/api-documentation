@@ -1,4 +1,4 @@
-# Portfolio Sync API
+# Portfolio synchronization API
 The API provides detailed information about the API structure itself to synchronize your portfolio to 
 FinStat (API for monitoring management). With this description, it is possible to use our API in any 
 programming language
