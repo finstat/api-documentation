@@ -10,5 +10,5 @@
 | **District**| district  of company's registered office  – can be empty |
 | **Region**| region  of company's registered office  – can be empty |
 | **Country**| country of company's registered office (if empty, then it is Slovak Republic) |
-| **Url**| company link on cz.finstat.sk or www.finstat.cz |
+| **Url**| company link on cz.finstat.sk <!-- or www.finstat.cz --> |
 | **Anonymized**| flag if record is anonymized (`true/false`) |
