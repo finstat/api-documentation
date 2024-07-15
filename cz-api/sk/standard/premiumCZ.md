@@ -2,7 +2,7 @@
 API slúži na vyžiadanie detailu firmy [`PremiumCZResult`](#PremiumCZResult)
 
 ---
-## Požiadavka premium
+## Požiadavka premiumcz
 Výpis detailu firmy na základe parametra *ico*
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/premiumcz```<br />
 > **Hash parameter**: {ico}
