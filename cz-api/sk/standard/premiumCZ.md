@@ -22,7 +22,7 @@ Výpis detailu firmy na základe parametra *ico*
 [](../../../common/http/errorcodes-sk.md ':include')
 
 # Štruktúra odpovede
-#### PremiumResult
+#### PremiumCZResult
 
 [](../../../common/responses/basiccz-sk.md ':include')
 
