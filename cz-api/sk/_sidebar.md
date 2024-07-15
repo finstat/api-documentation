@@ -3,7 +3,7 @@
     - [Všeobecný opis výpočtu Hash funkcie](cz-api/sk/common.md?id=všeobecný-opis-výpočtu-hash-funkcie)
 - [Štandardné API](cz-api/sk/standard.md)
     - [Fakturačné](cz-api/sk/standard/invoice.md)
-    - [Premium](cz-api/sk/standard/premium.md)
+    - [Základné](cz-api/sk/standard/basic.md)
     - [PremiumCZ](cz-api/sk/standard/premiumCZ.md)
 - [Doplnkové  API](cz-api/sk/additional.md)
     - [Autologin](cz-api/sk/additional/autologin.md)
