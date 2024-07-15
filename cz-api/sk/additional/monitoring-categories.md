@@ -2,8 +2,8 @@
 Požiadavka zistenie zoznamu kategórií [`MonitoringCategory`](#MonitoringCategory) užívateľa
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/monitoringcategories```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringcategories```<br /> -->
 > **Hash parameter**: monitoringcategories
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringcategories```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/parameters-sk.md ':include')

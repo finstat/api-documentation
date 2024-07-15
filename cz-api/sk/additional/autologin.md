@@ -8,8 +8,8 @@ platnosti, bude užívateľ presmerovaný na prihlasovací formulár
 Odpoveď pozostáva z jendého elementu obsahujúceho autologin link na vami zadanú url.
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/autologin```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/autologin```<br /> -->
 > **Hash parameter**: autologin
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/autologin```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/autologin-sk.md ':include')

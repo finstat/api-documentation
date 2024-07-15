@@ -11,8 +11,8 @@ Požiadavka na pridanie firmy do monitoringu.
 Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní do monitoringu
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/addtomonitoring```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/addtomonitoring```<br /> -->
 > **Hash parameter**: {ico}
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/addtomonitoring```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-addremove-ico-sk.md ':include')
@@ -29,8 +29,8 @@ Požiadavka na odobratie firmy z monitoringu.
 Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní do monitoringu
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/removefrommonitoring```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/removefrommonitoring```<br /> -->
 > **Hash parameter**: {ico}
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/removefrommonitoring```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-addremove-ico-sk.md ':include')
@@ -47,8 +47,8 @@ Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní
 Požiadavka na aktuálny zoznam firiem v monitoringu
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/monitoringlist```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringlist```<br /> -->
 > **Hash parameter**: list
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringlist```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-category-sk.md ':include')
@@ -67,8 +67,8 @@ Požiadavka na aktuálny zoznam firiem v monitoringu
 Požiadavka na zoznam udalostí firiem [`Monitoring`](#Monitoring) za posledných 30 dní pre aktuálne monitorované firmy
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/monitoringreport```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringreport```<br /> -->
 > **Hash parameter**: report
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringreport```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-category-sk.md ':include')

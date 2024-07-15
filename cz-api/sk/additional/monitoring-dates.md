@@ -11,8 +11,8 @@ Požiadavka na pridanie dátumu narodenia osoby do monitoringu.
 Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní do monitoringu
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/adddatetomonitoring```<br />
-<!--> **Dopytovaná URL**: ```https://www.finstat.cz/api/adddatetomonitoring```<br /> -->
 > **Hash parameter**: {date}
+<!--> **Dopytovaná URL**: ```https://www.finstat.cz/api/adddatetomonitoring```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-addremove-date-sk.md ':include')
@@ -29,8 +29,8 @@ Požiadavka na odobratie dátumu narodenia osoby z monitoringu.
 Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní do monitoringu
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/removedatefrommonitoring```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/removedatefrommonitoring```<br /> -->
 > **Hash parameter**: {date}
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/removedatefrommonitoring```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-addremove-date-sk.md ':include')
@@ -46,8 +46,8 @@ Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní
 Požiadavka na aktuálny zoznam dátumov narodenia osôb v monitoringu.
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/monitoringdatelist```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringdatelist```<br /> -->
 > **Hash parameter**: datelist
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringdatelist```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-category-sk.md ':include')
@@ -63,8 +63,8 @@ Požiadavka na aktuálny zoznam dátumov narodenia osôb v monitoringu.
 Požiadavka na zoznam udalostí osôb [`MonitoringDate`](#MonitoringDate) za posledných 30 dní pre aktuálne monitorované osoby
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/monitoringdatereport```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringdatereport```<br /> -->
 > **Hash parameter**: datereport
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/monitoringdatereport```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/monitoring-category-sk.md ':include')

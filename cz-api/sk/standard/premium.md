@@ -4,8 +4,9 @@ API slúži na vyžiadanie základného detailu firmy [`DetailResult`](#DetailRe
 ## Požiadavka detail
 Výpis detailu firmy na základe parametra *ico*
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/detail```<br />
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/detail```<br /> -->
 > **Hash parameter**: {ico}
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/detail```<br /> -->
+
 ### Parametre
 [](../../../common/parameters/detail-sk.md ':include')
 

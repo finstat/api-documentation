@@ -6,8 +6,8 @@ Vráti nápovedy na firmy uložené v databáze FinStat.sk na základe vyhľadá
 Nápovedu vráti v rámcu štruktúry [`ApiAutoComplete`](#ApiAutoComplete)
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/autocomplete```<br />
-<!-- >**Dopytovaná URL**: ```https://www.finstat.cz/api/autocomplete```<br /> -->
 > **Hash parameter**: {query}
+<!-- >**Dopytovaná URL**: ```https://www.finstat.cz/api/autocomplete```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/autocomplete-sk.md ':include')
