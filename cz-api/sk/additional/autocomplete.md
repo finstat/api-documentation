@@ -1,4 +1,4 @@
-# Autocomplete
+# AutocompleteCZ
 Api slúži na nájdenie hodntoty IČO alebo názvu firmy podľa vyhľadávanéo reťazca
 
 ## Požiadavka autocomplete

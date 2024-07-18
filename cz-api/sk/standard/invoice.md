@@ -1,4 +1,4 @@
-# Fakturačné API
+# FakturačnéCZ API
 API slúži na vyžiadanie jednoduchého detaily firmy [`BasicResult`](#BasicResult)
 
 ## Požiadavka basic

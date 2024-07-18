@@ -1,4 +1,4 @@
-# Základné API
+# ZákladnéCZ API
 API slúži na vyžiadanie základného detailu firmy [`DetailResult`](#DetailResult)
 
 ## Požiadavka detail

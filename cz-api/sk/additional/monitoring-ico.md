@@ -1,4 +1,4 @@
-# API na synchronizáciu portfólia (IČO)
+# API na synchronizáciu portfólia CZ (IČO)
 
 [](monitoring-categories.md ':include')
 

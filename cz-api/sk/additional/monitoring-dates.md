@@ -1,4 +1,4 @@
-# API na synchronizáciu portfólia (Dátumy narodenia)
+# API na synchronizáciu portfólia CZ (Dátumy narodenia)
 
 [](monitoring-categories.md ':include')
 
