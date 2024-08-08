@@ -17,7 +17,7 @@ Tento endpoint poskytuje dáta o spoločnosti identifikovanej pomocou ID
 V tejto ukážke je volanie na slovenskú spoločnosť s ID 47165367
 > **Príklad volania:** ```GET https://api.hithorizons.com/invoicing/sk/Company/Detail?id=47165367 HTTP/1.1 Host: api.hithorizons.com Ocp-Apim-Subscription-Key: YOUR_API_KEY```
 
-### Popis odpovede
+# Štruktúra odpovede
 
 #### CompanyDetailResult
 
@@ -71,7 +71,9 @@ V tejto ukážke je volanie na slovenskú spoločnosť s ID 47165367
 | **Type** | `string` | typ identifikátora |
 | **Value** | `string` | hodnota identifikátora |
 
-### Príklad XML odpovede
+> **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
+
+# Príklad XML odpovede
 ``` json
 {
     "Success": true,
