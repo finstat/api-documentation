@@ -113,3 +113,11 @@ na dvojmiestny HEX formát, teda 0 => "00", 255 =>"FF".
 [](../../common/code/vba.md ':include')
 #### ASP Clasic
 [](../../common/code/aspclasic.md ':include')
+
+## Klientské knižnice a zdrojové kódy
+### C#
+> [Zdrojový kód](https://github.com/finstat/ClientApi.CSharp)
+
+> [Knižnice](https://github.com/finstat/ClientApi.CSharp/releases)
+### PHP
+> [Zdrojový kód](https://github.com/finstat/ClientApi.PHP)

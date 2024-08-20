@@ -27,6 +27,7 @@
   <OwnershipCode>14200</OwnershipCode>
   <UnReliability xsi:nil="true" />
   <RegisterNumberText>Úřad příslušný podle §71 odst.2 živnostenského zákona: Magistrát města Ostravy</RegisterNumberText>
+  <TradeLicensingOffice xsi:nil="true" />
   <ActualYear xsi:nil="true" />
   <SalesActual xsi:nil="true" />
   <ProfitActual xsi:nil="true" />

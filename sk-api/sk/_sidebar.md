@@ -1,6 +1,7 @@
 - [Všeobecné informácie](sk-api/sk/common.md)
     - [O API](sk-api/sk/common.md?id=o-api)
     - [Všeobecný opis výpočtu Hash funkcie](sk-api/sk/common.md?id=všeobecný-opis-výpočtu-hash-funkcie)
+    - [Klientské knižnice a zdrojové kódy](sk-api/sk/common.md?id=klientské-knižnice-a-zdrojové-kódy)
 - [Štandardné API](sk-api/sk/standard.md)
     - [Fakturačné](sk-api/sk/standard/invoice.md)
     - [Premium](sk-api/sk/standard/premium.md)

@@ -1,6 +1,7 @@
 - [General info](sk-api/en/common.md)
     - [About API](sk-api/en/common.md?id=about-api)
     - [General description of Hash function calculation](sk-api/en/common.md?id=general-description-of-hash-function-calculation)
+    - [Client libraries and source code](sk-api/en/common.md?id=client-libraries-and-source-code)
 - [Standard](sk-api/en/standard.md)
     - [Invoice API](sk-api/en/standard/invoice.md)
     - [Premium API](sk-api/en/standard/premium.md)

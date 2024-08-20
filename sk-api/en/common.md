@@ -89,3 +89,11 @@ The purpose of the hash function is to check up on a customer request using hash
 [](../../common/code/vba.md ':include')
 #### ASP Clasic
 [](../../common/code/aspclasic.md ':include')
+
+## Client libraries and source code
+### C#
+> [Source code](https://github.com/finstat/ClientApi.CSharp)
+
+> [Libraries](https://github.com/finstat/ClientApi.CSharp/releases)
+### PHP
+> [Source code](https://github.com/finstat/ClientApi.PHP)
