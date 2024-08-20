@@ -121,3 +121,5 @@ na dvojmiestny HEX formát, teda 0 => "00", 255 =>"FF".
 > [Knižnice](https://github.com/finstat/ClientApi.CSharp/releases)
 ### PHP
 > [Zdrojový kód](https://github.com/finstat/ClientApi.PHP)
+
+> [Knižnice](https://github.com/finstat/ClientApi.PHP/releases)

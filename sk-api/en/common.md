@@ -97,3 +97,5 @@ The purpose of the hash function is to check up on a customer request using hash
 > [Libraries](https://github.com/finstat/ClientApi.CSharp/releases)
 ### PHP
 > [Source code](https://github.com/finstat/ClientApi.PHP)
+
+> [Libraries](https://github.com/finstat/ClientApi.PHP/releases)
