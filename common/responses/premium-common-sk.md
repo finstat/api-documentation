@@ -1,7 +1,7 @@
 ##### Spoločné detail parametre:
 | Parameter | Popis |
 | ----------- | ----------- |
-| **RegisterNumberText** | textový popis registračných údajov – môže byť prázdny <ul><li>pre s.r.o. v tvare: Zapísaná na Okr. súde XXXXX, odd. Sro, vl.č.xxxx/L</li><li>pre živnostníka: Číslo živn.registra: xxx-xxxx, okresný úrad XXXXX </li></ul>|
+| **RegisterNumberText** | textový popis registračných údajov – môže byť prázdny <ul><li>pre s.r.o. v tvare: Obchodný register XXXX súdu XXXXX, odd. Sro, vl.č.xxxx/x</li><li>pre živnostníka: Okresný úrad XXXXX, Číslo živn.registra: xxx-xxxx</li></ul>|
 | **Activity** | odvetvie podľa FinStat kategorizácie - može byť prázdne |
 | **Created** | dátum vzniku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
 | **Cancelled** | dátum zániku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
