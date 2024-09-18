@@ -7,7 +7,7 @@
 | **OwnershipTypeCode** | druh vlastníctva kód - môže byť prázdny |
 | **BankAccounts** | zoznam aktuálne nahlásených účtov [`BankAccount`](#BankAccount) – môže byť prázdny |
 | **Unreliability** | ozačenie či je nedôverihodný platca /osoba|
-| **RegisterNumberText** | textový popis registračných údajov – môže byť prázdny <ul><li>Obchodný register Okresného súdu XXXXX, oddiel: CX vložka č. XXXX/XXXX</li></ul>|
+| **RegisterNumberText** | textový popis registračných údajov – môže byť prázdny <ul><li>Obchodný register XXXX súdu XXXXX, oddiel: xxx, vložka č.xxxx/x</li></ul>|
 | **TradeLicensingOffice** | evidujúci úrad z Registra živnostenského podnikania - môže byť prázdny <ul><li>XXXXX</li></ul>|
 | **ActualYear**| rok poslednej finančnej závierky |
 | **SalesActual**| hodnota tržieb za posledný dosupný rok |

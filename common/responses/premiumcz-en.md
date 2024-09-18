@@ -7,7 +7,7 @@
 | **OwnershipTypeCode** |  ownership type code  - can be empty |
 | **BankAccounts** | list of actual [`BankAccount`](#BankAccount) from bureau – can be empty |
 | **Unreliability** | flag if subject is unreliabile payer or person|
-| **RegisterNumberText** | text description of the registration data - can be empty <ul><li>Obchodný register Okresného súdu XXXXX, oddiel: CX vložka č. XXXX/XXXX</li></ul>|
+| **RegisterNumberText** | text description of the registration data - can be empty <ul><li>Obchodný register XXXX súdu XXXXX, oddiel: xxx, vložka č.xxxx/x</li></ul>|
 | **TradeLicensingOffice** | trade office info for self employed subject - can be empty <ul><li>XXXXX</li></ul>|
 | **ActualYear**| year of published financial data – can be empty |
 | **SalesActual**| earnings (last published year) – can be empty |
