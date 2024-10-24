@@ -1,5 +1,5 @@
 # Autocomplete
-Api slúži na nájdenie hodntoty IČO alebo názvu firmy podľa vyhľadávanéo reťazca
+Api slúži na nájdenie hodntoty IČO alebo názvu firmy podľa vyhľadávaného reťazca
 
 ## Požiadavka autocomplete
 Vráti nápovedy na firmy uložené v databáze FinStat.sk na základe vyhľadávaného reťazca *query*.
