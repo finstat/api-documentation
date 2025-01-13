@@ -4,6 +4,7 @@ Api for company name or company  identification number *IČO* serch according gi
 ## Autocomplete request
 Returns suggestions of companies stored on FinStat.sk according requested *query*.
 Suggestions are returned as [`ApiAutoComplete`](#ApiAutoComplete) structure
+Send request query will be automatically shortened by the server to the first 100 words for performance reasons.
 
 > **Requested URL**: ```https://www.finstat.sk/api/autocomplete```<br />
 > **Hash parameter**: {query}

@@ -4,6 +4,7 @@ Api slúži na nájdenie hodntoty IČO alebo názvu firmy podľa vyhľadávanéh
 ## Požiadavka autocomplete
 Vráti nápovedy na firmy uložené v databáze FinStat.sk na základe vyhľadávaného reťazca *query*.
 Nápovedu vráti v rámcu štruktúry [`ApiAutoComplete`](#ApiAutoComplete)
+Odoslaný vyhľadávaný reťazec bude z výkonnostých dôvodov serverom automatický skrátený na prvých 100 slov.
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/autocomplete```<br />
 > **Hash parameter**: {query}
