@@ -12,5 +12,5 @@
 | **ActualYear**| year of published financial data – can be empty |
 | **SalesActual**| earnings (last published year) – can be empty |
 | **ProfitActual**| total sum of sales (last published year) – can be empty |
-| **Sales**| flag of sales movement in comparasion to previous published year. Enum type (Unknown, Up, Down) |
-| **Profit**| flag of profit movement in comparasion to previous published year. Enum type (Unknown, Up, Down, Loss) |
+| **Sales**| flag of sales movement in comparasion to previous published year. Enum type (`Unknown, Up, Down`) |
+| **Profit**| flag of profit movement in comparasion to previous published year. Enum type (`Unknown, Up, Down, Loss`) |
