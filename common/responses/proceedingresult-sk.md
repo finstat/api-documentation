@@ -12,3 +12,9 @@
 | **Officers** | zoznam správcov [`Officer`](#Officer) |
 | **Deadlines** | zoznam aktuálnych lehôt [`Deadline`](#Deadline) |
 | **Status** | stav konania podľa Registra úpadcov |
+
+#### BankruptResult
+Štruktúra parametrov je totožná s [`ProceedingResult`](#ProceedingResult)
+
+#### RestructuringResult
+Štruktúra parametrov je totožná s [`ProceedingResult`](#ProceedingResult)

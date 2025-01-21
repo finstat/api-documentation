@@ -12,8 +12,8 @@
 | **AddressHistory** | zoznam historických adries firmy [`HistoryAddress`](#HistoryAddress) |
 | **StatutoryAction** | konanie štatutárov text |
 | **ProcurationAction** | konanie prokúry text |
-| **Bankrupt** | informácia o konkurze [`BankruptResult`](#ProceedingResult) |
-| **Restructuring** | informácia o reštrukturalizácii [`RestructuringResult`](#ProceedingResult) |
+| **Bankrupt** | informácia o konkurze [`BankruptResult`](#BankruptResult) |
+| **Restructuring** | informácia o reštrukturalizácii [`RestructuringResult`](#RestructuringResult) |
 | **Liquidation** | informácia o likvidácii [`LiquidationResult`](#LiquidationResult) |
 | **ORCancelled** | dátum zrušenia firmy podľa Obchodného registra |
 | **OtherProceeding** | informácia o inom konaní (o oddlžení) [`ProceedingResult`](#ProceedingResult) |

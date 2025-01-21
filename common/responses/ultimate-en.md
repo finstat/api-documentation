@@ -12,8 +12,8 @@
 | **AddressHistory** | list of historical addresses [`HistoryAddress`](#HistoryAddress) |
 | **StatutoryAction** | action of statutory - text description |
 | **ProcurationAction** | action of procuration - text description |
-| **Bankrupt** | information about bancrupcy [`BankruptResult`](#ProceedingResult) |
-| **Restructuring** | information about restructuralization [`RestructuringResult`](#ProceedingResult) |
+| **Bankrupt** | information about bancrupcy [`BankruptResult`](#BankruptResult) |
+| **Restructuring** | information about restructuralization [`RestructuringResult`](#RestructuringResult) |
 | **Liquidation** | information about liquidation [`LiquidationResult`](#LiquidationResult) |
 | **ORCancelled** | date of the company cancellation in the Business Register |
 | **OtherProceeding** | information about other proceeding [`ProceedingResult`](#ProceedingResult) |

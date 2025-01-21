@@ -12,3 +12,9 @@
 | **Officers** | list of officiers [`Officer`](#Officer) |
 | **Deadlines** | deadlines in proceeding [`Deadline`](#Deadline) |
 | **Status** | proceeding state |
+
+#### BankruptResult
+Structure of parameters is the same as in [`ProceedingResult`](#ProceedingResult)
+
+#### RestructuringResult
+Structure of parameters is the same as in [`ProceedingResult`](#ProceedingResult)
