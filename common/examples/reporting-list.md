@@ -2,6 +2,7 @@
 <?xml version="1.0"?>
 <ArrayOfReportOutput xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ReportOutput>
+    <FileName>cancelledcompanies-testzanik-sro-as-2023-11-14</FileName>
     <Description>testzanik-sro-as</Description>
     <Topic>Zánik firiem</Topic>
     <Group>Vzniky a zániky</Group>
