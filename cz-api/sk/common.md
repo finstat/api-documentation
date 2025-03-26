@@ -65,7 +65,7 @@ Pre možnosť vrátiť odpoveď API vo formáte JSON použite jeden z nasledujú
 FinStat API bolo vytvorené, aby bolo možné jednoducho prenášať údaje medzi FinStat servermi 
 a Vašou aplikáciou. Kvôli bezpečnostným rizikám a zamedzeniu nadbytočným API volaniam, 
 neimplementujte svojho klienta formou, ktorou by ste zverejnili svoje prístupové kľúče tretím 
-stranám alebo by mohlo dochádzalo k častému nežiadanému volaniu. 
+stranám alebo by mohlo dochádzať k častému nežiadanému volaniu. 
 
 Nevhodnou implementáciou je napríklad vytvorenie javas-criptového klienta, ktorý by volal API 
 priamo z prehliadača užívateľa. Vystavujete sa riziku, že Vaše prístupové údaje budú zneužité 
