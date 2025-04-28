@@ -16,7 +16,7 @@
         - [Company ID](sk-api/en/special/proceeding-ico.md)
         - [Dates of birth](sk-api/en/special/proceeding-dates.md)
     - [API for tracking bankruptcy and restructuring](sk-api/en/special/bankruptcyrestructuring.md)
-        - [Dates of birth](sk-api/en/special/bankruptcyrestructuring.md?id=personbankruptcyrestructuring-request)
+        - [Dates of birth](sk-api/en/special/bankruptcyrestructuring.md?id=personbankruptcyproceedings-request)
         - [Company ID](sk-api/en/special/bankruptcyrestructuring.md?id=companybankruptcyrestructuring-request)
 - [Daily diff files](sk-api/en/diff.md)
     - [Exteded company data](sk-api/en/diff/daily.md)

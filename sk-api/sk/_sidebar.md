@@ -16,7 +16,7 @@
         - [IČO](sk-api/sk/special/proceeding-ico.md)
         - [Dátumy narodenia](sk-api/sk/special/proceeding-dates.md)
     - [Sledovanie konkurzných a reštrukturalizačných konaní](sk-api/sk/special/bankruptcyrestructuring.md)
-        - [Dátumy narodenia](sk-api/sk/special/bankruptcyrestructuring.md?id=požiadavka-personbankruptcyrestructuring)
+        - [Dátumy narodenia](sk-api/sk/special/bankruptcyrestructuring.md?id=požiadavka-personbankruptcyproceedings)
         - [IČO](sk-api/sk/special/bankruptcyrestructuring.md?id=požiadavka-companybankruptcyrestructuring)
 - [Denné zmenové súbory](sk-api/sk/diff.md)
     - [S rozšírenými údajmi o firmách](sk-api/sk/diff/daily.md)
