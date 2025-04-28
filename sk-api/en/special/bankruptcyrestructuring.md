@@ -1,54 +1,5 @@
-# Bankruptcy and restructuring API 
+# API for tracking bankruptcy and restructuring
+Tracking bankruptcy and restructuring proceedings
 
-## PersonBankruptcyProceedings request
-Request for a list of persons bankruptcy and restructuring proceedings [`BankruptcyRestructuring`](#BankruptcyRestructuring).
-> **Requested URL**: ```https://www.finstat.sk/api/PersonBankruptcyProceedings```<br />
-> **Hash parameter**: {name}|{surname}|{dateofbirth}
-
-> **Warning**: due to the need for clarity, the hash calculation must utilize the specified format for. *{dateofbirth}* `yyyy-mm-dd`
-
-### Parameters
-| Parameter | Description |
-| ----------- | ----------- |
-| **name**<br />*[mandatory]*| person name |
-| **surname**<br />*[mandatory]*| person surname |
-| **dateofbirth**<br />*[mandatory]*| date of birth of the person. Supported formats. `"dd.mm.yyyy", "d.m.yyyy", "dd.m.yyyy", "d.mm.yyyy", "yyyy-mm-dd", "mm/dd/yyyy"` 
-
-[](../../../common/parameters/parameters-sk.md ':include')
-
-
-> **Example call:** ```https://www.finstat.sk/api/PersonBankruptcyProceedings?name=peter&surname=toth&dateofbirth=1988-08-16&apiKey=YourAPIKey&hash=b1f071914dc48db219c7865a057e4a72d1dd6a60b919eeda3ac475a9ac7a45c4&StationId=YourStationID&StationName=Your+Station+Name```
-
-
-## CompanyBankruptcyRestructuring request
-Request for a list of company bankruptcy and restructuring proceedings [`BankruptcyRestructuring`](#BankruptcyRestructuring).
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/CompanyBankruptcyRestructuring```<br />
-> **Hash parameter**: {ico} or {name} 
-
->**Warning**: only one of the parameters should be sent, not both.
-
-### Parameters
-| Parameter | Description |
-| ----------- | ----------- |
-| **ico**<br />*[mandatory]*|  TIN of company if *name* is not  filled in  |
-| **name**<br />*[mandatory]*| name of company if *ICO* is not  filled in   |
-
-[](../../../common/parameters/parameters-en.md ':include')
-
-
-> **Example call:** ```https://www.finstat.sk/api/CompanyBankruptcyRestructuring?ico=36381250&apiKey=YourAPIKey&hash=3fa36ce129f7757f57a8104ef045f9bfaff7d1868c3609238948851dfe9b6497&StationId=YourStationID&StationName=Your+Station+Name```
-
-> **Example call:** ```https://www.finstat.sk/api/CompanyBankruptcyRestructuring?name=talise&apiKey=YourAPIKey&hash=103915d0f482a6d1ea95848c52b2435f752cd8e4c8eed7cb9adadb9790136384&StationId=YourStationID&StationName=Your+Station+Name```
-
-#### HTTP return error codes:
-[](../../../common/http/errorcodes-en.md ':include')
-
-# Response structures
-[](../../../common/responses/bankruptcyrestructuring-en.md ':include')
-
-[](../../../common/responses/personaddress-en.md ':include')
-
-> **Note:**  order of parameters can be different from list above
-
-# Example XML response
-[](../../../common/examples/bankruptcyrestructuring.md ':include')
+- [API for tracking bankruptcy and restructuring Dates of birth](sk-api/en/special/bankruptcyrestructuring-person.md)
+- [API for tracking bankruptcy and restructuring Company ID](sk-api/en/special/bankruptcyrestructuring-company.md)
