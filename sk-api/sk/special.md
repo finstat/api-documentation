@@ -9,3 +9,6 @@
 - [API na sledovanie dôležitých udalostí](sk-api/sk/special/proceeding.md)
     - [IČO](sk-api/sk/special/proceeding-ico.md)
     - [Dátumy narodenia](sk-api/sk/special/proceeding-dates.md)
+- [API na sledovanie konkurzných a reštrukturalizačných konaní](sk-api/sk/special/bankruptcyrestructuring.md)
+    - [Dátumy narodenia](sk-api/sk/special/bankruptcyrestructuring.md?id=požiadavka-personbankruptcyrestructuring)
+    - [IČO](sk-api/sk/special/bankruptcyrestructuring.md?id=požiadavka-companybankruptcyrestructuring)

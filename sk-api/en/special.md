@@ -9,3 +9,6 @@ We have developed a special API for working with detailed financial data of all 
 - [API for tracking important events](sk-api/en/special/proceeding.md)
     - [Company ID](sk-api/en/special/proceeding-ico.md)
     - [Dates of birth](sk-api/en/special/proceeding-dates.md)
+- [API for tracking bankruptcy and restructuring](sk-api/en/special/bankruptcyrestructuring.md)
+        - [Dates of birth](sk-api/en/special/bankruptcyrestructuring.md?id=personbankruptcyrestructuring-request)
+        - [Company ID](sk-api/en/special/bankruptcyrestructuring.md?id=companybankruptcyrestructuring-request)
