@@ -32,6 +32,8 @@ Požiadavka na zoznam konaní subjektkov [`BankruptcyRestructuring`](#Bankruptcy
 
 [](../../../common/responses/personaddress-sk.md ':include')
 
+[](../../../common/responses/deadline-sk.md ':include')
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 # Príklad XML odpovede

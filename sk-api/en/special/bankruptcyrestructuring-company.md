@@ -31,6 +31,8 @@ Request for a list of company bankruptcy and restructuring proceedings [`Bankrup
 
 [](../../../common/responses/personaddress-en.md ':include')
 
+[](../../../common/responses/deadline-en.md ':include')
+
 > **Note:**  order of parameters can be different from list above
 
 # Example XML response

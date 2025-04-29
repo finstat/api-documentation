@@ -17,10 +17,20 @@
     <FirstRecordDate>2014-04-30T00:00:00</FirstRecordDate>
     <LastRecordDate>2015-01-16T00:00:00</LastRecordDate>
     <OVState>Iné zverejnenie - Oznámenia správcov</OVState>
+    <OVStateDate>2015-01-16T00:00:00</OVState>
+    <RUState>ukončené</OVState>
+    <RUStateDate>2015-01-16T00:00:00</OVState>
     <EnterDate>2014-06-07T00:00:00</EnterDate>
     <ExitDate>2015-01-13T00:00:00</ExitDate>
     <EndState>ukončené</EndState>
-    <Deadline xsi:nil="true" />
+    <EndReason>nedostatok ...</EndState>
+    <Deadlines>
+      <Deadline>
+        <Type>Lehota</Type>
+        <Date>2015-01-13T00:00:00</Date>
+      </Deadline>
+      ...
+    </Deadlines>
     <FinstatURL>https://finstat.sk/konkurzy-restrukturalizacie/...</FinstatURL>
   </BankruptcyRestructuring>
   ...
