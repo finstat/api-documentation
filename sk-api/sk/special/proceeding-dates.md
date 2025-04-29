@@ -23,8 +23,6 @@ Požiadavka na zoznam konaní osôb [`ProceedingResult`](#ProceedingResult) za p
 
 [](../../../common/responses/administratoraddress-sk.md ':include')
 
-[](../../../common/responses/court-sk.md ':include')
-
 [](../../../common/responses/issuedperson-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu

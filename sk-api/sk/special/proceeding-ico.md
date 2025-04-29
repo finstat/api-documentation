@@ -23,8 +23,6 @@ Požiadavka na zoznam konaní firiem [`ProceedingResult`](#ProceedingResult) za 
 
 [](../../../common/responses/administratoraddress-sk.md ':include')
 
-[](../../../common/responses/court-sk.md ':include')
-
 [](../../../common/responses/issuedperson-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu

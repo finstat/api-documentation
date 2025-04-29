@@ -23,8 +23,6 @@ Request for a list of proceedings [`ProceedingResult`](#ProceedingResult) for th
 
 [](../../../common/responses/administratoraddress-en.md ':include')
 
-[](../../../common/responses/court-en.md ':include')
-
 [](../../../common/responses/issuedperson-en.md ':include')
 
 > **Note:** order of parameters can be different from list above
