@@ -1,5 +1,6 @@
 #### PersonAddress
-Štruktúra parametrov je totožná s [`FullAddress`](#FullAddress)
+Štruktúra parametrov je rozšírená od [`FullAddress`](#FullAddress)
+
 | Parameter | Popis |
 | ----------- | ----------- |
 | **BirthDate** | dátum narodenia ak je dostupný |

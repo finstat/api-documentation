@@ -25,7 +25,9 @@ Request for a list of company bankruptcy and restructuring proceedings [`Bankrup
 # Response structures
 [](../../../common/responses/bankruptcyrestructuring-en.md ':include')
 
-[](../../../common/responses/fullddress-en.md ':include')
+[](../../../common/responses/address-en.md ':include')
+
+[](../../../common/responses/fulladdress-en.md ':include')
 
 [](../../../common/responses/personaddress-en.md ':include')
 

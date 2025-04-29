@@ -1,5 +1,6 @@
 #### AdministratorAddress
-Structure of parameters is the same as in [`PersonAddress`](#PersonAddress)
+Structure of parameters is extended from [`PersonAddress`](#PersonAddress)
+
 | Parameter | Description |
 | ----------- | ----------- |
 | **Id** | ID of administrator from register if available |

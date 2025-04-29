@@ -17,7 +17,9 @@ Request for a list of proceedings [`ProceedingResult`](#ProceedingResult) for th
 # Response structures
 [](../../../common/responses/monitoring-proceedings-en.md ':include')
 
-[](../../../common/responses/fullddress-en.md ':include')
+[](../../../common/responses/address-en.md ':include')
+
+[](../../../common/responses/fulladdress-en.md ':include')
 
 [](../../../common/responses/personaddress-en.md ':include')
 

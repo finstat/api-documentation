@@ -70,6 +70,10 @@ Výpis detailu firmy na základe parametra *ico* [`UltimateResult`](#UltimateRes
 
 [](../../../common/responses/functionassigmenttype-sk.md ':include')
 
+[](../../../common/responses/address-sk.md ':include')
+
+[](../../../common/responses/fulladdress-sk.md ':include')
+
 [](../../../common/responses/court-sk.md ':include')
 
 [](../../../common/responses/historyaddress-sk.md ':include')

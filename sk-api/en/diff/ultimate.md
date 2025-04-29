@@ -47,7 +47,7 @@ Returns data of requested **.zip** file
 
 [](../../../common/responses/extendeddiffother-en.md ':include')
 
-[](../../../common/responses/ultimatediffother-en.md':include')
+[](../../../common/responses/ultimatediffother-en.md ':include')
 
 > **Note:** order of parameters can be different from list above
 

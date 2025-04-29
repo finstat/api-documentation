@@ -1,5 +1,6 @@
 #### PersonAddress
-Structure of parameters is the same as in [`FullAddress`](#FullAddress)
+Structure of parameters is extended from [`FullAddress`](#FullAddress)
+
 | Parameter | Description |
 | ----------- | ----------- |
 | **BirthDate** | birthday, if available |

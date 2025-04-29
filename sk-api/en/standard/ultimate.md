@@ -70,6 +70,10 @@ Detail of company according company *ico* [`UltimateResult`](#UltimateResult)
 
 [](../../../common/responses/functionassigmenttype-en.md ':include')
 
+[](../../../common/responses/address-en.md ':include')
+
+[](../../../common/responses/fulladdress-en.md ':include')
+
 [](../../../common/responses/court-en.md ':include')
 
 [](../../../common/responses/historyaddress-en.md ':include')

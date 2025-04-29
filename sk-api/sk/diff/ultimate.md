@@ -47,7 +47,7 @@ Dopyt vráti dáta požadovaného **.zip** súboru
 
 [](../../../common/responses/extendeddiffother-sk.md ':include')
 
-[](../../../common/responses/ultimatediffother-sk.md':include')
+[](../../../common/responses/ultimatediffother-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 

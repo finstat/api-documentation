@@ -26,7 +26,9 @@ Požiadavka na zoznam konaní subjektkov [`BankruptcyRestructuring`](#Bankruptcy
 # Štruktúra odpovede
 [](../../../common/responses/bankruptcyrestructuring-sk.md ':include')
 
-[](../../../common/responses/fullddress-sk.md ':include')
+[](../../../common/responses/address-sk.md ':include')
+
+[](../../../common/responses/fulladdress-sk.md ':include')
 
 [](../../../common/responses/personaddress-sk.md ':include')
 
