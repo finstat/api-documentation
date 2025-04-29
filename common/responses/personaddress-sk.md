@@ -1,13 +1,6 @@
 #### PersonAddress
-| Parameter | Description |
+Štruktúra parametrov je totožná s [`FullAddress`](#FullAddress)
+| Parameter | Popis |
 | ----------- | ----------- |
 | **BirthDate** | dátum narodenia ak je dostupný |
 | **Ico** | IČO ak je dostupné |
-| **Name** | názov ak je dostupný |
-| **Street** | ulica ak je dostupná |
-| **StreetNumber** | popisné číslo ak je dostupné |
-| **ZipCode** | PSČ ak je dostupné |
-| **City** | Mesto ak je dostupné |
-| **District** | okres ak je dostupný |
-| **Region** | kraj ak je dostupný |
-| **Country** | krajina ak je dostupná |

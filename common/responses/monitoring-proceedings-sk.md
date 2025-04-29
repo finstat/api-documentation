@@ -4,7 +4,7 @@
 | **DebtorsAddress** | Zoznam adries dlžníkov, úpadcov, obhajcov, záložníkov alebo povinných [`PersonAddress`](#PersonAddress). Záleží od typu udalosti.|
 | **ProposersAddress** | Zoznam adries navrhovateľov, resp. oprávnených [`PersonAddress`](#PersonAddress). Záleží od typu udalosti. |
 | **AdministratorsAddress** | Zoznam adries správcov alebo veriteľov [`AdministratorAddress`](#AdministratorAddress) |
-| **CourtsAddress** | Adresa súdu ak bola dostupná [`CourtAddress`](#CourtAddress) |
+| **CourtsAddress** | Adresa súdu ak bola dostupná [`FullAddress`](#FullAddress) |
 | **ReferenceFileNumber** | Referenčné číslo spisu na súde, typ záložného práva, typ vyrovnania, druh oznámenia, typ OV podania, spisová značka poverenia |
 | **Character** | Povaha rozhodnutia |
 | **Status** | Stav konania |

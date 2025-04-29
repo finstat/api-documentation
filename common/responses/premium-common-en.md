@@ -6,7 +6,7 @@
 | **Created** | incorporation date in format `RRRR-MM-DDTHH:MM:SS` – can be empty |
 | **Cancelled** | company dissolution date in a format `RRRR-MM-DDTHH:MM:SS` – can be empty |
 | **SuspendedAsPerson** | flag if entrepreneur (self employed) is suspended (`true/false`) |
-| **IcDphAdditional** | detailed information about VAT RN – [`IcDphAdditional`](#IcDphAdditional) – can be empty |
+| **IcDphAdditional** | detailed information about VAT RN – [`IcDphAdditionalData`](#IcDphAdditionalData) – can be empty |
 | **Warning** | flag if the company can be found in a list of debtors, bankrupties or liquidations (`true/false`) |
 | **WarningUrl** | link to detailed information about a list of debtors, bankrupties or liquidation – can be empty |
 | **PaymentOrderWarning** | flag if a payment order was issued for the company  (`true/false`) |

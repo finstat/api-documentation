@@ -7,7 +7,7 @@
 | **Persons** |  zoznam osôb vyparsovaných z ORSR [`Person`](#Person)|
 | **RpvsPersons** | zoznam osôb vyparsovaných z RPVS [`RpvsPerson`](#RpvsPerson)|
 | **PaybackRange** | rozsah splatenia |
-| **RegistrationCourt** | súd kde bola spoločnosť registrovaná  [`CourtAddress`](#CourtAddress)|
+| **RegistrationCourt** | súd kde bola spoločnosť registrovaná  [`Court`](#Court)|
 | **WebPages** | zoznam webových stránok firmy `string` |
 | **AddressHistory** | zoznam historických adries firmy [`HistoryAddress`](#HistoryAddress) |
 | **StatutoryAction** | konanie štatutárov text |

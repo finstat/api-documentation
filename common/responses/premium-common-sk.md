@@ -6,7 +6,7 @@
 | **Created** | dátum vzniku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
 | **Cancelled** | dátum zániku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
 | **SuspendedAsPerson** | príznak či má osoba pozastavenú živnosť (`true/false`) |
-| **IcDphAdditional** | detail IČ DPH pre detailné informácie o DPH [`IcDphAdditional`](#IcDphAdditional) – môže byť prázdny |
+| **IcDphAdditional** | detail IČ DPH pre detailné informácie o DPH [`IcDphAdditionalData`](#IcDphAdditionalData) – môže byť prázdny |
 | **Warning** | príznak, či sa daná firma nachádza v zozname dlžníkov, má pohľadávku, konkurz (resp. oddlženie), poverenie na vykonanie exekúcie alebo likvidáciu (`true/false`) |
 | **WarningUrl** | odkaz na podrobné informácie o rizikovej udalosti – môže byť prázdny |
 | **PaymentOrderWarning** | príznak, či bol pre danú firmu vydaný platobný rozkaz (`true/false`) |

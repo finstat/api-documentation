@@ -1,4 +1,4 @@
-#### IcDphAdditional
+#### IcDphAdditionalData
 | Parameter | Description |
 | ----------- | ----------- |
 | **IcDph** | VAT RN even if the company is listed in the List of Cancelled VAT payers |

@@ -41,6 +41,10 @@ Returns data of requested **.zip** file
 
 [](../../../common/responses/dailydiff-en.md ':include')
 
+[](../../../common/responses/extendeddiff-en.md ':include')
+
+[](../../../common/responses/extendeddiffother-en.md ':include')
+
 > **Note:** order of parameters can be different from list above
 
 # Example XML response

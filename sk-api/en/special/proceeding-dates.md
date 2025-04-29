@@ -17,11 +17,13 @@ Request for a list of proceedings [`ProceedingResult`](#ProceedingResult) for th
 # Response structures
 [](../../../common/responses/monitoring-proceedings-en.md ':include')
 
+[](../../../common/responses/fullddress-en.md ':include')
+
 [](../../../common/responses/personaddress-en.md ':include')
 
 [](../../../common/responses/administratoraddress-en.md ':include')
 
-[](../../../common/responses/courtsaddress-en.md ':include')
+[](../../../common/responses/court-en.md ':include')
 
 [](../../../common/responses/issuedperson-en.md ':include')
 

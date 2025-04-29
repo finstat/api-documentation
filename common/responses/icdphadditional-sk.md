@@ -1,4 +1,4 @@
-#### IcDphAdditional
+#### IcDphAdditionalData
 | Parameter | Popis |
 | ----------- | ----------- |
 | **IcDph** | číslo IČ DPH aj v prípade, ak firma je v zozname vymazaných subjektov |

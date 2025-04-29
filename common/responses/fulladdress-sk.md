@@ -1,4 +1,4 @@
-#### CourtAddress
+#### FullAddress
 | Parameter | Description |
 | ----------- | ----------- |
 | **Name** | názov ak je dostupný |

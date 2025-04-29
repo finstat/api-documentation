@@ -42,6 +42,10 @@ Dopyt vráti dáta požadovaného **.zip** súboru
 
 [](../../../common/responses/dailydiff-sk.md ':include')
 
+[](../../../common/responses/extendeddiff-sk.md ':include')
+
+[](../../../common/responses/extendeddiffother-sk.md ':include')
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 # Príklady XML odpovedí

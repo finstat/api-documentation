@@ -17,11 +17,13 @@ Požiadavka na zoznam konaní firiem [`ProceedingResult`](#ProceedingResult) za 
 # Štruktúra odpovede
 [](../../../common/responses/monitoring-proceedings-sk.md ':include')
 
+[](../../../common/responses/fullddress-sk.md ':include')
+
 [](../../../common/responses/personaddress-sk.md ':include')
 
 [](../../../common/responses/administratoraddress-sk.md ':include')
 
-[](../../../common/responses/courtsaddress-sk.md ':include')
+[](../../../common/responses/court-sk.md ':include')
 
 [](../../../common/responses/issuedperson-sk.md ':include')
 

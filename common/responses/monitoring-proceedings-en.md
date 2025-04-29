@@ -4,7 +4,7 @@
 | **DebtorsAddress** | List of addresses of debtors, bankrupt or defendants [`PersonAddress`](#PersonAddress). It depends on the type of event |
 | **ProposersAddress** | List of proposers address [`PersonAddress`](#PersonAddress). It depends on the type of event |
 | **AdministratorsAddress** | List of administrators or creditors addresses [`AdministratorAddress`](#AdministratorAddress) |
-| **CourtsAddress** | ACourt address, if available [`CourtAddress`](#CourtAddress) |
+| **CourtsAddress** | Court address, if available [`FullAddress`](#FullAddress) |
 | **ReferenceFileNumber** | Reference number of court file, type of lien, type of settlement, type of notification, type of submission |
 | **Character** | Character of the decision |
 | **Status** | Status of the proceeding |

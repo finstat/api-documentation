@@ -7,7 +7,7 @@
 | **Persons** |  people listed in the Business Register [`Person`](#Person)|
 | **RpvsPerson** |  people listed in the Register of Public Sector Partners [`RpvsPerson`](#RpvsPerson)|
 | **PaybackRange** | range of payback |
-| **RegistrationCourt** | detailed information about registration court [`CourtAddress`](#CourtAddress)|
+| **RegistrationCourt** | detailed information about registration court [`Court`](#Court)|
 | **WebPages** | list of company web page `string` |
 | **AddressHistory** | list of historical addresses [`HistoryAddress`](#HistoryAddress) |
 | **StatutoryAction** | action of statutory - text description |
