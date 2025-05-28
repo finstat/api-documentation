@@ -80,6 +80,8 @@ Výpis detailu firmy na základe parametra *ico* [`UltimateResult`](#UltimateRes
 
 [](../../../common/responses/proceedingresult-sk.md ':include')
 
+[](../../../common/responses/preventiverestructuringresult-sk.md ':include')
+
 [](../../../common/responses/liquidationresult-sk.md ':include')
 
 [](../../../common/responses/officer-sk.md ':include')

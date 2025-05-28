@@ -14,6 +14,7 @@
 | **ProcurationAction** | konanie prokúry text |
 | **Bankrupt** | informácia o konkurze [`BankruptResult`](#BankruptResult) |
 | **Restructuring** | informácia o reštrukturalizácii [`RestructuringResult`](#RestructuringResult) |
+| **PreventiveRestructuring** | informácia o preventívnej reštrukturalizácii [`PreventiveRestructuringResult`](#PreventiveRestructuringResult) |
 | **Liquidation** | informácia o likvidácii [`LiquidationResult`](#LiquidationResult) |
 | **ORCancelled** | dátum zrušenia firmy podľa Obchodného registra vo formáte `RRRR-MM-DDTHH:MM:SS` |
 | **OtherProceeding** | informácia o inom konaní (o oddlžení) [`ProceedingResult`](#ProceedingResult) |

@@ -14,6 +14,7 @@
 | **ProcurationAction** | action of procuration - text description |
 | **Bankrupt** | information about bancrupcy [`BankruptResult`](#BankruptResult) |
 | **Restructuring** | information about restructuralization [`RestructuringResult`](#RestructuringResult) |
+| **PreventiveRestructuring** | information about preventive restructuralization [`PreventiveRestructuringResult`](#PreventiveRestructuringResult) |
 | **Liquidation** | information about liquidation [`LiquidationResult`](#LiquidationResult) |
 | **ORCancelled** | date of the company cancellation in the Business Register |
 | **OtherProceeding** | information about other proceeding [`ProceedingResult`](#ProceedingResult) |

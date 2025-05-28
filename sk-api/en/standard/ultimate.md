@@ -80,6 +80,8 @@ Detail of company according company *ico* [`UltimateResult`](#UltimateResult)
 
 [](../../../common/responses/proceedingresult-en.md ':include')
 
+[](../../../common/responses/preventiverestructuringresult-en.md ':include')
+
 [](../../../common/responses/liquidationresult-en.md ':include')
 
 [](../../../common/responses/officer-en.md ':include')
