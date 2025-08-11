@@ -18,5 +18,5 @@
 | **Liquidation** | informácia o likvidácii [`LiquidationResult`](#LiquidationResult) |
 | **ORCancelled** | dátum zrušenia firmy podľa Obchodného registra vo formáte `RRRR-MM-DDTHH:MM:SS` |
 | **OtherProceeding** | informácia o inom konaní (o oddlžení) [`ProceedingResult`](#ProceedingResult) |
-| **RPOPersons** | zoznam osôb vyparsovaných z RPO  [`RpoPerson`](#RpoPerson)<br /><small>dáta boli naposledy aktualizované 6.7.2025 z dôvodu, že ich RPO prestalo zverejňovať</small> |
+| **RPOPersons** | zoznam osôb vyparsovaných z RPO  [`RpoPerson`](#RpoPerson)<br /><small>Dáta boli naposledy aktualizované 6.7.2025 z dôvodu, že ich RPO prestalo zverejňovať</small> |
 | **DistraintsAuthorizations** | Zoznam aktívnych poverení na výkon exekúcie pre povinného [`DistraintsAuthorizationDetail`](#DistraintsAuthorizationDetail) |
