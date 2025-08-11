@@ -18,5 +18,5 @@
 | **Liquidation** | information about liquidation [`LiquidationResult`](#LiquidationResult) |
 | **ORCancelled** | date of the company cancellation in the Business Register |
 | **OtherProceeding** | information about other proceeding [`ProceedingResult`](#ProceedingResult) |
-| **RPOPersons** | list of persons parsed from the register of persons  [`RpoPerson`](#RpoPerson) |
+| **RPOPersons** | list of persons parsed from the register of persons  [`RpoPerson`](#RpoPerson) <br /><small>The data was last updated on July 6, 2025, due to the RPO (Register of Legal Entities) ceasing its publication</small> |
 | **DistraintsAuthorizations** | list of active distraints [`DistraintsAuthorizationDetail`](#DistraintsAuthorizationDetail) |
