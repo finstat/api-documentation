@@ -1,14 +1,49 @@
 #### FunctionAssigmentType
-- štatutár
-- dozorná rada
-- spoločník
-- akcionár 
-- prokúra
-- právny nástupca
-- likvidátor
-- správca konkurznej podstaty
-- reštrukturalizačný správca
-- oprávnená osoba podľa RPVS
-- konečný užívateľ výhod podľa RPVS
-- verejný funkcionár v riadiacej funkcii podľa RPVS
-- konečný užívateľ výhod
+- Akcionár
+- Dozorná rada
+- Spoločník
+- Štatutár
+- Prokúra
+- Prokurista
+- Prokuratúra
+- Právny nástupca
+- Likvidátor
+- Správca konkurznej podstaty
+- Reštrukturalizačný správca
+- Kontrolná komisia
+- Zlúčenie
+- Rozdelenie
+- Zahraničná osoba
+- Štatutár zahraničnej osoby
+- Iná funkcia
+- Oprávnená osoba podľa RPVS
+- Konečný užívateľ výhod podľa RPVS
+- Verejný funkcionár v riadiacej štruktúre podľa RPVS
+- Organizácia
+- Živnostník
+- Poslanec
+- Člen vlády
+- Člen politickej strany
+- Poslanec VUC
+- Vrcholový manažment
+- Menovacie právo
+- Príjem prostriedkov nad 25 %
+- Riadiaci orgán
+- Zakladateľ
+- Prospech nad 25 %
+- Hlasovacie právo nad 25 %
+- Podiel na ZI nad 25 %
+- Významný prospech
+- Iná kontrola
+- Kontrola s inou osobou
+- Nešpecifikovaný
+- Konečný užívateľ výhod podľa RPO
+- Priamy majiteľ
+- Nepriamy majiteľ
+- Príjem prostriedkov
+- Riadiaci orgán
+- Hlasovacie právo
+- Majiteľ podľa §4
+- Majiteľ podľa §6
+- Náhradný majiteľ
+- Informácie neprístupné

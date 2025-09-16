@@ -1,14 +1,49 @@
 #### FunctionAssigmentType
-- štatutár - statutory
-- dozorná rada – board of supervisors
-- spoločník - partner
-- akcionár - stockholder
-- prokúra - procuration
-- právny nástupca - legal successor
-- likvidátor - liquidator
-- správca konkurznej podstaty - the insolvency administrator
-- reštrukturalizačný  - restructuring manager
-- oprávnená osoba podľa RPVS - authorized person
-- konečný užívateľ výhod podľa RPVS - end user of benefits
-- verejný funkcionár v riadiacej funkcii podľa RPVS - a public functionary in the management structure
-- konečný užívateľ výhod - ultimate beneficial owner
+- Akcionár - Shareholder
+- Dozorná rada - Supervisory board
+- Spoločník - Partner
+- Štatutár - Statutory agent
+- Prokúra - Procuration
+- Prokurista - Prokurist
+- Prokuratúra - Prosecution's office
+- Právny nástupca - Legal successor
+- Likvidátor - Liquidator
+- Správca konkurznej podstaty - Bankruptcy administrator
+- Reštrukturalizačný správca - Restructuring administrator
+- Kontrolná komisia - Control commission
+- Zlúčenie - Merger
+- Rozdelenie - Division
+- Zahraničná osoba - Foreign person
+- Štatutár zahraničnej osoby - Statutory agent of a foreign person
+- Iná funkcia - Other function
+- Oprávnená osoba podľa RPVS - Authorized person according to the RPVS
+- Konečný užívateľ výhod podľa RPVS - Ultimate beneficial owner according to the RPVS
+- Verejný funkcionár v riadiacej štruktúre podľa RPVS - Public Official in the Management Structure according to the - RPVS
+- Organizácia - Organization
+- Živnostník - Self-employed
+- Poslanec - Member of parliament
+- Člen vlády - Member of the government
+- Člen politickej strany - Member of a political party
+- Poslanec VUC - Member of the higher territorial unit
+- Vrcholový manažment - Top management
+- Menovacie právo - Appointment right
+- Príjem prostriedkov nad 25 % - Income of funds over 25%
+- Riadiaci orgán - Managing body
+- Zakladateľ - Founder
+- Prospech nad 25 % - Benefits over 25%
+- Hlasovacie právo nad 25 % - Voting rights over 25%
+- Podiel na ZI nad 25 % - Share in basic capital over 25%
+- Významný prospech - Significant benefit
+- Iná kontrola - Other control
+- Kontrola s inou osobou - Control with another person
+- Nešpecifikovaný - Unspecified
+- Konečný užívateľ výhod podľa RPO - Ultimate beneficial owner according to the RPO
+- Priamy majiteľ - Direct owner
+- Nepriamy majiteľ - Indirect owner
+- Príjem prostriedkov - Receipt of funds
+- Riadiaci orgán - Managing body
+- Hlasovacie právo - Voting right
+- Majiteľ podľa §4 - Owner according to §4
+- Majiteľ podľa §6 - Owner according to §6
+- Náhradný majiteľ - Substitute owner
+- Informácie neprístupné - Information not available
