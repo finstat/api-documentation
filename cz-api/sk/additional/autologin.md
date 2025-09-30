@@ -14,7 +14,7 @@ Odpoveď pozostáva z jendého elementu obsahujúceho autologin link na vami zad
 ### Parametre
 [](../../../common/parameters/autologin-sk.md ':include')
 
-[](../../../common/parameters/parameters-sk.md ':include')
+[](../../../common/parameters/parameterscz-sk.md ':include')
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/autologin?url=https://cz.finstat.sk/25829653&email=email@domena.tld&apikey=YourAPIKey&hash=cdab830acd61becad8aa9a7c501f68a9e8e03c37103e4ac52a4d0209d39781f5&StationId=YourStationID&StationName=Your+Station+Name```
 

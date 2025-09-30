@@ -11,7 +11,7 @@ Výpis detailu firmy na základe parametra *ico*
 ### Parametre
 [](../../../common/parameters/detail-sk.md ':include')
 
-[](../../../common/parameters/parameters-sk.md ':include')
+[](../../../common/parameters/parameterscz-sk.md ':include')
 
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/premiumcz?ico=47165367&apikey=YourAPIKey&hash=a85aff26f1d2aae0059ec051866daa6246374d65da4a2c289d9ce8cbcd73a7b5&StationId=YourStationID&StationName=Your+Station+Name```

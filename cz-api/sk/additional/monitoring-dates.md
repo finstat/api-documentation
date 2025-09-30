@@ -17,7 +17,7 @@ Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní
 ### Parametre
 [](../../../common/parameters/monitoring-addremove-date-sk.md ':include')
 
-[](../../../common/parameters/parameters-sk.md ':include')
+[](../../../common/parameters/parameterscz-sk.md ':include')
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/adddatetomonitoring?date=9.2.2024&apikey=YourAPIKey&hash=b8c62bab2473673ae1c9a461cab2dd824d86da1d62745290dbb110140075b076&StationId=YourStationID&StationName=Your+Station+Name```
 
@@ -35,7 +35,7 @@ Dopyt vráti odpoveď `true` pri úspešnom a `false`  pri neúspešnom pridaní
 ### Parametre
 [](../../../common/parameters/monitoring-addremove-date-sk.md ':include')
 
-[](../../../common/parameters/parameters-sk.md ':include')
+[](../../../common/parameters/parameterscz-sk.md ':include')
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/removedatefrommonitoring?date=9.2.2024&apikey=YourAPIKey&hash=b8c62bab2473673ae1c9a461cab2dd824d86da1d62745290dbb110140075b076&StationId=YourStationID&StationName=Your+Station+Name```
 
@@ -52,7 +52,7 @@ Požiadavka na aktuálny zoznam dátumov narodenia osôb v monitoringu.
 ### Parametre
 [](../../../common/parameters/monitoring-category-sk.md ':include')
 
-[](../../../common/parameters/parameters-sk.md ':include')
+[](../../../common/parameters/parameterscz-sk.md ':include')
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/monitoringdatelist?apikey=YourAPIKey&hash=3cb3d0526473367453ee5779e985a33194356df01551e45ebc2d2f873df79c0e&StationId=YourStationID&StationName=Your+Station+Name```
 
@@ -69,7 +69,7 @@ Požiadavka na zoznam udalostí osôb [`MonitoringDate`](#MonitoringDate) za pos
 ### Parametre
 [](../../../common/parameters/monitoring-category-sk.md ':include')
 
-[](../../../common/parameters/parameters-sk.md ':include')
+[](../../../common/parameters/parameterscz-sk.md ':include')
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/monitoringdatereport?apikey=YourAPIKey&hash=a0c1760f69233637d6238dcac01fbb4226d69f461a4ca72bd1c8576dfd3f27d4&StationId=YourStationID&StationName=Your+Station+Name```
 

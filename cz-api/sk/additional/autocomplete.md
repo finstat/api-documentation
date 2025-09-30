@@ -13,7 +13,7 @@ Odoslaný vyhľadávaný reťazec bude z výkonnostých dôvodov serverom automa
 ### Parametre
 [](../../../common/parameters/autocomplete-sk.md ':include')
 
-[](../../../common/parameters/parameters-sk.md ':include')
+[](../../../common/parameters/parameterscz-sk.md ':include')
 
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/autocomplete?query=test&apikey=YourAPIKey&hash=63678854b4b02034b4127cd9188b3a514b67e054465e3b8d4dd5284c46f7c099&StationId=YourStationID&StationName=Your+Station+Name```
