@@ -2,7 +2,7 @@
 | Parameter | Description |
 | ----------- | ----------- |
 | **VATNumber** | Vat Registration number of a company (VAT RN) – can be empty  |
-| **TaxPayer** | type of VAT payer  – can be empty <ul><li>Platce</li><li>IdentifikovanaOsoba< li><li>OsobaIdentifikovanaKDani</li></ul>|
+| **TaxPayer** | type of VAT payer  – can be empty <ul><li>Platce</li><li>IdentifikovanaOsoba</li></ul>|
 | **LegalFormCode** | legal form code (according Slovak statistical bureau) - can be empty |
 | **OwnershipTypeCode** |  ownership type code  - can be empty |
 | **BankAccounts** | list of actual [`BankAccount`](#BankAccount) from bureau – can be empty |

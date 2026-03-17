@@ -27,7 +27,7 @@ Výpis detailu firmy na základe parametra *ico*
 | Parameter | Popis |
 | ----------- | ----------- |
 | **VATNumber** | daňová identifikácia |
-| **TaxPayer** | ozačenie typu platcovstva DPH – môže byť prázdny <ul><li>Platce</li><li>IdentifikovanaOsoba</li><li>OsobaIdentifikovanaKDani</li></ul> |
+| **TaxPayer** | ozačenie typu platcovstva DPH – môže byť prázdny <ul><li>Platce</li><li>IdentifikovanaOsoba</li></ul> |
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
