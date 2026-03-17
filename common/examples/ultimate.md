@@ -135,9 +135,9 @@
   <ORInsertNo>89268/B</ORInsertNo>
   <Persons>
     <Person>
-      <Street>Ynez Place STE C</Street>
-      <StreetNumber>1317</StreetNumber>
-      <ZipCode>CA 92118</ZipCode>
+      <Street>Fyzická osoba</Street>
+      <StreetNumber>XXX</StreetNumber>
+      <ZipCode>CA XXXX</ZipCode>
       <City>Coronado</City>
       <Country>Spojené štáty americké</Country>
       <FullName>Bridgestart LLC</FullName>
@@ -192,29 +192,5 @@
   </AddressHistory>
   <StatutoryAction>V mene spoločnosti koná a podpisuje každý konateľ samostatne</StatutoryAction>
   <ORCancelled xsi:nil="true" />
-  <RPOPersons>
-    <RPOPerson>
-      <BirthDate>1978-05-21T00:00:00</BirthDate>
-      <Citizenship>Slovenská republika</Citizenship>
-      <FullName>Filip Glasa</FullName>
-      <Country>Slovenská republika</Country>
-      <DetectedFrom>2020-10-02T00:00:00</DetectedFrom>
-      <DetectedTo xsi:nil="true" />
-      <Functions>
-        <FunctionAssigment>
-          <Type>Konečný užívateľ výhod podľa RPO</Type>
-          <Description>Hlasovacie právo nad 25 %, Podiel na ZI nad 25 %, Menovacie právo, Prospech nad 25 %</Description>
-          <From>2020-10-02T00:00:00</From>
-        </FunctionAssigment>
-      </Functions>
-      <StructuredName>
-        <Name>
-          <string>Filip</string>
-          <string>Glasa</string>
-        </Name>
-      </StructuredName>
-    </RPOPerson>
-    ...
-  </RPOPersons>
 </UltimateResult>
 ```
