@@ -3,9 +3,6 @@
 | ----------- | ----------- |
 | **RegisterNumberText** | text description of the registration data - can be empty <ul><li>for a company in a form: Obchodný register XXXX súdu XXXXX, oddiel: xxx, vložka č.xxxx/x</li><li>for a entrepreneur (self employed): Okresný úrad XXXXX, Číslo živnostenského registra: xxx-xxxx</li></ul>|
 | **Activity** | sector according to the FinStat categorisation – can be empty |
-| **Created** | incorporation date in format `RRRR-MM-DDTHH:MM:SS` – can be empty |
-| **Cancelled** | company dissolution date in a format `RRRR-MM-DDTHH:MM:SS` – can be empty |
-| **SuspendedAsPerson** | flag if entrepreneur (self employed) is suspended (`true/false`) |
 | **IcDphAdditional** | detailed information about VAT RN – [`IcDphAdditionalData`](#IcDphAdditionalData) – can be empty |
 | **Warning** | flag if the company can be found in a list of debtors, bankrupties or liquidations (`true/false`) |
 | **WarningUrl** | link to detailed information about a list of debtors, bankrupties or liquidation – can be empty |

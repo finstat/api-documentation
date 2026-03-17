@@ -3,9 +3,6 @@
 | ----------- | ----------- |
 | **RegisterNumberText** | textový popis registračných údajov – môže byť prázdny <ul><li>pre s.r.o. v tvare: Obchodný register XXXX súdu XXXXX, oddiel: xxx, vložka č.xxxx/x</li><li>pre živnostníka: Okresný úrad XXXXX, Číslo živnostenského registra: xxx-xxxx</li></ul>|
 | **Activity** | odvetvie podľa FinStat kategorizácie - može byť prázdne |
-| **Created** | dátum vzniku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
-| **Cancelled** | dátum zániku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
-| **SuspendedAsPerson** | príznak či má osoba pozastavenú živnosť (`true/false`) |
 | **IcDphAdditional** | detail IČ DPH pre detailné informácie o DPH [`IcDphAdditionalData`](#IcDphAdditionalData) – môže byť prázdny |
 | **Warning** | príznak, či sa daná firma nachádza v zozname dlžníkov, má pohľadávku, konkurz (resp. oddlženie), poverenie na vykonanie exekúcie alebo likvidáciu (`true/false`) |
 | **WarningUrl** | odkaz na podrobné informácie o rizikovej udalosti – môže byť prázdny |

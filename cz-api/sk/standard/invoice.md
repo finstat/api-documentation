@@ -23,6 +23,12 @@ Výpis detailu firmy na základe parametra *ico*
 #### BasicResult
 [](../../../common/responses/basiccz-sk.md ':include')
 
+##### Doplnené parametre:
+| Parameter | Popis |
+| ----------- | ----------- |
+| **VATNumber** | daňová identifikácia |
+| **TaxPayer** | ozačenie typu platcovstva DPH – môže byť prázdny <ul><li>Platce</li><li>IdentifikovanaOsoba</li><li>OsobaIdentifikovanaKDani</li></ul> |
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 # Príklad XML odpovede

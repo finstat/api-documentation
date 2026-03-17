@@ -13,4 +13,7 @@
 | **Region**| kraj sídla firmy – môže byť prázdny |
 | **Country**| krajina sídla firmy (ak prázdne, tak Slovensko) |
 | **Url**| odkaz na firmu na www.finstat.sk |
+| **Created** | dátum vzniku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
+| **Cancelled** | dátum zániku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
+| **SuspendedAsPerson** | príznak či má osoba pozastavenú živnosť (`true/false`) |
 | **Anonymized**| príznak, či záznam je anonymizovaný (`true/false`) |

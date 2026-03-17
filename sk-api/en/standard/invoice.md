@@ -22,6 +22,11 @@ Detail of company according company id *ico*
 #### BasicResult
 [](../../../common/responses/basic-en.md ':include')
 
+##### Additional parameters:
+| Parameter | Description |
+| ----------- | ----------- |
+| **Paragraph** | paragraph, under which was VAT number registered|
+
 > **Note:** order of parameters can be different from list above
 
 # Example XML response

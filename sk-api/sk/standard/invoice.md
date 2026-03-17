@@ -22,6 +22,11 @@ Výpis detailu firmy na základe parametra *ico*
 #### BasicResult
 [](../../../common/responses/basic-sk.md ':include')
 
+##### Doplnené parametre:
+| Parameter | Popis |
+| ----------- | ----------- |
+| **Paragraph**| paragraf, pre ktorý je číslo DPH vydané |
+
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
 # Príklad XML odpovede
