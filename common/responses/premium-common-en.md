@@ -6,7 +6,7 @@
 | **IcDphAdditional** | detailed information about VAT RN – [`IcDphAdditionalData`](#IcDphAdditionalData) – can be empty |
 | **Warning** | flag if the company can be found in a list of debtors, bankrupties or liquidations (`true/false`) |
 | **WarningUrl** | link to detailed information about a list of debtors, bankrupties or liquidation – can be empty |
-| **PaymentOrderWarning** | flag if a payment order was issued for the company  (`true/false`) |
+| **PaymentOrderWarning** | sign whether an order for payment has been issued for the firm within the last 24 months  (`true/false`) |
 | **PaymentOrderUrl** | link to detailed information about company's payment orders – can be empty |
 | **OrChange** | flag if any change in the Business register happened during the last 3 months (Unknown, Up, Down) |
 | **OrChangeUrl** | link to detailed infomation with a list of fillings from the Business register |

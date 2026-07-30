@@ -21,7 +21,7 @@
 | **Debts** | zoznam dlhov [`Debt`](#Debt) – môže byť prázdny |
 | **StateReceivables** | zoznam pohľadávok [`ReceivableDebt`](#ReceivableDebt) |
 | **CommercialReceivables** | Zoznam komerčných pohľadávok [`ReceivableDebt`](#ReceivableDebt) |
-| **PaymentOrders** | zoznam platobných rozkazov [`PaymentOrder`](#PaymentOrder) |
+| **PaymentOrders** | zoznam všetkých elektronicky vydaných platobných rozkazov [`PaymentOrder`](#PaymentOrder) |
 | **WarningKaR** | posledný dátum zmeny v Konkurzoch a Reštrukturalizáciach (detaily je možné zistiť na linke WarningUrl) vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny|
 | **WarningLiquidation** | posledný dátum zmeny v Likvidáciach (detaily je možné zistiť na linke WarningUrl) vo formáte `RRRR-MM-DDTHH:MM:SS`– môže byť prázdny |
 | **HasDisposal** | príznak, či firma je v likvidácii `true/false` |

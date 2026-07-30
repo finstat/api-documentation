@@ -21,7 +21,7 @@
 | **Debts** | list of debts [`Debt`](#Debt) – can be empty |
 | **StateReceivables** | list of state recievables [`ReceivableDebt`](#ReceivableDebt) |
 | **CommercialReceivables** | list of commercial recievables [`ReceivableDebt`](#ReceivableDebt) |
-| **PaymentOrders** | list of payment orders [`PaymentOrder`](#PaymentOrder) |
+| **PaymentOrders** | list of all electronically issued Payment Orders [`PaymentOrder`](#PaymentOrder) |
 | **WarningKaR** | the day of last published filling about bankruptcy or restructuring (details can be found at WarningUrl) in format `RRRR-MM-DDTHH:MM:SS` – can be empty |
 | **WarningLiquidation** | the last date of change in Liquidations (details can be found at WarningUrl) in format `RRRR-MM-DDTHH:MM:SS`– can be empty |
 | **HasDisposal** | flag of active liquidation proceeding `true/false` |

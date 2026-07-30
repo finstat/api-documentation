@@ -6,7 +6,7 @@
 | **IcDphAdditional** | detail IČ DPH pre detailné informácie o DPH [`IcDphAdditionalData`](#IcDphAdditionalData) – môže byť prázdny |
 | **Warning** | príznak, či sa daná firma nachádza v zozname dlžníkov, má pohľadávku, konkurz (resp. oddlženie), poverenie na vykonanie exekúcie alebo likvidáciu (`true/false`) |
 | **WarningUrl** | odkaz na podrobné informácie o rizikovej udalosti – môže byť prázdny |
-| **PaymentOrderWarning** | príznak, či bol pre danú firmu vydaný platobný rozkaz (`true/false`) |
+| **PaymentOrderWarning** | príznak, či bol pre danú firmu vydaný platobný rozkaz za posledných 24  mesiacov (`true/false`) |
 | **PaymentOrderUrl** | odkaz na podrobné informácie so zoznamom platobných rozkazov danej firmy – môže byť prázdny |
 | **OrChange** | príznak nárastu/poklesu tržieb firmy medzi posledným a predposledným rokom v databáze (Unknown, Up, Down) |
 | **OrChangeUrl** | odkaz na podrobné informácie so zoznamom OR podaní danej firmy – môže byť prázdny |
