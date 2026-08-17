@@ -51,6 +51,8 @@ To get response in JSON, use one of following switches:
 - End URL request with: ```.json```
 <br />for example: ```https://www.finstat.sk/api/detail.json```
 
+[](../../common/texts/serialization-en.md ':include')
+
 ### Rules of API use
 FinStat API was created for simple data transfet between FinStat servers and your application. To avoid security risks and excess API requests, do not implement your client  in a way that would makes your unique API keys visible to third parties or in a way that would make often unwanted requests.   
 

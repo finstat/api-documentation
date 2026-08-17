@@ -61,6 +61,8 @@ Pre možnosť vrátiť odpoveď API vo formáte JSON použite jeden z nasledujú
 - Zakončite URL požiadavku príponou: ```.json```
 <br />Napríklad: ```https://www.finstat.sk/api/detail.json```
 
+[](../../common/texts/serialization-sk.md ':include')
+
 ### Podmienky využívania
 FinStat API bolo vytvorené, aby bolo možné jednoducho prenášať údaje medzi FinStat servermi 
 a Vašou aplikáciou. Kvôli bezpečnostným rizikám a zamedzeniu nadbytočným API volaniam, 
