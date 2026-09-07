@@ -2,4 +2,4 @@
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Count** | počet výsledkov vyhľadávania |
-| **Distraints** | zoznam objektov typu [`DistraintPreview`](DistraintPreview#) |
+| **Distraints** | zoznam objektov typu [`DistraintPreview`](#DistraintPreview) |

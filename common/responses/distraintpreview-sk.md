@@ -5,7 +5,7 @@
 | **Pledgers** | zoznam objektov typu [`Debtor`](#Debtor) |
 | **TypeOfAuthorisation** | typ poverenia |
 | **Created** | dátum dopytu |
-| **DetailToken** | ID potrebne pre dopytovanie detailu |
+| **DetailId** | ID potrebne pre dopytovanie detailu |
 | **DetailToken** | token potrebný pre dopytovanie detailu |
 | **StoredDetailId** | v prípade že bol v minulosti detail dopytovaný |
 | **Code** | Značka |

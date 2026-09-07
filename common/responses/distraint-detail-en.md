@@ -1,4 +1,7 @@
-#### DistraintDetail
+#### DistraintDetailResult
+A single item of the **DistraintDetails** list in the [`DistraintDetailResults`](#DistraintDetailResults) response.
+It contains all parameters of [`DistraintPreview`](#DistraintPreview) plus the detail data.
+
 | Parameter | Description |
 | ----------- | ----------- |
 | **Code** | Code |

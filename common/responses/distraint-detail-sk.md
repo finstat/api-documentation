@@ -1,4 +1,7 @@
-#### DistraintDetail
+#### DistraintDetailResult
+Jedna položka zoznamu **DistraintDetails** v odpovedi [`DistraintDetailResults`](#DistraintDetailResults).
+Obsahuje všetky parametre objektu [`DistraintPreview`](#DistraintPreview) a navyše údaje detailu.
+
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Code** | Značka |
