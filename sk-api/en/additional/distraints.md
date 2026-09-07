@@ -1,7 +1,7 @@
 # Distraints search API
 Information about executions directly in your information system
 
-## RequestDistraintSearch request
+## DistraintSearch request
 Returns the list of previews to the execution based on the search criteria [`DistraintResult`](#DistraintResult).
 Fee-based request.
 
@@ -19,7 +19,7 @@ Fee-based request.
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
 
-## RequestDistraintDetail request
+## DistraintDetail request
 Returns a list of previews to execution based on the searched ids [`DistraintDetail`](#DistraintDetail). 
 Fee-based request
 
@@ -39,7 +39,7 @@ Fee-based request
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
 
-## RequestDistraintResults request
+## DistraintResults request
 The request returns the last historical request [`DistraintResult`](#DistraintResult) according search criteria
 
 > **Requested URL**: ```https://www.finstat.sk/api/distraintresults```<br />
@@ -56,7 +56,7 @@ The request returns the last historical request [`DistraintResult`](#DistraintRe
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
 
-## RequestDistraintResultsByToken request
+## DistraintResultsByToken request
 The request returns the last historical request [`DistraintResult`](#DistraintResult) accorfing token.
 
 > **Requested URL**: ```https://www.finstat.sk/api/distraintresultsbytoken```<br />
@@ -74,7 +74,7 @@ The request returns the last historical request [`DistraintResult`](#DistraintRe
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
 
-## RequestDistraintStoredDetail request
+## DistraintStoredDetail request
 The request returns the stored detail to the execution [`DistraintDetail`](#DistraintDetail).
 
 > **Requested URL**: ```https://www.finstat.sk/api/distraintstoreddetail```<br />

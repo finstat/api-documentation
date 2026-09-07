@@ -1,7 +1,7 @@
 # API na vyhľadávanie exekúcií
 Informácie o exekúciách priamo vo Vašom informačnom systéme
 
-## Požiadavka RequestDistraintSearch
+## Požiadavka DistraintSearch
 Vráti zoznam náhľadov exekúcii na základe vyhľadávaných kritérií [`DistraintResult`](#DistraintResult).
 Spoplatnená požiadavka.
 
@@ -19,7 +19,7 @@ Spoplatnená požiadavka.
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
 
-## Požiadavka RequestDistraintDetail
+## Požiadavka DistraintDetail
 Vráti zoznam náhľadov exekúcii na základe vyhľadávaných id [`DistraintDetail`](#DistraintDetail). Spoplatnená požiadavka
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintdetail```<br />
@@ -38,7 +38,7 @@ Vráti zoznam náhľadov exekúcii na základe vyhľadávaných id [`DistraintDe
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
 
-## Požiadavka RequestDistraintResults
+## Požiadavka DistraintResults
 Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintResult) podľa kritéria
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintresults```<br />
@@ -55,7 +55,7 @@ Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintRes
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
 
-## Požiadavka RequestDistraintResultsByToken
+## Požiadavka DistraintResultsByToken
 Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintResult) podľa token-u.
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintresultsbytoken```<br />
@@ -73,7 +73,7 @@ Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintRes
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
 
-## Požiadavka RequestDistraintStoredDetail
+## Požiadavka DistraintStoredDetail
 Požiadavka vracia uložený detail exekúcie [`DistraintDetail`](#DistraintDetail).
 
 > **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintstoreddetail```<br />
