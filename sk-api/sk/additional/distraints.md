@@ -5,7 +5,7 @@ Informácie o exekúciách priamo vo Vašom informačnom systéme
 Vráti zoznam náhľadov exekúcii na základe vyhľadávaných kritérií [`DistraintResult`](#DistraintResult).
 Spoplatnená požiadavka.
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/requestdistraintsearch```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintsearch```<br />
 > **Hash parameter**: {ico}\|{surname}\|{dateOfBirth}\|{city}\|{companyName}\|{fileReference}
 
 ### Parametre
@@ -14,7 +14,7 @@ Spoplatnená požiadavka.
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintsearch```
+> **Príklad volania:** ```https://www.finstat.sk/api/distraintsearch```
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -22,7 +22,7 @@ Spoplatnená požiadavka.
 ## Požiadavka RequestDistraintDetail
 Vráti zoznam náhľadov exekúcii na základe vyhľadávaných id [`DistraintDetail`](#DistraintDetail). Spoplatnená požiadavka
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/requestdistraintdetail```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintdetail```<br />
 > **Hash parameter**: {token}{zoznam ids spojených do stringu bez oddeľovacov}
 
 ### Parametre
@@ -33,7 +33,7 @@ Vráti zoznam náhľadov exekúcii na základe vyhľadávaných id [`DistraintDe
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintdetail```
+> **Príklad volania:** ```https://www.finstat.sk/api/distraintdetail```
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -41,7 +41,7 @@ Vráti zoznam náhľadov exekúcii na základe vyhľadávaných id [`DistraintDe
 ## Požiadavka RequestDistraintResults
 Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintResult) podľa kritéria
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/requestdistraintresults```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintresults```<br />
 > **Hash parameter**: {ico}\|{surname}\|{dateOfBirth}\|{city}\|{companyName}\|{fileReference}
 
 ### Parametre
@@ -50,7 +50,7 @@ Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintRes
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintresults```
+> **Príklad volania:** ```https://www.finstat.sk/api/distraintresults```
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -58,7 +58,7 @@ Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintRes
 ## Požiadavka RequestDistraintResultsByToken
 Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintResult) podľa token-u.
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/requestdistraintresultsbytoken```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintresultsbytoken```<br />
 > **Hash parameter**: {token}
 
 ### Parametre
@@ -68,7 +68,7 @@ Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintRes
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintresultsbytoken```
+> **Príklad volania:** ```https://www.finstat.sk/api/distraintresultsbytoken```
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')
@@ -76,7 +76,7 @@ Požiadavka vracia posledný historický dopyt [`DistraintResult`](#DistraintRes
 ## Požiadavka RequestDistraintStoredDetail
 Požiadavka vracia uložený detail exekúcie [`DistraintDetail`](#DistraintDetail).
 
-> **Dopytovaná URL**: ```https://www.finstat.sk/api/requestdistraintstoreddetail```<br />
+> **Dopytovaná URL**: ```https://www.finstat.sk/api/distraintstoreddetail```<br />
 > **Hash parameter**: {id}
 
 ### Parametre
@@ -86,7 +86,7 @@ Požiadavka vracia uložený detail exekúcie [`DistraintDetail`](#DistraintDeta
 
 [](../../../common/parameters/parameters-sk.md ':include')
 
-> **Príklad volania:** ```https://www.finstat.sk/api/requestdistraintstoreddetail```
+> **Príklad volania:** ```https://www.finstat.sk/api/distraintstoreddetail```
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk.md ':include')

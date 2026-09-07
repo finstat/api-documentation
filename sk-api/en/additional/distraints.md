@@ -5,7 +5,7 @@ Information about executions directly in your information system
 Returns the list of previews to the execution based on the search criteria [`DistraintResult`](#DistraintResult).
 Fee-based request.
 
-> **Requested URL**: ```https://www.finstat.sk/api/requestdistraintsearch```<br />
+> **Requested URL**: ```https://www.finstat.sk/api/distraintsearch```<br />
 > **Hash parameter**: {ico}\|{surname}\|{dateOfBirth}\|{city}\|{companyName}\|{fileReference}
 
 ### Parameters
@@ -14,7 +14,7 @@ Fee-based request.
 
 [](../../../common/parameters/parameters-en.md ':include')
 
-> **Example call:** ```https://www.finstat.sk/api/requestdistraintsearch```
+> **Example call:** ```https://www.finstat.sk/api/distraintsearch```
 
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
@@ -23,7 +23,7 @@ Fee-based request.
 Returns a list of previews to execution based on the searched ids [`DistraintDetail`](#DistraintDetail). 
 Fee-based request
 
-> **Requested URL**: ```https://www.finstat.sk/api/requestdistraintdetail```<br />
+> **Requested URL**: ```https://www.finstat.sk/api/distraintdetail```<br />
 > **Hash parameter**: {token}{list ids connected without separators }
 
 ### Parameters
@@ -34,7 +34,7 @@ Fee-based request
 
 [](../../../common/parameters/parameters-en.md ':include')
 
-> **Example call:** ```https://www.finstat.sk/api/requestdistraintdetail```
+> **Example call:** ```https://www.finstat.sk/api/distraintdetail```
 
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
@@ -42,7 +42,7 @@ Fee-based request
 ## RequestDistraintResults request
 The request returns the last historical request [`DistraintResult`](#DistraintResult) according search criteria
 
-> **Requested URL**: ```https://www.finstat.sk/api/requestdistraintresults```<br />
+> **Requested URL**: ```https://www.finstat.sk/api/distraintresults```<br />
 > **Hash parameter**: {ico}\|{surname}\|{dateOfBirth}\|{city}\|{companyName}\|{fileReference}
 
 ### Parameters
@@ -51,7 +51,7 @@ The request returns the last historical request [`DistraintResult`](#DistraintRe
 
 [](../../../common/parameters/parameters-en.md ':include')
 
-> **Example call:** ```https://www.finstat.sk/api/requestdistraintresults```
+> **Example call:** ```https://www.finstat.sk/api/distraintresults```
 
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
@@ -59,7 +59,7 @@ The request returns the last historical request [`DistraintResult`](#DistraintRe
 ## RequestDistraintResultsByToken request
 The request returns the last historical request [`DistraintResult`](#DistraintResult) accorfing token.
 
-> **Requested URL**: ```https://www.finstat.sk/api/requestdistraintresultsbytoken```<br />
+> **Requested URL**: ```https://www.finstat.sk/api/distraintresultsbytoken```<br />
 > **Hash parameter**: {token}
 
 ### Parameters
@@ -69,7 +69,7 @@ The request returns the last historical request [`DistraintResult`](#DistraintRe
 
 [](../../../common/parameters/parameters-en.md ':include')
 
-> **Example call:** ```https://www.finstat.sk/api/requestdistraintresultsbytoken```
+> **Example call:** ```https://www.finstat.sk/api/distraintresultsbytoken```
 
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
@@ -77,7 +77,7 @@ The request returns the last historical request [`DistraintResult`](#DistraintRe
 ## RequestDistraintStoredDetail request
 The request returns the stored detail to the execution [`DistraintDetail`](#DistraintDetail).
 
-> **Requested URL**: ```https://www.finstat.sk/api/requestdistraintstoreddetail```<br />
+> **Requested URL**: ```https://www.finstat.sk/api/distraintstoreddetail```<br />
 > **Hash parameter**: {id}
 
 ### Parameters
@@ -87,7 +87,7 @@ The request returns the stored detail to the execution [`DistraintDetail`](#Dist
 
 [](../../../common/parameters/parameters-en.md ':include')
 
-> **Example call:** ```https://www.finstat.sk/api/requestdistraintstoreddetail```
+> **Example call:** ```https://www.finstat.sk/api/distraintstoreddetail```
 
 #### HTTP return error codes:
 [](../../../common/http/errorcodes-en.md ':include')
