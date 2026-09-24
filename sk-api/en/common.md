@@ -26,16 +26,18 @@ Server: Microsoft-IIS/8.0
 X-AspNetMvc-Version: 5.2
 
 //Limits
-Finstat-Daily-Limit-Current: 1
-Finstat-Daily-Limit-Max: 4000
-Finstat-Monthly-Limit-Current: 241
-Finstat-Monthly-Limit-Max: 75000
+finstat-daily-limit-current: 1
+finstat-daily-limit-max: 4000
+finstat-monthly-limit-current: 241
+finstat-monthly-limit-max: 75000
 
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
 Date: Tue, 22 Sep 2015 13:57:38 GMT
 Content-Length: 8437
 ```
+
+> **Important:** The change of header names to lowercase (e.g. `finstat-daily-limit-current` instead of `Finstat-Daily-Limit-Current`) will take effect from **28.9.2026**. We recommend reading HTTP header names case-insensitively.
 
 > **Note:** Note: in the case of a limits exceeding, requests over limit are counted further. In the case of an unwanted exceeding of limits, for example due to some error in a code, it is possible to request their reset.
 
