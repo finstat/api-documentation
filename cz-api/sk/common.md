@@ -33,7 +33,7 @@ X-AspNetMvc-Version: 5.2
 
 //Limity
 finstat-daily-limit-current: 1
-finstat-daily-limit-max: 4000
+finstat-daily-limit-max: 10000
 finstat-monthly-limit-current: 241
 finstat-monthly-limit-max: 75000
 
