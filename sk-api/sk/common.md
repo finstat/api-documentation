@@ -26,10 +26,11 @@ response,<br />viď príklad:
 
 ``` http
 HTTP/1.1 200 OK
-Cache-Control: private
-Content-Type: text/xml; charset=utf-8
-Server: Microsoft-IIS/8.0
-X-AspNetMvc-Version: 5.2
+Date: Mon, 28 Sep 2026 15:10:11 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
 
 //Limity
 finstat-daily-limit-current: 1
@@ -37,13 +38,9 @@ finstat-daily-limit-max: 10000
 finstat-monthly-limit-current: 241
 finstat-monthly-limit-max: 75000
 
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-Date: Tue, 22 Sep 2015 13:57:38 GMT
-Content-Length: 8437
+x-powered-by: ASP.NET
+cf-cache-status: DYNAMIC
 ```
-
-> **Upozornenie:** Zmena názvov hlavičiek na malé písmená (napr. `finstat-daily-limit-current` namiesto `Finstat-Daily-Limit-Current`) bude platná od **28.9.2026**. Názvy HTTP hlavičiek odporúčame spracovávať bez ohľadu na veľkosť písmen.
 
 > **Poznámka:** v prípade prekročenia limitov sa budú requesty nad limit zarátavať ďalej. 
 V prípade nechceného prekročenia limitov, napríklad z dôvodu chyby v kóde, je možné požiadať 

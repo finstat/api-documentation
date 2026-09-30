@@ -20,10 +20,11 @@ The number of maximal and currently spent daily limits can be found in a head of
 
 ``` http
 HTTP/1.1 200 OK
-Cache-Control: private
-Content-Type: text/xml; charset=utf-8
-Server: Microsoft-IIS/8.0
-X-AspNetMvc-Version: 5.2
+Date: Mon, 28 Sep 2026 15:10:11 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
 
 //Limits
 finstat-daily-limit-current: 1
@@ -31,13 +32,9 @@ finstat-daily-limit-max: 10000
 finstat-monthly-limit-current: 241
 finstat-monthly-limit-max: 75000
 
-X-AspNet-Version: 4.0.30319
-X-Powered-By: ASP.NET
-Date: Tue, 22 Sep 2015 13:57:38 GMT
-Content-Length: 8437
+x-powered-by: ASP.NET
+cf-cache-status: DYNAMIC
 ```
-
-> **Important:** The change of header names to lowercase (e.g. `finstat-daily-limit-current` instead of `Finstat-Daily-Limit-Current`) will take effect from **28.9.2026**. We recommend reading HTTP header names case-insensitively.
 
 > **Note:** Note: in the case of a limits exceeding, requests over limit are counted further. In the case of an unwanted exceeding of limits, for example due to some error in a code, it is possible to request their reset.
 
