@@ -1,5 +1,5 @@
 #### DistraintsAuthorizationInfo
 | Parameter | Description |
 | ----------- | ----------- |
-| **LastPublishDate** | publish date of last active distraint `RRRR-MM-DDTHH:MM:SS`|
+| **LastPublishDate** | date of issue of the last active authorization in format `RRRR-MM-DDTHH:MM:SS`|
 | **Count** | count of active distraint |
