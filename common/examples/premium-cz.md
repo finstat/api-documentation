@@ -1,26 +1,27 @@
 ``` xml
 <?xml version="1.0"?>
 <DetailResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Street>Francouzská</Street>
-  <StreetNumber>6015/69</StreetNumber>
+  <Street>XXX</Street>
+  <StreetNumber>XXX</StreetNumber>
   <ZipCode>708 00</ZipCode>
   <City>Ostrava - Poruba</City>
   <Country>Česko</Country>
   <Region>Moravskoslezský kraj</Region>
   <District>Ostrava-město</District>
-  <Name>Miroslav Jankovič</Name>
-  <Ico>47165367</Ico>
-  <Url>http://cz.finstat.sk/47165367?ref=342177f4c1d3be722daa313531c29979acce93afc4b181d60d214efaf172011a</Url>
-  <Activity>Stavebníctvo</Activity>
+  <Name>Jan Novák</Name>
+  <Ico>12345678</Ico>
+  <Url>https://www.finstat.cz/12345678?ref=…</Url>
   <Created>1992-08-06T00:00:00</Created>
   <Cancelled xsi:nil="true" />
+  <SuspendedAsPerson>false</SuspendedAsPerson>
+  <Activity>Stavebnictví</Activity>
   <Warning>false</Warning>
-  <CzNaceCode>43342</CzNaceCode>
-  <CzNaceText>Malířské a natěračské práce</CzNaceText>
+  <CzNaceCode>4334</CzNaceCode>
+  <CzNaceText>Malířské, natěračské a sklenářské práce</CzNaceText>
   <CzNaceDivision>Specializované stavební činnosti</CzNaceDivision>
   <CzNaceGroup>Kompletační a dokončovací práce</CzNaceGroup>
   <LegalForm>Fyzická osoba podnikající dle živnostenského zákona</LegalForm>
   <OwnershipType>Osoby samostatně výdělečně činné</OwnershipType>
-  <EmployeeCount>Neuvedeno</EmployeeCount>
+  <EmployeeCount>1 - 5 zaměstnanců</EmployeeCount>
 </DetailResult>
 ```

@@ -4,15 +4,15 @@ API slúži na vyžiadanie jednoduchého detaily firmy [`BasicResult`](#BasicRes
 ## Požiadavka basic
 Výpis detailu firmy na základe parametra *ico*
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/basic```<br />
+> **Dopytovaná URL**: ```https://www.finstat.cz/api/basic```<br />
 > **Hash parameter**: {ico}
-<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/basic```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/detail-sk.md ':include')
 
 [](../../../common/parameters/parameterscz-sk.md ':include')
 
-> **Príklad volania:** ```https://cz.finstat.sk/api/basic?ico=47165367&apikey=YourAPIKey&hash=a85aff26f1d2aae0059ec051866daa6246374d65da4a2c289d9ce8cbcd73a7b5&StationId=YourStationID&StationName=Your+Station+Name```
+> **Príklad volania:** ```https://cz.finstat.sk/api/basic?ico=00177041&apikey=YourAPIKey&hash=a85aff26f1d2aae0059ec051866daa6246374d65da4a2c289d9ce8cbcd73a7b5&StationId=YourStationID&StationName=Your+Station+Name```
 
 #### Návratové HTTP error kódy:
 [](../../../common/http/errorcodes-sk-detail.md ':include')
@@ -27,7 +27,7 @@ Výpis detailu firmy na základe parametra *ico*
 | Parameter | Popis |
 | ----------- | ----------- |
 | **VATNumber** | daňová identifikácia |
-| **TaxPayer** | ozačenie typu platcovstva DPH – môže byť prázdny <ul><li>Platce</li><li>IdentifikovanaOsoba</li></ul> |
+| **TaxPayer** | označenie typu registrácie k DPH – môže byť prázdny: `VatPayer` (platca DPH), `IdentifiedPerson` (identifikovaná osoba), `PersonIdentifiedForTax` (osoba identifikovaná k dani). Na `cz.finstat.sk` vracajú Free, Detail a PremiumCZ dočasne, do vydania nového CZ API, pôvodné hodnoty: `Platce`, `IdentifikovanaOsoba`, `OsobaIdentifikovanaKDani` |
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 

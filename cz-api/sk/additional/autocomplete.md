@@ -7,8 +7,8 @@ Nápovedu vráti v rámcu štruktúry [`ApiAutoComplete`](#ApiAutoComplete)
 Odoslaný vyhľadávaný reťazec bude z výkonnostých dôvodov serverom automatický skrátený na prvých 100 slov.
 
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/autocomplete```<br />
+> **Dopytovaná URL**: ```https://www.finstat.cz/api/autocomplete```<br />
 > **Hash parameter**: {query}
-<!-- >**Dopytovaná URL**: ```https://www.finstat.cz/api/autocomplete```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/autocomplete-sk.md ':include')

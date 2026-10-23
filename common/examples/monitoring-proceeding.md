@@ -54,16 +54,16 @@
       <District>Okres Žilina</District>
       <Name>Okresný súd Žilina</Name>
     </CourtsAddress>
-    <ReferenceFileNumber>10OdK/11/2024</ReferenceFileNumber>
+    <ReferenceFileNumber>1OdK/1/2024</ReferenceFileNumber>
     <Character>Uznesenie</Character>
-    <Url>https://www.finstat.sk/konkurzy-restrukturalizacie/konkurz/2024-K005209</Url>
+    <Url>https://www.finstat.sk/konkurzy-restrukturalizacie/konkurz/2024-K000000</Url>
     <Type>Other</Type>
     <PublishDate>2024-01-30T00:00:00</PublishDate>
     <FileIdentifierNumber>
-      <string>5124200718</string>
+      <string>0000000000</string>
     </FileIdentifierNumber>
     <IssuedBy>
-      <Name>JUDr. Andrea Gulčiková</Name>
+      <Name>JUDr. Meno Priezvisko</Name>
       <Function>sudca</Function>
     </IssuedBy>
   </ProceedingResult>

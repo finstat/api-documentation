@@ -1,5 +1,5 @@
 #### BankAccount
-| Parameter | Description |
+| Parameter | Popis |
 | ----------- | ----------- |
 | **AccountNumber** | Číslo účtu |
 | **PublishedAt** | Dátum zverejnenia |

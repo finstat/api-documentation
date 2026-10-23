@@ -56,9 +56,9 @@ servera dlhšia, ako je jeho odpoveď v nočných hodinách.
 
 Pre možnosť vrátiť odpoveď API vo formáte JSON použite jeden z nasledujúcich prepínačov:
 - Pošlite v URL požiadavke parameter: ```json=true``` 
-<br />Napríklad: ```https://www.finstat.sk/api/detail?json.true```
+<br />Napríklad: ```https://cz.finstat.sk/api/premiumcz?json=true``` alebo ```https://www.finstat.cz/api/premiumcz?json=true```
 - Zakončite URL požiadavku príponou: ```.json```
-<br />Napríklad: ```https://www.finstat.sk/api/detail.json```
+<br />Napríklad: ```https://cz.finstat.sk/api/premiumcz.json``` alebo ```https://www.finstat.cz/api/premiumcz.json```
 
 [](../../common/texts/serialization-sk.md ':include')
 

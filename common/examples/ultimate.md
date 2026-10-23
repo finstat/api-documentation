@@ -9,7 +9,7 @@
   <District>Bratislava V</District>
   <Name>FinStat, s. r. o.</Name>
   <Ico>47165367</Ico>
-  <Url>http://www.finstat.sk/47165367?ref=56861a1d20d9e24ecf732f2e605e7a4cbbb333da9343a5bea2ad80241bd30de0</Url>
+  <Url>http://www.finstat.sk/47165367?ref=…</Url>
   <Dic>0000000000</Dic>
   <IcDPH>SK0000000000</IcDPH>
   <Activity>Informačné technológie</Activity>
@@ -27,7 +27,7 @@
   <LegalFormCode>112</LegalFormCode>
   <LegalFormText>Spol. s r. o.</LegalFormText>
   <RpvsInsert>3671</RpvsInsert>
-  <RpvsUrl>http://www.finstat.sk/47165367/osoby_vo_firme?ref=56861a1d20d9e24ecf732f2e605e7a4cbbb333da9343a5bea2ad80241bd30de0</RpvsUrl>
+  <RpvsUrl>http://www.finstat.sk/47165367/osoby_vo_firme?ref=…</RpvsUrl>
   <SalesCategory>1 - 999,999,999 €</SalesCategory>
   <IcDphAdditional>
     <IcDph>SK0000000000</IcDph>

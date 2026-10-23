@@ -10,7 +10,7 @@
   <District>Mladá Boleslav</District>
   <Name>Škoda Auto a.s.</Name>
   <Ico>00177041</Ico>
-  <Url>http://cz.finstat.sk/00177041?ref=342177f4c1d3be722daa313531c29979acce93afc4b181d60d214efaf172011a</Url>
+  <Url>http://cz.finstat.sk/00177041?ref=…</Url>
   <Created>1990-11-20T00:00:00</Created>
   <Cancelled xsi:nil="true" />
   <SuspendedAsPerson>false</SuspendedAsPerson>

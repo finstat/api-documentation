@@ -9,7 +9,7 @@
   <District>Žilina</District>
   <Name>Kia Slovakia s. r. o.</Name>
   <Ico>35876832</Ico>
-  <Url>https://finstat.sk/35876832?ref=342177f4c1d3be722daa313531c29979acce93afc4b181d60d214efaf172011a</Url>
+  <Url>https://finstat.sk/35876832?ref=…</Url>
   <Created>2004-02-26T00:00:00</Created>
   <Cancelled xsi:nil="true" />
   <SuspendedAsPerson>false</SuspendedAsPerson>

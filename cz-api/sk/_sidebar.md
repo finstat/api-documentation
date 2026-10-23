@@ -6,6 +6,8 @@
     - [FakturačnéCZ](cz-api/sk/standard/invoice.md)
     - [ZákladnéCZ](cz-api/sk/standard/basic.md)
     - [PremiumCZ](cz-api/sk/standard/premiumCZ.md)
+    - [EliteCZ](cz-api/sk/standard/eliteCZ.md)
+    - [UltimateCZ](cz-api/sk/standard/ultimateCZ.md)
 - [Doplnkové API](cz-api/sk/additional.md)
     - [Autologin](cz-api/sk/additional/autologin.md)
     - [Synchronizácia portfólia CZ](cz-api/sk/additional/monitoring.md)

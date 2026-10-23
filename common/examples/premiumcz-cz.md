@@ -1,37 +1,46 @@
 ``` xml
 <?xml version="1.0"?>
-<PremiumResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Street>Francouzská</Street>
-  <StreetNumber>6015/69</StreetNumber>
+<PremiumCZResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Street>XXX</Street>
+  <StreetNumber>XXX</StreetNumber>
   <ZipCode>708 00</ZipCode>
   <City>Ostrava - Poruba</City>
   <Country>Česko</Country>
   <Region>Moravskoslezský kraj</Region>
   <District>Ostrava-město</District>
-  <Name>Miroslav Jankovič</Name>
-  <Ico>47165367</Ico>
-  <Url>http://cz.finstat.sk/47165367?ref=342177f4c1d3be722daa313531c29979acce93afc4b181d60d214efaf172011a</Url>
-  <Activity>Stavebníctvo</Activity>
+  <Name>Jan Novák</Name>
+  <Ico>12345678</Ico>
+  <Url>https://www.finstat.cz/12345678?ref=…</Url>
   <Created>1992-08-06T00:00:00</Created>
   <Cancelled xsi:nil="true" />
+  <SuspendedAsPerson>false</SuspendedAsPerson>
+  <Activity>Stavebnictví</Activity>
   <Warning>false</Warning>
-  <CzNaceCode>43342</CzNaceCode>
-  <CzNaceText>Malířské a natěračské práce</CzNaceText>
+  <CzNaceCode>4334</CzNaceCode>
+  <CzNaceText>Malířské, natěračské a sklenářské práce</CzNaceText>
   <CzNaceDivision>Specializované stavební činnosti</CzNaceDivision>
   <CzNaceGroup>Kompletační a dokončovací práce</CzNaceGroup>
   <LegalForm>Fyzická osoba podnikající dle živnostenského zákona</LegalForm>
   <OwnershipType>Osoby samostatně výdělečně činné</OwnershipType>
-  <EmployeeCount>Neuvedeno</EmployeeCount>
-  <SuspendedAsPerson>false</SuspendedAsPerson>
+  <EmployeeCount>1 - 5 zaměstnanců</EmployeeCount>
+  <VatNumber>CZ7208061234</VatNumber>
+  <TaxPayer>VatPayer</TaxPayer>
+  <BankAccounts>
+    <BankAccount>
+      <AccountNumber>123456789/0800</AccountNumber>
+      <PublishedAt>2019-04-01T00:00:00</PublishedAt>
+    </BankAccount>
+  </BankAccounts>
   <LegalFormCode>101</LegalFormCode>
   <OwnershipCode>14200</OwnershipCode>
+  <EmployeeCode>110</EmployeeCode>
   <UnReliability xsi:nil="true" />
-  <RegisterNumberText>Úřad příslušný podle §71 odst.2 živnostenského zákona: Magistrát města Ostravy</RegisterNumberText>
-  <TradeLicensingOffice xsi:nil="true" />
-  <ActualYear xsi:nil="true" />
-  <SalesActual xsi:nil="true" />
-  <ProfitActual xsi:nil="true" />
-  <Sales>Unknown</Sales>
-  <Profit>Unknown</Profit>
-</PremiumResult>
+  <TradeLicensingOffice>Ostrava</TradeLicensingOffice>
+  <ActualYear>2024</ActualYear>
+  <SalesActual>1850000</SalesActual>
+  <ProfitActual>210000</ProfitActual>
+  <Sales>Up</Sales>
+  <Profit>Down</Profit>
+  <SuspendedAsPersonUntil xsi:nil="true" />
+</PremiumCZResult>
 ```
