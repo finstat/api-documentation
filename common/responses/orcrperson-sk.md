@@ -1,5 +1,4 @@
 #### ORCRPerson
-Štruktúra je rovnaká ako `Person` v SK Ultimate API, funkcie sú v tvare [`Function`](#Function) a pribudol parameter `Ico`.
 
 | Parameter | Popis |
 | ----------- | ----------- |
