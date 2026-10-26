@@ -13,6 +13,8 @@ Výpis detailu firmy na základe parametra *ico*
 
 [](../../../common/parameters/parameterscz-sk.md ':include')
 
+[](../../../common/parameters/languagecz-sk.md ':include')
+
 
 > **Príklad volania:** ```https://cz.finstat.sk/api/ultimatecz?ico=00177041&apikey=YourAPIKey&hash=a85aff26f1d2aae0059ec051866daa6246374d65da4a2c289d9ce8cbcd73a7b5&StationId=YourStationID&StationName=Your+Station+Name```
 
@@ -38,9 +40,11 @@ Výpis detailu firmy na základe parametra *ico*
 
 [](../../../common/responses/turnovercategory-sk.md ':include')
 
-[](../../../common/responses/contactcz-sk.md ':include')
+[](../../../common/responses/financialindicatorcz-sk.md ':include')
 
 [](../../../common/responses/cznace-sk.md ':include')
+
+[](../../../common/responses/contactcz-sk.md ':include')
 
 [](../../../common/responses/officescz-sk.md ':include')
 
@@ -48,9 +52,13 @@ Výpis detailu firmy na základe parametra *ico*
 
 [](../../../common/responses/vehiclefleet-sk.md ':include')
 
+[](../../../common/responses/vehiclefleetitem-sk.md ':include')
+
 [](../../../common/responses/isirdeed-sk.md ':include')
 
-[](../../../common/responses/financialindicatorcz-sk.md ':include')
+[](../../../common/responses/receivableapplication-sk.md ':include')
+
+[](../../../common/responses/isirstatus-sk.md ':include')
 
 [](../../../common/responses/creditscorecz-sk.md ':include')
 

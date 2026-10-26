@@ -10,7 +10,7 @@
   <District>Ostrava-město</District>
   <Name>Jan Novák</Name>
   <Ico>12345678</Ico>
-  <Url>https://www.finstat.cz/12345678?ref=…</Url>
+  <Url>https://cz.finstat.sk/12345678?ref=…</Url>
   <Created>1992-08-06T00:00:00</Created>
   <Cancelled xsi:nil="true" />
   <SuspendedAsPerson>false</SuspendedAsPerson>

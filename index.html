@@ -23,6 +23,32 @@
       loadNavbar: true,
       loadSidebar: true,
       logo: null,
+      plugins: [
+        // shared fragments tag tier-specific content with data-tier="elite ultimate":
+        // a row whose first marker (<i data-tier>) excludes the page tier is removed, other tagged elements likewise
+        function (hook, vm) {
+          var tiers = { invoice: 'invoice', basic: 'basic', premiumcz: 'premium', elitecz: 'elite', ultimatecz: 'ultimate' };
+          hook.afterEach(function (html) {
+            var page = (vm.route.path.split('/').pop() || '').replace(/\.md$/, '').toLowerCase();
+            var tier = tiers[page];
+            if (!tier) {
+              return html;
+            }
+            var tpl = document.createElement('template');
+            tpl.innerHTML = html;
+            tpl.content.querySelectorAll('[data-tier]').forEach(function (el) {
+              var show = el.getAttribute('data-tier').split(/\s+/).indexOf(tier) >= 0;
+              var row = el.tagName === 'I' ? el.closest('tr') : null;
+              if (row) {
+                (show ? el : row).remove();
+              } else if (!show) {
+                el.remove();
+              }
+            });
+            return tpl.innerHTML;
+          });
+        }
+      ],
     }
   </script>
   <!-- Docsify v4 -->

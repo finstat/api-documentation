@@ -10,7 +10,7 @@
 | **District**| okres sídla firmy – môže byť prázdny |
 | **Region**| kraj sídla firmy – môže byť prázdny |
 | **Country**| krajina sídla firmy – môže byť prázdny |
-| **Url**| odkaz na firmu na cz.finstat.sk alebo www.finstat.cz, podľa domény požiadavky |
+| **Url**| odkaz na firmu <span data-tier="invoice basic premium">cz.finstat.sk</span><span data-tier="elite ultimate">na cz.finstat.sk alebo www.finstat.cz, podľa domény požiadavky</span> |
 | **Created** | dátum vzniku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
 | **Cancelled** | dátum zániku firmy vo formáte `RRRR-MM-DDTHH:MM:SS` – môže byť prázdny |
 | **SuspendedAsPerson** | príznak či má osoba pozastavenú živnosť (`true/false`) |

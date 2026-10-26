@@ -2,4 +2,4 @@
 | Parameter | Popis |
 | ----------- | ----------- |
 | **Count** | počet aktívnych prevádzok |
-| **Items** | iba UltimateCZ: zoznam aktívnych prevádzok z RŽP [`Office`](#Office). Ak subjekt nemá aktívnu prevádzku, v odpovedi chýba |
+| **Items** <i data-tier="ultimate"></i> | zoznam aktívnych prevádzok z RŽP [`Office`](#Office). Ak subjekt nemá aktívnu prevádzku, v odpovedi chýba |

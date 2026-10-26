@@ -4,8 +4,8 @@ API slúži na vyžiadanie jednoduchého detaily firmy [`BasicResult`](#BasicRes
 ## Požiadavka basic
 Výpis detailu firmy na základe parametra *ico*
 > **Dopytovaná URL**: ```https://cz.finstat.sk/api/basic```<br />
-> **Dopytovaná URL**: ```https://www.finstat.cz/api/basic```<br />
 > **Hash parameter**: {ico}
+<!-- > **Dopytovaná URL**: ```https://www.finstat.cz/api/basic```<br /> -->
 
 ### Parametre
 [](../../../common/parameters/detail-sk.md ':include')
@@ -23,11 +23,7 @@ Výpis detailu firmy na základe parametra *ico*
 #### BasicResult
 [](../../../common/responses/basiccz-sk.md ':include')
 
-##### Doplnené parametre:
-| Parameter | Popis |
-| ----------- | ----------- |
-| **VATNumber** | daňová identifikácia |
-| **TaxPayer** | označenie typu registrácie k DPH – môže byť prázdny: `VatPayer` (platca DPH), `IdentifiedPerson` (identifikovaná osoba), `PersonIdentifiedForTax` (osoba identifikovaná k dani). Na `cz.finstat.sk` vracajú Free, Detail a PremiumCZ dočasne, do vydania nového CZ API, pôvodné hodnoty: `Platce`, `IdentifikovanaOsoba`, `OsobaIdentifikovanaKDani` |
+[](../../../common/responses/premiumcz-sk.md ':include')
 
 > **Poznámka:** poradie nemusí zodpovedať uvedenému zoznamu
 
